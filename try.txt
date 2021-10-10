@@ -1,0 +1,107 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles-model:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: info.archinnov:achilles-junit:jar -> duplicate declaration of version ${project.version} @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 190, column 25
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles-common:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles-core:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ info.archinnov:achilles-core:[unknown-version], /home/ch61/Achilles/achilles-core/pom.xml, line 161, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles-embedded:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles-junit:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ info.archinnov:achilles-junit:[unknown-version], /home/ch61/Achilles/achilles-junit/pom.xml, line 91, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles-schema-generator:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-shade-plugin is missing. @ info.archinnov:achilles-schema-generator:[unknown-version], /home/ch61/Achilles/achilles-schema-generator/pom.xml, line 59, column 21
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-2_1:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-2_2:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-3_0:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-3_2:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-3_6:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-3_7:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-3_8:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:integration-test-3_10:jar:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ info.archinnov:achilles:6.1.1-SNAPSHOT, /home/ch61/Achilles/pom.xml, line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for info.archinnov:achilles:pom:6.1.1-SNAPSHOT
+[[1;33mWARNING[m] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: info.archinnov:achilles-junit:jar -> duplicate declaration of version ${project.version} @ line 190, column 25
+[[1;33mWARNING[m] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ line 615, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Achilles                                                           [pom]
+[[1;34mINFO[m] Achilles Model                                                     [jar]
+[[1;34mINFO[m] Achilles Common                                                    [jar]
+[[1;34mINFO[m] Achilles Core                                                      [jar]
+[[1;34mINFO[m] Achilles Embedded                                                  [jar]
+[[1;34mINFO[m] Achilles JUnit                                                     [jar]
+[[1;34mINFO[m] Achilles Schema Generator                                          [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 2.1.X                          [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 2.2.X                          [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.0.X                          [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.2                            [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.6                            [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.7                            [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.8                            [jar]
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.10                           [jar]
+Downloading from central: http://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata org.apache.felix:maven-bundle-plugin/maven-metadata.xml from/to central (http://repo1.maven.org/maven2): Failed to transfer file: http://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/maven-metadata.xml. Return code is: 501 , ReasonPhrase:HTTPS Required.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Achilles 6.1.1-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Achilles ........................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Model ..................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Common .................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Core ...................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Embedded .................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles JUnit ..................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Schema Generator .......................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 2.1.X .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 2.2.X .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.0.X .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.2 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.6 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.7 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.8 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Achilles Integration Test Cassandra 3.10 ........... [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.553 s
+[[1;34mINFO[m] Finished at: 2021-10-10T12:00:27-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Error resolving version for plugin 'org.apache.felix:maven-bundle-plugin' from the repositories [local (/home/ch61/.m2/repository), central (http://repo1.maven.org/maven2)]: Plugin not found in any plugin repository -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginVersionResolutionException
