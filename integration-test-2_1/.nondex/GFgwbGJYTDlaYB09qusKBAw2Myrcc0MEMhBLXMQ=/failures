@@ -1,0 +1,5 @@
+info.archinnov.achilles.it.TestCRUDSimpleEntity#should_find_with_schema_name_provider
+info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_one
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_insert_and_find
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_dsl_select
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_dsl_update

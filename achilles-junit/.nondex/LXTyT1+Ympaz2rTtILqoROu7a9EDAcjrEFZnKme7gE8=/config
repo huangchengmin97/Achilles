@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/Achilles/achilles-junit/.nondex
+nondexJarDir=/home/ch61/Achilles/achilles-junit/.nondex
+nondexExecid=LXTyT1+Ympaz2rTtILqoROu7a9EDAcjrEFZnKme7gE8=
+nondexLogging=CONFIG
+test=

@@ -1,0 +1,916 @@
+13:01:08,073 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:01:08,074 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:01:08,074 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:01:08,074 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:01:08,074 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:01:08,074 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:01:08,120 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:01:08,127 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml] 
+13:01:08,127 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:01:08,128 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:01:08,131 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:01:08,138 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:01:08,169 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:01:08,169 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:01:08,169 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:01:08,170 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:01:08,170 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:01:08,170 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.cache.StatementsCache] to WARN
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.cache.StatementsCache] to false
+13:01:08,170 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.cache.StatementsCache]
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to TRACE
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to false
+13:01:08,170 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.SimpleEntity]
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:01:08,170 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:01:08,170 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:01:08,171 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:01:08,171 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:01:08,171 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:01:08,171 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:01:08,171 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:01:08,172 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2a32de6c - Registering current configuration as safe fallback point
+
+13:01:08.223 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:01:08.225 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:01:08.225 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:01:08.225 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:01:08.226 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:01:08.233 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:01:08.254 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:01:08.255 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:01:08.315 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7370
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7754
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:01:08.317 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:01:08.663 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.225GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:01:08.850 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:01:08.850 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:01:08.850 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:01:08.851 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:01:08.873 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:01:11.968 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created 30898010-6443-4404-b7de-2f2341d57bd1 (Note: This should happen exactly once per node).
+13:01:14.569 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:15.149 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:15.379 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:15.723 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:16.016 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:16.309 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:16.622 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:16.941 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:17.471 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:17.593 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:17.611 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:17.616 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:17.620 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:17.624 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:17.626 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:17.628 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:17.630 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:17.632 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:17.634 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(8578077450945833984, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:17.661 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID eedfb396-3e6c-4e0d-80b4-18bb7e3bcd55 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE simpleindex=:simpleindex ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [313]
+	 Encoded bound values : [313]
+13:01:17.700 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:17.704 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - Query ID eedfb396-3e6c-4e0d-80b4-18bb7e3bcd55 results : 
+	id: 8578077450945833984, clust1: 3, clust2: 1, clust3: 3, collectionindex: [3, 1, 3], fullindexoncollection: [313], indexonmapentry: {313=313}, indexonmapkey: {313=313}, indexonmapvalue: {313=313}, simpleindex: 313
+
+13:01:17.767 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:17.835 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:17.846 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:17.854 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:17.856 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:17.857 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:17.858 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:17.859 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:17.860 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:17.861 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:17.928 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:17.932 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:17.934 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:17.937 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:17.939 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:17.942 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:17.944 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:17.946 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:17.948 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:17.950 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9091351156883948544, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:18.062 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID c33ed70b-3163-4b54-bcb2-4d7b25ceb0d2 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE simpleindex=:simpleindex AND clust1=:clust1 AND clust3=:clust3 ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [312, 3, 2]
+	 Encoded bound values : [312, 3, 2]
+13:01:18.070 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:18.071 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - Query ID c33ed70b-3163-4b54-bcb2-4d7b25ceb0d2 results : 
+	id: 9091351156883948544, clust1: 3, clust2: 1, clust3: 2, collectionindex: [3, 1, 2], fullindexoncollection: [312], indexonmapentry: {312=312}, indexonmapkey: {312=312}, indexonmapvalue: {312=312}, simpleindex: 312
+
+13:01:18.075 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.138 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:18.151 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:18.154 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:18.155 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:18.156 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:18.157 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:18.158 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:18.159 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:18.160 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.227 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:18.230 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:18.233 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:18.235 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:18.242 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:18.244 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:18.246 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:18.248 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:18.250 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:18.252 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(822505402918419456, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:18.260 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 022401ae-23ae-4624-82f2-d88c145381d0 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE simpleindex=:simpleindex AND clust1>=:clust1 ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [312, 5]
+	 Encoded bound values : [312, 5]
+13:01:18.268 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: true, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:18.269 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - Query ID 022401ae-23ae-4624-82f2-d88c145381d0 results : 
+
+13:01:18.269 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.333 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:18.343 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:18.345 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:18.346 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:18.347 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:18.348 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:18.349 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:18.350 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:18.352 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.421 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:18.425 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:18.427 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:18.429 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:18.431 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:18.433 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:18.435 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:18.438 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:18.440 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:18.442 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(4064714164420620288, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:18.467 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID e56f2f0a-7695-40b6-ab14-8a33660bc491 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE collectionindex CONTAINS :collectionindex ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4]
+	 Encoded bound values : [4]
+13:01:18.478 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:18.478 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - Query ID e56f2f0a-7695-40b6-ab14-8a33660bc491 results : 
+	id: 4064714164420620288, clust1: 4, clust2: 1, clust3: 1, collectionindex: [4, 1, 1], fullindexoncollection: [411], indexonmapentry: {411=411}, indexonmapkey: {411=411}, indexonmapvalue: {411=411}, simpleindex: 411
+
+13:01:18.480 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.546 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:18.555 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:18.557 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:18.558 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:18.559 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:18.559 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:18.560 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:18.561 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:18.563 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.629 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:18.633 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:18.635 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:18.637 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:18.639 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:18.641 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:18.643 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:18.645 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:18.650 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:18.652 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(5986888594879715328, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:18.758 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 5e69826f-a415-4db3-aa10-9d1fade20547 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE indexonmapkey CONTAINS KEY :indexonmapkey ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [312]
+	 Encoded bound values : [312]
+13:01:18.762 [achilles-default-executor-5] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:18.762 [achilles-default-executor-5] DEBUG ACHILLES_DML_STATEMENT - Query ID 5e69826f-a415-4db3-aa10-9d1fade20547 results : 
+	id: 5986888594879715328, clust1: 3, clust2: 1, clust3: 2, collectionindex: [3, 1, 2], fullindexoncollection: [312], indexonmapentry: {312=312}, indexonmapkey: {312=312}, indexonmapvalue: {312=312}, simpleindex: 312
+
+13:01:18.765 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.828 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:18.841 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:18.843 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:18.844 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:18.845 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:18.846 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:18.847 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:18.848 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:18.849 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:18.913 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:18.917 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:18.920 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:18.922 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:18.924 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:18.926 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:18.928 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:18.929 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:18.931 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:18.933 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1812657071227417600, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:18.939 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID b70f4790-0bfc-45f8-8f0c-2444f556e0da : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE indexonmapvalue CONTAINS :indexonmapvalue ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [211]
+	 Encoded bound values : [211]
+13:01:18.943 [achilles-default-executor-6] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:18.944 [achilles-default-executor-6] DEBUG ACHILLES_DML_STATEMENT - Query ID b70f4790-0bfc-45f8-8f0c-2444f556e0da results : 
+	id: 1812657071227417600, clust1: 2, clust2: 1, clust3: 1, collectionindex: [2, 1, 1], fullindexoncollection: [211], indexonmapentry: {211=211}, indexonmapkey: {211=211}, indexonmapvalue: {211=211}, simpleindex: 211
+
+13:01:18.945 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.011 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:19.021 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:19.023 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:19.024 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:19.025 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:19.026 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:19.027 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:19.028 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:19.029 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.096 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:19.116 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:19.119 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:19.123 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:19.129 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:19.131 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:19.136 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:19.138 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:19.140 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:19.142 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(805952480929222656, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:19.164 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7bdc5616-78d1-478f-8e37-062326b975aa : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE simpleindex=:simpleindex AND (clust1,clust2,clust3)>=(:clust1,:clust2,:clust3) AND (clust1,clust2)<=(:clust1,:clust2) ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [312, 1, 1, 1, 3, 2]
+	 Encoded bound values : [312, 1, 1, 1, 3, 2]
+13:01:19.173 [achilles-default-executor-7] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:19.174 [achilles-default-executor-7] DEBUG ACHILLES_DML_STATEMENT - Query ID 7bdc5616-78d1-478f-8e37-062326b975aa results : 
+	id: 805952480929222656, clust1: 3, clust2: 1, clust3: 2, collectionindex: [3, 1, 2], fullindexoncollection: [312], indexonmapentry: {312=312}, indexonmapkey: {312=312}, indexonmapvalue: {312=312}, simpleindex: 312
+
+13:01:19.175 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.238 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:19.247 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:19.249 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:19.250 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:19.251 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:19.252 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:19.253 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:19.254 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:19.256 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.322 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:19.325 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:19.327 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:19.329 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:19.331 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:19.333 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:19.335 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:19.336 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:19.338 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:19.340 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(2302304586273004544, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:19.352 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID aef60142-33c5-4fc3-87a2-9d6af6384396 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE simpleindex=:simpleindex AND id=:id ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [313, 2302304586273004544]
+	 Encoded bound values : [313, 2302304586273004544]
+13:01:19.357 [achilles-default-executor-8] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:19.357 [achilles-default-executor-8] DEBUG ACHILLES_DML_STATEMENT - Query ID aef60142-33c5-4fc3-87a2-9d6af6384396 results : 
+	id: 2302304586273004544, clust1: 3, clust2: 1, clust3: 3, collectionindex: [3, 1, 3], fullindexoncollection: [313], indexonmapentry: {313=313}, indexonmapkey: {313=313}, indexonmapvalue: {313=313}, simpleindex: 313
+
+13:01:19.358 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.435 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:19.445 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:19.447 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:19.448 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:19.449 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:19.450 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:19.451 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:19.452 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:19.453 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.517 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:19.521 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:19.522 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:19.524 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:19.526 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:19.527 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:19.529 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:19.531 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:19.532 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:19.534 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(145031879572220928, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:19.540 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 5b227e74-d127-4ab7-b678-7de4cc32f044 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE fullindexoncollection=:fullindexoncollection ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [[311]]
+	 Encoded bound values : [[311]]
+13:01:19.545 [achilles-default-executor-9] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:19.545 [achilles-default-executor-9] DEBUG ACHILLES_DML_STATEMENT - Query ID 5b227e74-d127-4ab7-b678-7de4cc32f044 results : 
+	id: 145031879572220928, clust1: 3, clust2: 1, clust3: 1, collectionindex: [3, 1, 1], fullindexoncollection: [311], indexonmapentry: {311=311}, indexonmapkey: {311=311}, indexonmapvalue: {311=311}, simpleindex: 311
+
+13:01:19.548 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.610 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:19.619 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:19.622 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:19.622 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:19.623 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:19.624 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:19.625 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:19.626 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:19.628 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.707 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:19.710 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:19.712 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:19.714 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:19.716 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:19.717 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:19.719 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:19.720 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:19.722 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:19.723 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(9160174570423166976, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:19.738 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID df11264f-3bad-42ca-8055-55c333c70c2f : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE simpleindex=:simpleindex AND clust1>=:clust1_Lte AND clust1<=:clust1_Lte ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [312, 1, 4]
+	 Encoded bound values : [312, 1, 4]
+13:01:19.740 [achilles-default-executor-10] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:19.741 [achilles-default-executor-10] DEBUG ACHILLES_DML_STATEMENT - Query ID df11264f-3bad-42ca-8055-55c333c70c2f results : 
+	id: 9160174570423166976, clust1: 3, clust2: 1, clust3: 2, collectionindex: [3, 1, 2], fullindexoncollection: [312], indexonmapentry: {312=312}, indexonmapkey: {312=312}, indexonmapvalue: {312=312}, simpleindex: 312
+
+13:01:19.741 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.805 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:19.813 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithcomplexindices(
+		id bigint,
+		clust1 int,
+		clust2 int,
+		clust3 text,
+		collectionindex list<text>,
+		fullindexoncollection frozen<set<text>>,
+		indexonmapentry map<int, text>,
+		indexonmapkey map<text, text>,
+		indexonmapvalue map<int, text>,
+		simpleindex text,
+		PRIMARY KEY(id, clust1, clust2, clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, clust2 ASC, clust3 ASC);
+
+13:01:19.815 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS collectionindex_index ON achilles_embedded.entitywithcomplexindices ( collectionindex );
+
+13:01:19.816 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS fullindexoncollection_index ON achilles_embedded.entitywithcomplexindices ( FULL(fullindexoncollection) );
+
+13:01:19.817 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapentry_index ON achilles_embedded.entitywithcomplexindices ( ENTRIES(indexonmapentry) );
+
+13:01:19.818 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapkey_index ON achilles_embedded.entitywithcomplexindices ( KEYS(indexonmapkey) );
+
+13:01:19.818 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS indexonmapvalue_index ON achilles_embedded.entitywithcomplexindices ( indexonmapvalue );
+
+13:01:19.819 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE  INDEX IF NOT EXISTS simpleindex_index ON achilles_embedded.entitywithcomplexindices ( simpleindex );
+
+13:01:19.821 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.886 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 1, 1, '1', '111', ['1', '1', '1'], {'111'}, {'111': '111'}, {111: '111'}, {111 : '111'});
+
+13:01:19.889 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 1, 1, '2', '112', ['1', '1', '2'], {'112'}, {'112': '112'}, {112: '112'}, {112 : '112'});
+
+13:01:19.891 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 1, 1, '3', '113', ['1', '1', '3'], {'113'}, {'113': '113'}, {113: '113'}, {113 : '113'});
+
+13:01:19.892 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 2, 1, '1', '211', ['2', '1', '1'], {'211'}, {'211': '211'}, {211: '211'}, {211 : '211'});
+
+13:01:19.894 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 2, 1, '2', '212', ['2', '1', '2'], {'212'}, {'212': '212'}, {212: '212'}, {212 : '212'});
+
+13:01:19.896 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 2, 1, '3', '213', ['2', '1', '3'], {'213'}, {'213': '213'}, {213: '213'}, {213 : '213'});
+
+13:01:19.897 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 3, 1, '1', '311', ['3', '1', '1'], {'311'}, {'311': '311'}, {311: '311'}, {311 : '311'});
+
+13:01:19.898 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 3, 1, '2', '312', ['3', '1', '2'], {'312'}, {'312': '312'}, {312: '312'}, {312 : '312'});
+
+13:01:19.900 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 3, 1, '3', '313', ['3', '1', '3'], {'313'}, {'313': '313'}, {313: '313'}, {313 : '313'});
+
+13:01:19.901 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithcomplexindices(id, clust1, clust2, clust3, simpleindex, collectionindex, fullindexoncollection, indexonmapkey,indexonmapvalue, indexonmapentry) VALUES(1088768655923080192, 4, 1, '1', '411', ['4', '1', '1'], {'411'}, {'411': '411'}, {411: '411'}, {411 : '411'});
+
+13:01:19.915 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 8c840b37-a35f-48c1-aba5-73beffa68e33 : [SELECT * FROM achilles_embedded.entitywithcomplexindices WHERE indexonmapentry[:indexOnMapEntry_key] = :indexOnMapEntry_value ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [212, 212]
+	 Encoded bound values : [212, 212]
+13:01:19.918 [achilles-default-executor-11] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust1(int), clust2(int), clust3(varchar), collectionindex(list<varchar>), fullindexoncollection(set<varchar>), indexonmapentry(map<int, varchar>), indexonmapkey(map<varchar, varchar>), indexonmapvalue(map<int, varchar>), simpleindex(varchar)]]
+13:01:19.919 [achilles-default-executor-11] DEBUG ACHILLES_DML_STATEMENT - Query ID 8c840b37-a35f-48c1-aba5-73beffa68e33 results : 
+	id: 1088768655923080192, clust1: 2, clust2: 1, clust3: 2, collectionindex: [2, 1, 2], fullindexoncollection: [212], indexonmapentry: {212=212}, indexonmapkey: {212=212}, indexonmapvalue: {212=212}, simpleindex: 212
+
+13:01:19.919 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithcomplexindices
+13:01:19.983 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:19.991 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:01:20.250 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:20.331 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7705113801379889152, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:01:20.355 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 03b1cf40-a0db-47e1-bc5f-3039a0d4bfc8 : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [7705113801379889152, Wed Sep 30 19:00:00 CDT 2015, null, null, null, null, 0]
+	 Encoded bound values : [7705113801379889152, Wed Sep 30 19:00:00 CDT 2015, null, null, null, null, 0]
+13:01:20.360 [Native-Transport-Requests-1] ERROR o.a.c.t.messages.ErrorMessage - Unexpected exception during request
+java.nio.BufferUnderflowException: null
+	at java.nio.Buffer.nextGetIndex(Buffer.java:510)
+	at java.nio.HeapByteBuffer.getInt(HeapByteBuffer.java:375)
+	at org.apache.cassandra.serializers.CollectionSerializer.readCollectionSize(CollectionSerializer.java:79)
+	at org.apache.cassandra.cql3.CQL3Type$Collection.toCQLLiteral(CQL3Type.java:194)
+	at org.apache.cassandra.transport.messages.ExecuteMessage.execute(ExecuteMessage.java:129)
+	at org.apache.cassandra.transport.Message$Dispatcher.processRequest(Message.java:685)
+	at org.apache.cassandra.transport.Message$Dispatcher.lambda$channelRead0$0(Message.java:591)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at org.apache.cassandra.concurrent.AbstractLocalAwareExecutorService$FutureTask.run(AbstractLocalAwareExecutorService.java:162)
+	at org.apache.cassandra.concurrent.SEPWorker.run(SEPWorker.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+13:01:20.362 [Achilles Embedded Cassandra Cluster-nio-worker-0] WARN  c.d.driver.core.RequestHandler - localhost/127.0.0.1:9042 replied with server error (java.nio.BufferUnderflowException), defuncting connection.
+com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9042 (com.datastax.driver.core.exceptions.ServerError: An unexpected error occurred server side on localhost/127.0.0.1:9042: java.nio.BufferUnderflowException))
+	at com.datastax.driver.core.exceptions.NoHostAvailableException.copy(NoHostAvailableException.java:83)
+	at com.datastax.driver.core.exceptions.NoHostAvailableException.copy(NoHostAvailableException.java:37)
+	at info.archinnov.achilles.internals.dsl.AsyncAware.extractCauseFromExecutionException(AsyncAware.java:34)
+	at info.archinnov.achilles.internals.dsl.action.MutationAction.execute(MutationAction.java:37)
+	at info.archinnov.achilles.it.TestCRUDSimpleEntity.should_insert_with_insert_strategy_non_null_fields(TestCRUDSimpleEntity.java:267)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+Caused by: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9042 (com.datastax.driver.core.exceptions.ServerError: An unexpected error occurred server side on localhost/127.0.0.1:9042: java.nio.BufferUnderflowException))
+	at com.datastax.driver.core.RequestHandler.reportNoMoreHosts(RequestHandler.java:283)
+	at com.datastax.driver.core.RequestHandler.access$1200(RequestHandler.java:61)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.findNextHostAndQuery(RequestHandler.java:375)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.retry(RequestHandler.java:563)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.processRetryDecision(RequestHandler.java:545)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.onSet(RequestHandler.java:816)
+	at com.datastax.driver.core.Connection$Dispatcher.channelRead0(Connection.java:1290)
+	at com.datastax.driver.core.Connection$Dispatcher.channelRead0(Connection.java:1208)
+	at com.datastax.shaded.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:312)
+	at com.datastax.shaded.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:286)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at com.datastax.driver.core.InboundTrafficMeter.channelRead(InboundTrafficMeter.java:38)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1304)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:921)
+	at com.datastax.shaded.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:135)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at com.datastax.shaded.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at com.datastax.shaded.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+13:01:20.468 [Thread-1] INFO  i.a.achilles.embedded.ServerStarter - Calling stop on Embedded Cassandra server
+13:01:20.477 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+13:01:21.478 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds

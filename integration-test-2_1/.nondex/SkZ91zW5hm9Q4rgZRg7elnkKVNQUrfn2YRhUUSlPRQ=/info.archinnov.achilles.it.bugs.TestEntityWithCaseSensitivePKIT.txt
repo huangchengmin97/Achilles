@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.529 sec <<< FAILURE! - in info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT
+should_dsl_select_with_token_value(info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT)  Time elapsed: 0.499 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <"2">
+whereas expected element was:
+ <"1">
+
+	at info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT.should_dsl_select_with_token_value(TestEntityWithCaseSensitivePKIT.java:182)
+
+should_dsl_select_with_tuple_relations(info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT)  Time elapsed: 0.172 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <"2">
+whereas expected element was:
+ <"1">
+
+	at info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT.should_dsl_select_with_tuple_relations(TestEntityWithCaseSensitivePKIT.java:153)
+

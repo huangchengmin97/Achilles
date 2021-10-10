@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.internals.parser.FunctionParserTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.372 sec

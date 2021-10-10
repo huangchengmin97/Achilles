@@ -1,0 +1,381 @@
+13:27:01,960 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:27:01,960 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:27:01,960 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_2/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_2/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_6/target/classes/logback.xml]
+13:27:01,961 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_0/target/classes/logback.xml]
+13:27:02,010 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:27:02,017 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml] 
+13:27:02,017 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:27:02,018 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:27:02,021 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:27:02,029 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:27:02,065 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:27:02,065 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:27:02,065 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to DEBUG
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:27:02,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:27:02,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:27:02,067 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:27:02,067 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:27:02,067 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:27:02,067 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:27:02,067 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:27:02,067 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:27:02,067 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2133814f - Registering current configuration as safe fallback point
+
+13:27:02.124 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:27:02.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:27:02.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:27:02.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:27:02.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:27:02.134 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:27:02.147 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:27:02.148 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:27:02.203 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7177
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7736
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:27:02.204 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:27:02.499 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.206GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:27:02.738 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:27:02.738 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:27:02.739 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:27:02.739 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:27:02.768 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:27:06.159 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created bb32de4c-9539-4704-830c-725cfea6a7bc (Note: This should happen exactly once per node).
+13:27:09.006 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_7 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:27:09.316 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_7.entity_with_sasi_indices(
+		id bigint,
+		clust int,
+		containsstandardanalyzer text,
+		numeric int,
+		prefixnontokenizer text,
+		sparse int,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:27:09.554 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase': 'true'};
+
+13:27:09.561 [Native-Transport-Requests-4] WARN  o.a.c.c.s.CreateIndexStatement - Creating SASI index containsstandardanalyzer_index for it_3_7.entity_with_sasi_indices. SASI indexes are experimental and are not recommended for production use.
+13:27:10.102 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - Query '[0 bound values] CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase... [truncated output]' generated server side warning(s): SASI indexes are experimental and are not recommended for production use.
+13:27:10.114 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};
+
+13:27:10.115 [Native-Transport-Requests-1] WARN  o.a.c.c.s.CreateIndexStatement - Creating SASI index numeric_index for it_3_7.entity_with_sasi_indices. SASI indexes are experimental and are not recommended for production use.
+13:27:10.397 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - Query '[0 bound values] CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};' generated server side warning(s): SASI indexes are experimental and are not recommended for production use.
+13:27:10.408 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};
+
+13:27:10.409 [Native-Transport-Requests-2] WARN  o.a.c.c.s.CreateIndexStatement - Creating SASI index prefixnontokenizer_index for it_3_7.entity_with_sasi_indices. SASI indexes are experimental and are not recommended for production use.
+13:27:10.729 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - Query '[0 bound values] CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};' generated server side warning(s): SASI indexes are experimental and are not recommended for production use.
+13:27:10.738 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};
+
+13:27:10.739 [Native-Transport-Requests-1] WARN  o.a.c.c.s.CreateIndexStatement - Creating SASI index sparse_index for it_3_7.entity_with_sasi_indices. SASI indexes are experimental and are not recommended for production use.
+13:27:11.015 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - Query '[0 bound values] CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};' generated server side warning(s): SASI indexes are experimental and are not recommended for production use.
+13:27:11.335 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:11.472 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(708996936433550336, 1, 'speed runner', 'forever love', 11, 11);
+
+13:27:11.521 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(708996936433550336, 2, 'long run', 'lovers', 12, 12);
+
+13:27:11.524 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(708996936433550336, 3, 'running man', 'the white gloves', 13, 13);
+
+13:27:11.527 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(708996936433550336, 4, 'speedster', 'the loving man', 14, 14);
+
+13:27:11.530 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(708996936433550336, 5, 'long grain', 'no love', 15, 15);
+
+13:27:11.534 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(708996936433550336, 6, 'long grain', 'the chair is dancing', 16, 16);
+
+13:27:11.561 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 69b4c08c-f1da-479f-8f23-6dbcabe8eca7 : [SELECT * FROM it_3_7.entity_with_sasi_indices WHERE prefixnontokenizer=:prefixnontokenizer ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [speedster]
+	 Encoded bound values : [speedster]
+13:27:11.656 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(int), containsstandardanalyzer(varchar), numeric(int), prefixnontokenizer(varchar), sparse(int)]]
+13:27:11.663 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - Query ID 69b4c08c-f1da-479f-8f23-6dbcabe8eca7 results : 
+	id: 708996936433550336, clust: 4, containsstandardanalyzer: the loving man, numeric: 14, prefixnontokenizer: speedster, sparse: 14
+
+13:27:11.735 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:11.805 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_7 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:27:11.822 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_7.entity_with_sasi_indices(
+		id bigint,
+		clust int,
+		containsstandardanalyzer text,
+		numeric int,
+		prefixnontokenizer text,
+		sparse int,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:27:11.825 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase': 'true'};
+
+13:27:11.827 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};
+
+13:27:11.828 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};
+
+13:27:11.831 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};
+
+13:27:11.833 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:11.901 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(7760785320898065408, 1, 'speed runner', 'forever love', 11, 11);
+
+13:27:11.904 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(7760785320898065408, 2, 'long run', 'lovers', 12, 12);
+
+13:27:11.907 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(7760785320898065408, 3, 'running man', 'the white gloves', 13, 13);
+
+13:27:11.910 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(7760785320898065408, 4, 'speedster', 'the loving man', 14, 14);
+
+13:27:11.912 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(7760785320898065408, 5, 'long grain', 'no love', 15, 15);
+
+13:27:11.914 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(7760785320898065408, 6, 'long grain', 'the chair is dancing', 16, 16);
+
+13:27:11.928 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID c9da1831-54cb-426a-91fa-af2e45d2102f : [SELECT * FROM it_3_7.entity_with_sasi_indices WHERE prefixnontokenizer LIKE :prefixnontokenizer AND sparse>=:sparse AND sparse<=:sparse ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [speedster, 13, 15]
+	 Encoded bound values : [speedster, 13, 15]
+13:27:12.011 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(int), containsstandardanalyzer(varchar), numeric(int), prefixnontokenizer(varchar), sparse(int)]]
+13:27:12.011 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - Query ID c9da1831-54cb-426a-91fa-af2e45d2102f results : 
+	id: 7760785320898065408, clust: 4, containsstandardanalyzer: the loving man, numeric: 14, prefixnontokenizer: speedster, sparse: 14
+
+13:27:12.012 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.094 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_7 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:27:12.106 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_7.entity_with_sasi_indices(
+		id bigint,
+		clust int,
+		containsstandardanalyzer text,
+		numeric int,
+		prefixnontokenizer text,
+		sparse int,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:27:12.108 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase': 'true'};
+
+13:27:12.110 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};
+
+13:27:12.111 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};
+
+13:27:12.112 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};
+
+13:27:12.113 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.178 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(368945438065793024, 1, 'speed runner', 'forever love', 11, 11);
+
+13:27:12.181 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(368945438065793024, 2, 'long run', 'lovers', 12, 12);
+
+13:27:12.183 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(368945438065793024, 3, 'running man', 'the white gloves', 13, 13);
+
+13:27:12.185 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(368945438065793024, 4, 'speedster', 'the loving man', 14, 14);
+
+13:27:12.187 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(368945438065793024, 5, 'long grain', 'no love', 15, 15);
+
+13:27:12.189 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(368945438065793024, 6, 'long grain', 'the chair is dancing', 16, 16);
+
+13:27:12.195 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7322bcb2-3288-4342-9771-252cec8bfd97 : [SELECT * FROM it_3_7.entity_with_sasi_indices WHERE containsstandardanalyzer LIKE :containsstandardanalyzer ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [%man]
+	 Encoded bound values : [%man]
+13:27:12.213 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(int), containsstandardanalyzer(varchar), numeric(int), prefixnontokenizer(varchar), sparse(int)]]
+13:27:12.213 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - Query ID 7322bcb2-3288-4342-9771-252cec8bfd97 results : 
+	id: 368945438065793024, clust: 4, containsstandardanalyzer: the loving man, numeric: 14, prefixnontokenizer: speedster, sparse: 14
+
+13:27:12.214 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.295 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_7 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:27:12.304 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_7.entity_with_sasi_indices(
+		id bigint,
+		clust int,
+		containsstandardanalyzer text,
+		numeric int,
+		prefixnontokenizer text,
+		sparse int,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:27:12.307 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase': 'true'};
+
+13:27:12.308 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};
+
+13:27:12.309 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};
+
+13:27:12.311 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};
+
+13:27:12.312 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.400 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(820511764009220096, 1, 'speed runner', 'forever love', 11, 11);
+
+13:27:12.403 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(820511764009220096, 2, 'long run', 'lovers', 12, 12);
+
+13:27:12.405 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(820511764009220096, 3, 'running man', 'the white gloves', 13, 13);
+
+13:27:12.408 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(820511764009220096, 4, 'speedster', 'the loving man', 14, 14);
+
+13:27:12.409 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(820511764009220096, 5, 'long grain', 'no love', 15, 15);
+
+13:27:12.411 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(820511764009220096, 6, 'long grain', 'the chair is dancing', 16, 16);
+
+13:27:12.414 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID ed3d7abb-4f85-4e67-aa77-b704710c006d : [SELECT * FROM it_3_7.entity_with_sasi_indices WHERE containsstandardanalyzer LIKE :containsstandardanalyzer ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [chair dance]
+	 Encoded bound values : [chair dance]
+13:27:12.423 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(int), containsstandardanalyzer(varchar), numeric(int), prefixnontokenizer(varchar), sparse(int)]]
+13:27:12.424 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - Query ID ed3d7abb-4f85-4e67-aa77-b704710c006d results : 
+	id: 820511764009220096, clust: 6, containsstandardanalyzer: the chair is dancing, numeric: 16, prefixnontokenizer: long grain, sparse: 16
+
+13:27:12.424 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.502 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_7 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:27:12.511 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_7.entity_with_sasi_indices(
+		id bigint,
+		clust int,
+		containsstandardanalyzer text,
+		numeric int,
+		prefixnontokenizer text,
+		sparse int,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:27:12.513 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase': 'true'};
+
+13:27:12.514 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};
+
+13:27:12.515 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};
+
+13:27:12.516 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};
+
+13:27:12.518 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.586 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(6685739725558912000, 1, 'speed runner', 'forever love', 11, 11);
+
+13:27:12.589 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(6685739725558912000, 2, 'long run', 'lovers', 12, 12);
+
+13:27:12.592 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(6685739725558912000, 3, 'running man', 'the white gloves', 13, 13);
+
+13:27:12.595 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(6685739725558912000, 4, 'speedster', 'the loving man', 14, 14);
+
+13:27:12.597 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(6685739725558912000, 5, 'long grain', 'no love', 15, 15);
+
+13:27:12.598 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(6685739725558912000, 6, 'long grain', 'the chair is dancing', 16, 16);
+
+13:27:12.605 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 56b885f1-ce27-47e4-bd01-d905c9bd0ffc : [SELECT * FROM it_3_7.entity_with_sasi_indices WHERE prefixnontokenizer LIKE :prefixnontokenizer AND numeric>=:numeric AND numeric<=:numeric ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [speed%, 10, 15]
+	 Encoded bound values : [speed%, 10, 15]
+13:27:12.621 [achilles-default-executor-5] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(int), containsstandardanalyzer(varchar), numeric(int), prefixnontokenizer(varchar), sparse(int)]]
+13:27:12.622 [achilles-default-executor-5] DEBUG ACHILLES_DML_STATEMENT - Query ID 56b885f1-ce27-47e4-bd01-d905c9bd0ffc results : 
+	id: 6685739725558912000, clust: 1, containsstandardanalyzer: forever love, numeric: 11, prefixnontokenizer: speed runner, sparse: 11
+	id: 6685739725558912000, clust: 4, containsstandardanalyzer: the loving man, numeric: 14, prefixnontokenizer: speedster, sparse: 14
+
+13:27:12.622 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.704 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_7 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:27:12.719 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_7.entity_with_sasi_indices(
+		id bigint,
+		clust int,
+		containsstandardanalyzer text,
+		numeric int,
+		prefixnontokenizer text,
+		sparse int,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:27:12.721 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS containsstandardanalyzer_index ON it_3_7.entity_with_sasi_indices ( containsstandardanalyzer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'CONTAINS','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.StandardAnalyzer','tokenization_locale': 'en','tokenization_enable_stemming': 'true','tokenization_skip_stop_words': 'false','tokenization_normalize_lowercase': 'true'};
+
+13:27:12.722 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS numeric_index ON it_3_7.entity_with_sasi_indices ( numeric )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX'};
+
+13:27:12.723 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS prefixnontokenizer_index ON it_3_7.entity_with_sasi_indices ( prefixnontokenizer )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'PREFIX','analyzed' : 'true','analyzer_class' : 'org.apache.cassandra.index.sasi.analyzer.NonTokenizingAnalyzer','normalize_lowercase': 'true'};
+
+13:27:12.724 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE CUSTOM INDEX IF NOT EXISTS sparse_index ON it_3_7.entity_with_sasi_indices ( sparse )  USING 'org.apache.cassandra.index.sasi.SASIIndex' WITH OPTIONS = {'max_compaction_flush_memory_in_mb' : '1024','mode' : 'SPARSE'};
+
+13:27:12.726 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:12.790 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(8514044965616076800, 1, 'speed runner', 'forever love', 11, 11);
+
+13:27:12.793 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(8514044965616076800, 2, 'long run', 'lovers', 12, 12);
+
+13:27:12.795 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(8514044965616076800, 3, 'running man', 'the white gloves', 13, 13);
+
+13:27:12.798 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(8514044965616076800, 4, 'speedster', 'the loving man', 14, 14);
+
+13:27:12.799 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(8514044965616076800, 5, 'long grain', 'no love', 15, 15);
+
+13:27:12.801 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_7.entity_with_sasi_indices(id, clust, prefixnontokenizer, containsstandardanalyzer, numeric, sparse) VALUES(8514044965616076800, 6, 'long grain', 'the chair is dancing', 16, 16);
+
+13:27:12.803 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7486975f-0e3b-4d08-8b26-b9e02f356de9 : [SELECT * FROM it_3_7.entity_with_sasi_indices WHERE containsstandardanalyzer LIKE :containsstandardanalyzer ALLOW FILTERING;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [%love%]
+	 Encoded bound values : [%love%]
+13:27:12.811 [achilles-default-executor-6] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(int), containsstandardanalyzer(varchar), numeric(int), prefixnontokenizer(varchar), sparse(int)]]
+13:27:12.813 [achilles-default-executor-6] DEBUG ACHILLES_DML_STATEMENT - Query ID 7486975f-0e3b-4d08-8b26-b9e02f356de9 results : 
+	id: 8514044965616076800, clust: 1, containsstandardanalyzer: forever love, numeric: 11, prefixnontokenizer: speed runner, sparse: 11
+	id: 8514044965616076800, clust: 2, containsstandardanalyzer: lovers, numeric: 12, prefixnontokenizer: long run, sparse: 12
+	id: 8514044965616076800, clust: 3, containsstandardanalyzer: the white gloves, numeric: 13, prefixnontokenizer: running man, sparse: 13
+	id: 8514044965616076800, clust: 4, containsstandardanalyzer: the loving man, numeric: 14, prefixnontokenizer: speedster, sparse: 14
+	id: 8514044965616076800, clust: 5, containsstandardanalyzer: no love, numeric: 15, prefixnontokenizer: long grain, sparse: 15
+
+13:27:12.814 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_7.entity_with_sasi_indices
+13:27:13.000 [Thread-1] INFO  i.a.achilles.embedded.ServerStarter - Calling stop on Embedded Cassandra server
+13:27:13.017 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+13:27:14.018 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds

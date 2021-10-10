@@ -1,0 +1,186 @@
+13:31:09,142 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:31:09,142 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:31:09,142 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_2/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_2/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_6/target/classes/logback.xml]
+13:31:09,143 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_0/target/classes/logback.xml]
+13:31:09,197 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:31:09,205 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml] 
+13:31:09,205 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:31:09,209 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:31:09,212 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:31:09,223 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:31:09,262 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:31:09,262 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:31:09,262 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:31:09,263 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:31:09,263 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:31:09,263 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:31:09,263 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to DEBUG
+13:31:09,263 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to false
+13:31:09,263 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT]
+13:31:09,264 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:31:09,265 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:31:09,265 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:31:09,265 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:31:09,265 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:31:09,265 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:31:09,265 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:31:09,265 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:31:09,265 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:31:09,266 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:31:09,266 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:31:09,266 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:31:09,266 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:31:09,266 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:31:09,267 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2133814f - Registering current configuration as safe fallback point
+
+13:31:09.330 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:31:09.332 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:31:09.332 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:31:09.332 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:31:09.332 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:31:09.339 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:31:09.360 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:31:09.360 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7397
+13:31:09.426 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7846
+13:31:09.427 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:31:09.427 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:31:09.427 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:31:09.722 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.204GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:31:09.971 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:31:09.971 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:31:09.971 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:31:09.972 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:31:09.986 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:31:13.474 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created bed3b562-7f8b-46f9-af8e-6b27cf9171a5 (Note: This should happen exactly once per node).
+13:31:16.466 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_8 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:31:16.652 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE FUNCTION IF NOT EXISTS textToLong(longvalue text) RETURNS NULL ON NULL INPUT RETURNS bigint LANGUAGE java AS $$return Long.parseLong(longvalue);$$;
+
+13:31:17.309 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE FUNCTION IF NOT EXISTS accumulate(map map<int, text>, clustering int, textVal text, doubleVal double, low_threshold double, high_threshold double) RETURNS NULL ON NULL INPUT RETURNS map<int, text> LANGUAGE java AS $$if(doubleval >= low_threshold && doubleval <= high_threshold) {map.put(clustering, textval);}return map;$$;
+
+13:31:17.538 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE AGGREGATE IF NOT EXISTS findByDoubleValue(int, text, double, double, double) SFUNC accumulate STYPE map<int, text> INITCOND {};
+
+13:31:17.865 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_8.entity_for_aggregate(
+		partition bigint,
+		clustering int,
+		doubleval double,
+		stringval text,
+		PRIMARY KEY(partition, clustering))
+	WITH CLUSTERING ORDER BY(clustering ASC);
+
+13:31:18.389 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_8.entity_for_aggregate
+13:31:18.515 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (2575434656045873152, 1, 1.0, '1.0');
+
+13:31:18.572 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f655bf3b-7df7-45ac-94b1-0f200bf59da0 : [SELECT textToLong('12') AS longval FROM it_3_8.entity_for_aggregate LIMIT :lim;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1]
+	 Encoded bound values : [1]
+13:31:18.602 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[longval(bigint)]]
+13:31:18.606 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - Query ID f655bf3b-7df7-45ac-94b1-0f200bf59da0 results : 
+	longval: 12
+
+13:31:18.678 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_8.entity_for_aggregate
+13:31:18.755 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_8 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:31:18.760 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE FUNCTION IF NOT EXISTS textToLong(longvalue text) RETURNS NULL ON NULL INPUT RETURNS bigint LANGUAGE java AS $$return Long.parseLong(longvalue);$$;
+
+13:31:18.761 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE FUNCTION IF NOT EXISTS accumulate(map map<int, text>, clustering int, textVal text, doubleVal double, low_threshold double, high_threshold double) RETURNS NULL ON NULL INPUT RETURNS map<int, text> LANGUAGE java AS $$if(doubleval >= low_threshold && doubleval <= high_threshold) {map.put(clustering, textval);}return map;$$;
+
+13:31:18.763 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE AGGREGATE IF NOT EXISTS findByDoubleValue(int, text, double, double, double) SFUNC accumulate STYPE map<int, text> INITCOND {};
+
+13:31:18.772 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_8.entity_for_aggregate(
+		partition bigint,
+		clustering int,
+		doubleval double,
+		stringval text,
+		PRIMARY KEY(partition, clustering))
+	WITH CLUSTERING ORDER BY(clustering ASC);
+
+13:31:18.775 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_8.entity_for_aggregate
+13:31:18.846 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (1067411493602640896, 1, 1.0, '1.0');
+
+13:31:18.881 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID e4b9c875-c9b5-4f30-9c2a-f72ba0cb7752 : [SELECT bigintAsBlob(textToLong('12')) AS blobval FROM it_3_8.entity_for_aggregate LIMIT :lim;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1]
+	 Encoded bound values : [1]
+13:31:18.888 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[blobval(blob)]]
+13:31:18.889 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - Query ID e4b9c875-c9b5-4f30-9c2a-f72ba0cb7752 results : 
+	blobval: java.nio.HeapByteBuffer[pos=0 lim=8 cap=8]
+
+13:31:18.898 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_8.entity_for_aggregate
+13:31:18.979 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_8 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:31:18.981 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE FUNCTION IF NOT EXISTS textToLong(longvalue text) RETURNS NULL ON NULL INPUT RETURNS bigint LANGUAGE java AS $$return Long.parseLong(longvalue);$$;
+
+13:31:18.982 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE FUNCTION IF NOT EXISTS accumulate(map map<int, text>, clustering int, textVal text, doubleVal double, low_threshold double, high_threshold double) RETURNS NULL ON NULL INPUT RETURNS map<int, text> LANGUAGE java AS $$if(doubleval >= low_threshold && doubleval <= high_threshold) {map.put(clustering, textval);}return map;$$;
+
+13:31:18.986 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE AGGREGATE IF NOT EXISTS findByDoubleValue(int, text, double, double, double) SFUNC accumulate STYPE map<int, text> INITCOND {};
+
+13:31:18.999 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_8.entity_for_aggregate(
+		partition bigint,
+		clustering int,
+		doubleval double,
+		stringval text,
+		PRIMARY KEY(partition, clustering))
+	WITH CLUSTERING ORDER BY(clustering ASC);
+
+13:31:19.002 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_8.entity_for_aggregate
+13:31:19.066 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (2002841719784772608, 1, 1.0, '1.0');
+
+13:31:19.068 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (2002841719784772608, 2, 2.0, '2.0');
+
+13:31:19.070 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (2002841719784772608, 3, 3.0, '3.0');
+
+13:31:19.071 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (2002841719784772608, 4, 4.0, '4.0');
+
+13:31:19.072 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_8.entity_for_aggregate(partition, clustering, doubleval, stringVal) VALUES (2002841719784772608, 5, 5.0, '5.0');
+
+13:31:19.080 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f43b00c4-41ec-4191-8570-9f057797f239 : [SELECT findByDoubleValue(clustering,stringval,doubleval,2.0,4.0) AS map_result FROM it_3_8.entity_for_aggregate LIMIT :lim;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1]
+	 Encoded bound values : [1]
+13:31:19.087 [Native-Transport-Requests-1] WARN  o.a.c.c.statements.SelectStatement - Aggregation query used without partition key
+13:31:19.110 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - Query '[1 bound values] SELECT findByDoubleValue(clustering,stringval,doubleval,2.0,4.0) AS map_result FROM it_3_8.entity_for_aggregate LIMIT :lim;' generated server side warning(s): Aggregation query used without partition key
+13:31:19.111 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[map_result(map<int, varchar>)]]
+13:31:19.111 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - Query ID f43b00c4-41ec-4191-8570-9f057797f239 results : 
+	map_result: {2=2.0, 3=3.0, 4=4.0}
+
+13:31:19.112 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_8.entity_for_aggregate
+13:31:19.318 [Thread-1] INFO  i.a.achilles.embedded.ServerStarter - Calling stop on Embedded Cassandra server
+13:31:19.327 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+13:31:20.327 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds

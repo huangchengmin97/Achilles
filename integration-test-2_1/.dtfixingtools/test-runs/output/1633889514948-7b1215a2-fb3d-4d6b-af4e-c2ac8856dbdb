@@ -1,0 +1,1480 @@
+13:11:55,621 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:11:55,621 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:11:55,621 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:11:55,622 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:11:55,622 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:11:55,622 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:11:55,677 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:11:55,686 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml] 
+13:11:55,686 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:11:55,687 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:11:55,690 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:11:55,700 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:11:55,740 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:11:55,740 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:11:55,740 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:11:55,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:11:55,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:11:55,741 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:11:55,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:11:55,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:11:55,741 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:11:55,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:11:55,741 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:11:55,741 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:11:55,742 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.cache.StatementsCache] to WARN
+13:11:55,742 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.cache.StatementsCache] to false
+13:11:55,743 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.cache.StatementsCache]
+13:11:55,743 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to TRACE
+13:11:55,743 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to false
+13:11:55,744 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.SimpleEntity]
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:11:55,744 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:11:55,744 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:11:55,744 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:11:55,744 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:11:55,744 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:11:55,744 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:11:55,745 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7364985f - Registering current configuration as safe fallback point
+
+13:11:55.800 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:11:55.802 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:11:55.803 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:11:55.803 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:11:55.803 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:11:55.811 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:11:55.844 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:11:55.844 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:11:55.921 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7298
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7985
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:11:55.922 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:11:56.282 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.222GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:11:56.431 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:11:56.431 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:11:56.431 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:11:56.432 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:11:56.448 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:11:59.689 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created 3747ef3b-ade1-461a-a70a-3644992bd64d (Note: This should happen exactly once per node).
+13:12:02.360 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:02.948 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.complex_tuple(
+		id bigint,
+		tuple frozen<tuple<int, map<int, list<text>>>>,
+		PRIMARY KEY(id));
+
+13:12:03.516 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:03.533 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:03.781 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:03.984 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:03.997 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.002 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.100 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(200, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.121 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(200, '2015-10-01 01:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '1 AM');
+
+13:12:04.125 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 088a5e19-567d-4161-84cb-01f3c8f83958 : [DELETE FROM achilles_embedded.simple WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [200]
+	 Encoded bound values : [200]
+13:12:04.151 [achilles-default-executor-1] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 088a5e19-567d-4161-84cb-01f3c8f83958 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 9583                     | Native-Transport-Requests-2
+Adding to simple memtable                                                        | /127.0.0.1       | 10267                    | MutationStage-1     
+****************************
+
+
+13:12:04.160 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.170 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.173 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.239 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(4755380039295843328, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.246 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 70bf5c3e-fd81-4d92-9c20-baefe01570c9 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4755380039295843328, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [4755380039295843328, Wed Sep 30 19:00:00 CDT 2015]
+13:12:04.255 [achilles-default-executor-2] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 70bf5c3e-fd81-4d92-9c20-baefe01570c9 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 555                      | Native-Transport-Requests-4
+Adding to simple memtable                                                        | /127.0.0.1       | 773                      | MutationStage-1     
+****************************
+
+
+13:12:04.258 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.266 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.269 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.335 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(100, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.349 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID b681d1eb-3c2a-460c-aa18-36b8577e0e33 : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) IF NOT EXISTS USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [100, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 0]
+	 Encoded bound values : [100, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 0]
+13:12:04.385 [achilles-default-executor-3] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID b681d1eb-3c2a-460c-aa18-36b8577e0e33 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Preparing 92863cc0-29f5-11ec-9a30-9eab5695bb24                                   | /127.0.0.1       | 14293                    | Native-Transport-Requests-2
+Sending PAXOS_PREPARE message to localhost/127.0.0.1                             | /127.0.0.1       | 15950                    | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PREPARE message received from /127.0.0.1                                   | /127.0.0.1       | 16406                    | MessagingService-Incoming-/127.0.0.1
+Parsing SELECT * FROM system.paxos WHERE row_key = ? AND cf_id = ?               | /127.0.0.1       | 17530                    | MutationStage-3     
+Preparing statement                                                              | /127.0.0.1       | 17728                    | MutationStage-3     
+Executing single-partition query on paxos                                        | /127.0.0.1       | 18060                    | MutationStage-3     
+Acquiring sstable references                                                     | /127.0.0.1       | 18131                    | MutationStage-3     
+Merging memtable contents                                                        | /127.0.0.1       | 18179                    | MutationStage-3     
+Read 0 live rows and 0 tombstone cells                                           | /127.0.0.1       | 18352                    | MutationStage-3     
+Promising ballot 92863cc0-29f5-11ec-9a30-9eab5695bb24                            | /127.0.0.1       | 18453                    | MutationStage-3     
+Parsing UPDATE system.paxos USING TIMESTAMP ? AND TTL ? SET in_progress_ballot = ? WHERE row_key = ? AND cf_id = ? | /127.0.0.1       | 18547                    | MutationStage-3     
+Preparing statement                                                              | /127.0.0.1       | 18809                    | MutationStage-3     
+Appending to commitlog                                                           | /127.0.0.1       | 19130                    | MutationStage-3     
+Adding to paxos memtable                                                         | /127.0.0.1       | 19298                    | MutationStage-3     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 19737                    | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 20104                    | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 20241                    | RequestResponseStage-1
+Reading existing values for CAS precondition                                     | /127.0.0.1       | 20436                    | Native-Transport-Requests-2
+Executing single-partition query on simple                                       | /127.0.0.1       | 20657                    | ReadStage-1         
+Acquiring sstable references                                                     | /127.0.0.1       | 20723                    | ReadStage-1         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 20822                    | ReadStage-1         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 21002                    | ReadStage-1         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 21083                    | ReadStage-1         
+CAS precondition does not match current values [achilles_embedded.simple] key=100 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | [value consistencylist simplemap simpleset]]
+    Row[info=[ts=1633889524335579] ]: date=2015-09-30 19:00-0500 | [value=0 AM ts=1633889524335579], , [consistencylist[92821e10-29f5-11ec-84ca-7535c8198182]=QUORUM ts=1633889524335579], [consistencylist[92821e11-29f5-11ec-84ca-7535c8198182]=LOCAL_ONE ts=1633889524335579], , [simplemap[10]=ten ts=1633889524335579], [simplemap[20]=twenty ts=1633889524335579], , [simpleset[1.0]= ts=1633889524335579], [simpleset[2.0]= ts=1633889524335579] | /127.0.0.1       | 22515                    | Native-Transport-Requests-2
+CAS precondition is met; proposing client-requested updates for 92863cc0-29f5-11ec-9a30-9eab5695bb24 | /127.0.0.1       | 23439                    | Native-Transport-Requests-2
+Sending PAXOS_PROPOSE message to localhost/127.0.0.1                             | /127.0.0.1       | 24154                    | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PROPOSE message received from /127.0.0.1                                   | /127.0.0.1       | 24411                    | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 24619                    | MutationStage-1     
+Acquiring sstable references                                                     | /127.0.0.1       | 24689                    | MutationStage-1     
+Merging memtable contents                                                        | /127.0.0.1       | 24735                    | MutationStage-1     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 24967                    | MutationStage-1     
+Accepting proposal Commit(92863cc0-29f5-11ec-9a30-9eab5695bb24, [achilles_embedded.simple] key=100 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]) | /127.0.0.1       | 25161                    | MutationStage-1     
+Parsing UPDATE system.paxos USING TIMESTAMP ? AND TTL ? SET proposal_ballot = ?, proposal = ?, proposal_version = ? WHERE row_key = ? AND cf_id = ? | /127.0.0.1       | 25266                    | MutationStage-1     
+Preparing statement                                                              | /127.0.0.1       | 25465                    | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 25731                    | MutationStage-1     
+Adding to paxos memtable                                                         | /127.0.0.1       | 25870                    | MutationStage-1     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 26123                    | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 26363                    | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 26473                    | RequestResponseStage-1
+CAS did not apply                                                                | /127.0.0.1       | 26576                    | Native-Transport-Requests-2
+****************************
+
+
+13:12:04.393 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.402 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.404 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.468 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(8587267011650631680, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.476 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID caf5ae5b-90f4-49dd-9ac5-dd12c94b4555 : [SELECT id,date,consistencylist,simplemap,simpleset,value FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [TWO]
+	 Java bound values : [8587267011650631680, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [8587267011650631680, Wed Sep 30 19:00:00 CDT 2015]
+13:12:04.487 [achilles-default-executor-4] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:12:04.493 [achilles-default-executor-4] DEBUG i.a.a.i.entities.SimpleEntity - Query ID caf5ae5b-90f4-49dd-9ac5-dd12c94b4555 results : 
+	id: 8587267011650631680, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:12:04.497 [achilles-default-executor-4] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID caf5ae5b-90f4-49dd-9ac5-dd12c94b4555 at host localhost/127.0.0.1:9042 with achieved consistency level ONE 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Executing single-partition query on simple                                       | /127.0.0.1       | 390                      | ReadStage-3         
+Acquiring sstable references                                                     | /127.0.0.1       | 507                      | ReadStage-3         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 601                      | ReadStage-3         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 819                      | ReadStage-3         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 913                      | ReadStage-3         
+****************************
+
+
+13:12:04.505 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.514 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.517 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.585 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID b38015ce-6aa7-47ee-804c-63405459ec68 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date IF EXISTS;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [2536372765218550784, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [2536372765218550784, Wed Sep 30 19:00:00 CDT 2015]
+13:12:04.606 [achilles-default-executor-5] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID b38015ce-6aa7-47ee-804c-63405459ec68 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Preparing 92a81ca0-29f5-11ec-f8d9-f4adac88d678                                   | /127.0.0.1       | 486                      | Native-Transport-Requests-2
+Sending PAXOS_PREPARE message to localhost/127.0.0.1                             | /127.0.0.1       | 696                      | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PREPARE message received from /127.0.0.1                                   | /127.0.0.1       | 1319                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 1700                     | MutationStage-3     
+Acquiring sstable references                                                     | /127.0.0.1       | 1787                     | MutationStage-3     
+Merging memtable contents                                                        | /127.0.0.1       | 1838                     | MutationStage-3     
+Read 0 live rows and 0 tombstone cells                                           | /127.0.0.1       | 2150                     | MutationStage-3     
+Promising ballot 92a81ca0-29f5-11ec-f8d9-f4adac88d678                            | /127.0.0.1       | 2237                     | MutationStage-3     
+Appending to commitlog                                                           | /127.0.0.1       | 2540                     | MutationStage-3     
+Adding to paxos memtable                                                         | /127.0.0.1       | 2686                     | MutationStage-3     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 3177                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 3487                     | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 3605                     | RequestResponseStage-1
+Reading existing values for CAS precondition                                     | /127.0.0.1       | 3866                     | Native-Transport-Requests-2
+Executing single-partition query on simple                                       | /127.0.0.1       | 4131                     | ReadStage-1         
+Acquiring sstable references                                                     | /127.0.0.1       | 4208                     | ReadStage-1         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 4280                     | ReadStage-1         
+Read 0 live rows and 0 tombstone cells                                           | /127.0.0.1       | 4377                     | ReadStage-1         
+CAS precondition does not match current values [achilles_embedded.simple] key=2536372765218550784 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []] | /127.0.0.1       | 5083                     | Native-Transport-Requests-2
+CAS precondition is met; proposing client-requested updates for 92a81ca0-29f5-11ec-f8d9-f4adac88d678 | /127.0.0.1       | 5184                     | Native-Transport-Requests-2
+Sending PAXOS_PROPOSE message to localhost/127.0.0.1                             | /127.0.0.1       | 5324                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PROPOSE message received from /127.0.0.1                                   | /127.0.0.1       | 5591                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 6043                     | MutationStage-3     
+Acquiring sstable references                                                     | /127.0.0.1       | 6126                     | MutationStage-3     
+Merging memtable contents                                                        | /127.0.0.1       | 6173                     | MutationStage-3     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 6493                     | MutationStage-3     
+Accepting proposal Commit(92a81ca0-29f5-11ec-f8d9-f4adac88d678, [achilles_embedded.simple] key=2536372765218550784 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]) | /127.0.0.1       | 6641                     | MutationStage-3     
+Appending to commitlog                                                           | /127.0.0.1       | 6816                     | MutationStage-3     
+Adding to paxos memtable                                                         | /127.0.0.1       | 7033                     | MutationStage-3     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 7267                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 7479                     | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 7590                     | RequestResponseStage-1
+CAS did not apply                                                                | /127.0.0.1       | 7696                     | Native-Transport-Requests-2
+****************************
+
+
+13:12:04.606 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.615 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.618 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.709 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(4511049045846437888, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.733 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID efe78789-6047-4b86-b2af-971740c0cec9 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date IF simpleset=:simpleset;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4511049045846437888, Wed Sep 30 19:00:00 CDT 2015, [1.0, 2.0]]
+	 Encoded bound values : [4511049045846437888, Wed Sep 30 19:00:00 CDT 2015, [1.0, 2.0]]
+13:12:04.762 [achilles-default-executor-6] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID efe78789-6047-4b86-b2af-971740c0cec9 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Preparing 92beb1e0-29f5-11ec-69c2-ec06ac1cb4b1                                   | /127.0.0.1       | 1089                     | Native-Transport-Requests-4
+Sending PAXOS_PREPARE message to localhost/127.0.0.1                             | /127.0.0.1       | 1569                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PREPARE message received from /127.0.0.1                                   | /127.0.0.1       | 1900                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 2166                     | MutationStage-2     
+Acquiring sstable references                                                     | /127.0.0.1       | 2260                     | MutationStage-2     
+Merging memtable contents                                                        | /127.0.0.1       | 2312                     | MutationStage-2     
+Read 0 live rows and 0 tombstone cells                                           | /127.0.0.1       | 2600                     | MutationStage-2     
+Promising ballot 92beb1e0-29f5-11ec-69c2-ec06ac1cb4b1                            | /127.0.0.1       | 2685                     | MutationStage-2     
+Appending to commitlog                                                           | /127.0.0.1       | 2834                     | MutationStage-2     
+Adding to paxos memtable                                                         | /127.0.0.1       | 2952                     | MutationStage-2     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 3150                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 3472                     | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 3590                     | RequestResponseStage-1
+Reading existing values for CAS precondition                                     | /127.0.0.1       | 3923                     | Native-Transport-Requests-4
+Executing single-partition query on simple                                       | /127.0.0.1       | 4109                     | ReadStage-2         
+Acquiring sstable references                                                     | /127.0.0.1       | 4173                     | ReadStage-2         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 4256                     | ReadStage-2         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 4427                     | ReadStage-2         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 4510                     | ReadStage-2         
+CAS precondition is met; proposing client-requested updates for 92beb1e0-29f5-11ec-69c2-ec06ac1cb4b1 | /127.0.0.1       | 8980                     | Native-Transport-Requests-4
+Sending PAXOS_PROPOSE message to localhost/127.0.0.1                             | /127.0.0.1       | 9206                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PROPOSE message received from /127.0.0.1                                   | /127.0.0.1       | 9723                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 9921                     | MutationStage-1     
+Acquiring sstable references                                                     | /127.0.0.1       | 9993                     | MutationStage-1     
+Merging memtable contents                                                        | /127.0.0.1       | 10051                    | MutationStage-1     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 10273                    | MutationStage-1     
+Accepting proposal Commit(92beb1e0-29f5-11ec-69c2-ec06ac1cb4b1, [achilles_embedded.simple] key=4511049045846437888 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]
+    Row[info=[ts=-9223372036854775808] del=deletedAt=1633889524733999, localDeletion=1633889524 ]: date=2015-09-30 19:00-0500 | ) | /127.0.0.1       | 10614                    | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 10816                    | MutationStage-1     
+Adding to paxos memtable                                                         | /127.0.0.1       | 10960                    | MutationStage-1     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 11172                    | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 11383                    | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 11488                    | RequestResponseStage-1
+Parsing SELECT truncated_at FROM system.local WHERE key = 'local'                | /127.0.0.1       | 14833                    | MutationStage-1     
+Preparing statement                                                              | /127.0.0.1       | 15070                    | MutationStage-1     
+Executing single-partition query on local                                        | /127.0.0.1       | 15311                    | MutationStage-1     
+Acquiring sstable references                                                     | /127.0.0.1       | 15370                    | MutationStage-1     
+Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 15457                    | MutationStage-1     
+Key cache hit for sstable 21                                                     | /127.0.0.1       | 15601                    | MutationStage-1     
+Partition index with 0 entries found for sstable 22                              | /127.0.0.1       | 16232                    | MutationStage-1     
+Merged data from memtables and 2 sstables                                        | /127.0.0.1       | 16742                    | MutationStage-1     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 16848                    | MutationStage-1     
+Committing proposal Commit(92beb1e0-29f5-11ec-69c2-ec06ac1cb4b1, [achilles_embedded.simple] key=4511049045846437888 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]
+    Row[info=[ts=-9223372036854775808] del=deletedAt=1633889524733999, localDeletion=1633889524 ]: date=2015-09-30 19:00-0500 | ) | /127.0.0.1       | 17133                    | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 17220                    | MutationStage-1     
+Adding to simple memtable                                                        | /127.0.0.1       | 17325                    | MutationStage-1     
+Parsing UPDATE system.paxos USING TIMESTAMP ? AND TTL ? SET proposal_ballot = null, proposal = null, most_recent_commit_at = ?, most_recent_commit = ?, most_recent_commit_version = ? WHERE row_key = ? AND cf_id = ? | /127.0.0.1       | 17501                    | MutationStage-1     
+Preparing statement                                                              | /127.0.0.1       | 17780                    | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 18080                    | MutationStage-1     
+Adding to paxos memtable                                                         | /127.0.0.1       | 18217                    | MutationStage-1     
+CAS applied successfully                                                         | /127.0.0.1       | 18865                    | Native-Transport-Requests-4
+****************************
+
+
+13:12:04.765 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.772 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.775 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.838 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(822064555276029952, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.844 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 35dd82c1-fdd2-4f15-b17a-53f216d9c717 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date IF value<:value;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [822064555276029952, Wed Sep 30 19:00:00 CDT 2015, _]
+	 Encoded bound values : [822064555276029952, Wed Sep 30 19:00:00 CDT 2015, _]
+13:12:04.870 [achilles-default-executor-7] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 35dd82c1-fdd2-4f15-b17a-53f216d9c717 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Preparing 92cfc8e0-29f5-11ec-cbfb-0238e63b6b75                                   | /127.0.0.1       | 585                      | Native-Transport-Requests-3
+Sending PAXOS_PREPARE message to localhost/127.0.0.1                             | /127.0.0.1       | 927                      | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PREPARE message received from /127.0.0.1                                   | /127.0.0.1       | 1197                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 1460                     | MutationStage-2     
+Acquiring sstable references                                                     | /127.0.0.1       | 1547                     | MutationStage-2     
+Merging memtable contents                                                        | /127.0.0.1       | 1596                     | MutationStage-2     
+Read 0 live rows and 0 tombstone cells                                           | /127.0.0.1       | 1734                     | MutationStage-2     
+Promising ballot 92cfc8e0-29f5-11ec-cbfb-0238e63b6b75                            | /127.0.0.1       | 1797                     | MutationStage-2     
+Appending to commitlog                                                           | /127.0.0.1       | 1935                     | MutationStage-2     
+Adding to paxos memtable                                                         | /127.0.0.1       | 2046                     | MutationStage-2     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 2342                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 2612                     | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 2764                     | RequestResponseStage-1
+Reading existing values for CAS precondition                                     | /127.0.0.1       | 3342                     | Native-Transport-Requests-3
+Executing single-partition query on simple                                       | /127.0.0.1       | 3503                     | ReadStage-2         
+Acquiring sstable references                                                     | /127.0.0.1       | 3577                     | ReadStage-2         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 3655                     | ReadStage-2         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 3847                     | ReadStage-2         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 3921                     | ReadStage-2         
+CAS precondition is met; proposing client-requested updates for 92cfc8e0-29f5-11ec-cbfb-0238e63b6b75 | /127.0.0.1       | 5097                     | Native-Transport-Requests-3
+Sending PAXOS_PROPOSE message to localhost/127.0.0.1                             | /127.0.0.1       | 5369                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PROPOSE message received from /127.0.0.1                                   | /127.0.0.1       | 5711                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 5899                     | MutationStage-1     
+Acquiring sstable references                                                     | /127.0.0.1       | 5971                     | MutationStage-1     
+Merging memtable contents                                                        | /127.0.0.1       | 6024                     | MutationStage-1     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 6210                     | MutationStage-1     
+Accepting proposal Commit(92cfc8e0-29f5-11ec-cbfb-0238e63b6b75, [achilles_embedded.simple] key=822064555276029952 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]
+    Row[info=[ts=-9223372036854775808] del=deletedAt=1633889524845999, localDeletion=1633889524 ]: date=2015-09-30 19:00-0500 | ) | /127.0.0.1       | 6396                     | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 6570                     | MutationStage-1     
+Adding to paxos memtable                                                         | /127.0.0.1       | 6714                     | MutationStage-1     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 7129                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 7353                     | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 7473                     | RequestResponseStage-1
+Executing single-partition query on local                                        | /127.0.0.1       | 7764                     | MutationStage-2     
+Acquiring sstable references                                                     | /127.0.0.1       | 8168                     | MutationStage-2     
+Skipped 0/3 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 8304                     | MutationStage-2     
+Key cache hit for sstable 21                                                     | /127.0.0.1       | 9336                     | MutationStage-2     
+Key cache hit for sstable 22                                                     | /127.0.0.1       | 11054                    | MutationStage-2     
+Partition index with 0 entries found for sstable 23                              | /127.0.0.1       | 11650                    | MutationStage-2     
+Merged data from memtables and 3 sstables                                        | /127.0.0.1       | 13718                    | MutationStage-2     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 13825                    | MutationStage-2     
+Committing proposal Commit(92cfc8e0-29f5-11ec-cbfb-0238e63b6b75, [achilles_embedded.simple] key=822064555276029952 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]
+    Row[info=[ts=-9223372036854775808] del=deletedAt=1633889524845999, localDeletion=1633889524 ]: date=2015-09-30 19:00-0500 | ) | /127.0.0.1       | 14008                    | MutationStage-2     
+Appending to commitlog                                                           | /127.0.0.1       | 14067                    | MutationStage-2     
+Adding to simple memtable                                                        | /127.0.0.1       | 14154                    | MutationStage-2     
+Appending to commitlog                                                           | /127.0.0.1       | 14409                    | MutationStage-2     
+Adding to paxos memtable                                                         | /127.0.0.1       | 14542                    | MutationStage-2     
+CAS applied successfully                                                         | /127.0.0.1       | 15436                    | Native-Transport-Requests-3
+****************************
+
+
+13:12:04.872 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.881 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.883 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:04.947 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(8238588344555532288, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:04.950 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 5566b1e8-4da3-4004-aadc-62517242ffdb : [SELECT id,date,consistencylist,simplemap,simpleset,value FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [8238588344555532288, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [8238588344555532288, Wed Sep 30 19:00:00 CDT 2015]
+13:12:04.962 [achilles-default-executor-8] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:12:04.963 [achilles-default-executor-8] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 5566b1e8-4da3-4004-aadc-62517242ffdb results : 
+	id: 8238588344555532288, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:12:04.969 [achilles-default-executor-8] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 5566b1e8-4da3-4004-aadc-62517242ffdb at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Executing single-partition query on simple                                       | /127.0.0.1       | 709                      | ReadStage-1         
+Acquiring sstable references                                                     | /127.0.0.1       | 865                      | ReadStage-1         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 959                      | ReadStage-1         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 1133                     | ReadStage-1         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 1206                     | ReadStage-1         
+****************************
+
+
+13:12:04.972 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:04.984 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:04.986 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.065 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS achilles_embedded.simple_delete_with_schema_name( id bigint, date timestamp, consistencylist list<text>, simplemap map<int, text>, simpleset set<double>, value text, PRIMARY KEY(id, date)) WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.315 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple_delete_with_schema_name(id, date, consistencylist, simpleset, simplemap, value) VALUES(7761791685586361344, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:05.326 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID e27131c4-30cd-422a-a4cf-b89afe0cd00b : [DELETE FROM achilles_embedded.simple_delete_with_schema_name WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [7761791685586361344, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [7761791685586361344, Wed Sep 30 19:00:00 CDT 2015]
+13:12:05.335 [achilles-default-executor-9] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID e27131c4-30cd-422a-a4cf-b89afe0cd00b at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 363                      | Native-Transport-Requests-1
+Adding to simple_delete_with_schema_name memtable                                | /127.0.0.1       | 1078                     | MutationStage-5     
+****************************
+
+
+13:12:05.337 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:05.347 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.349 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.413 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:05.431 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.434 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.501 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 628c68ff-3bee-43f6-9dc7-3605d41a77a4 : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [9167229435617894400, Sun Oct 10 13:12:05 CDT 2021, [EACH_QUORUM, LOCAL_QUORUM], {1=one, 2=two}, [10.0, 11.0], value, 0]
+	 Encoded bound values : [9167229435617894400, Sun Oct 10 13:12:05 CDT 2021, [EACH_QUORUM, LOCAL_QUORUM], {1=one, 2=two}, [10.0, 11.0], value, 0]
+13:12:05.512 [achilles-default-executor-10] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 628c68ff-3bee-43f6-9dc7-3605d41a77a4 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 576                      | Native-Transport-Requests-1
+Adding to simple memtable                                                        | /127.0.0.1       | 789                      | MutationStage-3     
+****************************
+
+
+13:12:05.513 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:05.523 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.528 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.596 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 31e3d26e-3a41-45c5-8322-76197d8faca4 : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6884002756707792896, Sun Oct 10 13:12:05 CDT 2021, [EACH_QUORUM, LOCAL_QUORUM], {1=one, 2=two}, [10.0, 11.0], value, 0]
+	 Encoded bound values : [6884002756707792896, Sun Oct 10 13:12:05 CDT 2021, [EACH_QUORUM, LOCAL_QUORUM], {1=one, 2=two}, [10.0, 11.0], value, 0]
+13:12:05.605 [achilles-default-executor-11] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 31e3d26e-3a41-45c5-8322-76197d8faca4 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 702                      | Native-Transport-Requests-3
+Adding to simple memtable                                                        | /127.0.0.1       | 850                      | Native-Transport-Requests-3
+****************************
+
+
+13:12:05.621 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:05.630 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.633 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.696 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:05.704 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.707 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.774 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 80cccd33-5727-486c-b742-66a13b0ad2ba : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [TWO]
+	 Java bound values : [8092335939360718848, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 0]
+	 Encoded bound values : [8092335939360718848, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 0]
+13:12:05.789 [achilles-default-executor-12] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 80cccd33-5727-486c-b742-66a13b0ad2ba at host localhost/127.0.0.1:9042 with achieved consistency level ONE 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 284                      | Native-Transport-Requests-1
+Adding to simple memtable                                                        | /127.0.0.1       | 531                      | MutationStage-2     
+****************************
+
+
+13:12:05.795 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:05.803 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:05.805 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:05.888 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS achilles_embedded.simple_find_with_schema_name( id bigint, date timestamp, consistencylist list<text>, simplemap map<int, text>, simpleset set<double>, value text, PRIMARY KEY(id, date)) WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:06.110 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple_find_with_schema_name(id, date, consistencylist, simpleset, simplemap, value) VALUES(5233265217257266176, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:06.116 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID b2243a3b-18d0-45fe-afdf-2c596b04b871 : [SELECT id,date,consistencylist,simplemap,simpleset,value FROM achilles_embedded.simple_find_with_schema_name WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [5233265217257266176, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [5233265217257266176, Wed Sep 30 19:00:00 CDT 2015]
+13:12:06.119 [achilles-default-executor-13] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:12:06.120 [achilles-default-executor-13] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b2243a3b-18d0-45fe-afdf-2c596b04b871 results : 
+	id: 5233265217257266176, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:12:06.122 [achilles-default-executor-13] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID b2243a3b-18d0-45fe-afdf-2c596b04b871 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Executing single-partition query on simple_find_with_schema_name                 | /127.0.0.1       | 385                      | ReadStage-3         
+Acquiring sstable references                                                     | /127.0.0.1       | 487                      | ReadStage-3         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 580                      | ReadStage-3         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 741                      | ReadStage-3         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 815                      | ReadStage-3         
+****************************
+
+
+13:12:06.123 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:06.131 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:06.134 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:06.197 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(300, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:06.200 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 20beb026-3f10-4d47-ad22-1594a613b209 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [THREE]
+	 Java bound values : [300, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [300, Wed Sep 30 19:00:00 CDT 2015]
+13:12:06.212 [achilles-default-executor-14] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 20beb026-3f10-4d47-ad22-1594a613b209 at host localhost/127.0.0.1:9042 with achieved consistency level ONE 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 251                      | Native-Transport-Requests-3
+Adding to simple memtable                                                        | /127.0.0.1       | 433                      | MutationStage-2     
+****************************
+
+
+13:12:06.213 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:06.224 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:06.227 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:06.290 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(5987682020175929344, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:06.293 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 5cdaecee-90fe-4199-86f8-42be76581fed : [SELECT id,date,consistencylist,simplemap,simpleset,value FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [5987682020175929344, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [5987682020175929344, Wed Sep 30 19:00:00 CDT 2015]
+13:12:06.297 [achilles-default-executor-15] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:12:06.298 [achilles-default-executor-15] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 5cdaecee-90fe-4199-86f8-42be76581fed results : 
+	id: 5987682020175929344, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:12:06.303 [achilles-default-executor-15] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 5cdaecee-90fe-4199-86f8-42be76581fed at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Executing single-partition query on simple                                       | /127.0.0.1       | 442                      | ReadStage-2         
+Acquiring sstable references                                                     | /127.0.0.1       | 540                      | ReadStage-2         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 628                      | ReadStage-2         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 857                      | ReadStage-2         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 946                      | ReadStage-2         
+****************************
+
+
+13:12:06.304 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:06.310 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:06.312 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:06.387 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(4744044925265508352, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:06.394 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID e5dff608-5a43-4ac1-af2d-539a2c75d611 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date IF consistencylist!=:consistencylist;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4744044925265508352, Wed Sep 30 19:00:00 CDT 2015, [ALL]]
+	 Encoded bound values : [4744044925265508352, Wed Sep 30 19:00:00 CDT 2015, [ALL]]
+13:12:06.419 [achilles-default-executor-16] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID e5dff608-5a43-4ac1-af2d-539a2c75d611 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Preparing 93bc24b0-29f5-11ec-edd4-4d3283a40c72                                   | /127.0.0.1       | 408                      | Native-Transport-Requests-2
+Sending PAXOS_PREPARE message to localhost/127.0.0.1                             | /127.0.0.1       | 3622                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PREPARE message received from /127.0.0.1                                   | /127.0.0.1       | 3974                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 4386                     | MutationStage-3     
+Acquiring sstable references                                                     | /127.0.0.1       | 4470                     | MutationStage-3     
+Merging memtable contents                                                        | /127.0.0.1       | 4516                     | MutationStage-3     
+Read 0 live rows and 0 tombstone cells                                           | /127.0.0.1       | 4672                     | MutationStage-3     
+Promising ballot 93bc24b0-29f5-11ec-edd4-4d3283a40c72                            | /127.0.0.1       | 4737                     | MutationStage-3     
+Appending to commitlog                                                           | /127.0.0.1       | 4891                     | MutationStage-3     
+Adding to paxos memtable                                                         | /127.0.0.1       | 5011                     | MutationStage-3     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 5221                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 5510                     | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 5634                     | RequestResponseStage-3
+Reading existing values for CAS precondition                                     | /127.0.0.1       | 6158                     | Native-Transport-Requests-2
+Executing single-partition query on simple                                       | /127.0.0.1       | 6535                     | ReadStage-1         
+Acquiring sstable references                                                     | /127.0.0.1       | 6657                     | ReadStage-1         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 6755                     | ReadStage-1         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 6921                     | ReadStage-1         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 7095                     | ReadStage-1         
+CAS precondition is met; proposing client-requested updates for 93bc24b0-29f5-11ec-edd4-4d3283a40c72 | /127.0.0.1       | 7452                     | Native-Transport-Requests-2
+Sending PAXOS_PROPOSE message to localhost/127.0.0.1                             | /127.0.0.1       | 7648                     | MessagingService-Outgoing-localhost/127.0.0.1-Small
+PAXOS_PROPOSE message received from /127.0.0.1                                   | /127.0.0.1       | 7939                     | MessagingService-Incoming-/127.0.0.1
+Executing single-partition query on paxos                                        | /127.0.0.1       | 8466                     | MutationStage-3     
+Acquiring sstable references                                                     | /127.0.0.1       | 8786                     | MutationStage-3     
+Merging memtable contents                                                        | /127.0.0.1       | 8828                     | MutationStage-3     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 9266                     | MutationStage-3     
+Accepting proposal Commit(93bc24b0-29f5-11ec-edd4-4d3283a40c72, [achilles_embedded.simple] key=4744044925265508352 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]
+    Row[info=[ts=-9223372036854775808] del=deletedAt=1633889526394999, localDeletion=1633889526 ]: date=2015-09-30 19:00-0500 | ) | /127.0.0.1       | 9557                     | MutationStage-3     
+Appending to commitlog                                                           | /127.0.0.1       | 10185                    | MutationStage-3     
+Adding to paxos memtable                                                         | /127.0.0.1       | 10301                    | MutationStage-3     
+Sending REQUEST_RESPONSE message to localhost/127.0.0.1                          | /127.0.0.1       | 10490                    | MessagingService-Outgoing-localhost/127.0.0.1-Small
+REQUEST_RESPONSE message received from /127.0.0.1                                | /127.0.0.1       | 10700                    | MessagingService-Incoming-/127.0.0.1
+Processing response from /127.0.0.1                                              | /127.0.0.1       | 11297                    | RequestResponseStage-1
+Executing single-partition query on local                                        | /127.0.0.1       | 11574                    | MutationStage-1     
+Acquiring sstable references                                                     | /127.0.0.1       | 11641                    | MutationStage-1     
+Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 11721                    | MutationStage-1     
+Key cache hit for sstable 37                                                     | /127.0.0.1       | 11851                    | MutationStage-1     
+Partition index with 0 entries found for sstable 38                              | /127.0.0.1       | 12307                    | MutationStage-1     
+Merged data from memtables and 2 sstables                                        | /127.0.0.1       | 12665                    | MutationStage-1     
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 12759                    | MutationStage-1     
+Committing proposal Commit(93bc24b0-29f5-11ec-edd4-4d3283a40c72, [achilles_embedded.simple] key=4744044925265508352 partition_deletion=deletedAt=-9223372036854775808, localDeletion=2147483647 columns=[[] | []]
+    Row[info=[ts=-9223372036854775808] del=deletedAt=1633889526394999, localDeletion=1633889526 ]: date=2015-09-30 19:00-0500 | ) | /127.0.0.1       | 12926                    | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 12982                    | MutationStage-1     
+Adding to simple memtable                                                        | /127.0.0.1       | 13060                    | MutationStage-1     
+Appending to commitlog                                                           | /127.0.0.1       | 13288                    | MutationStage-1     
+Adding to paxos memtable                                                         | /127.0.0.1       | 13386                    | MutationStage-1     
+CAS applied successfully                                                         | /127.0.0.1       | 13542                    | Native-Transport-Requests-2
+****************************
+
+
+13:12:06.421 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:06.428 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:06.430 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:06.492 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID a8ff2bb4-79c1-4b4c-a811-97dca4dbfa73 : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [9047357934512004096, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 0]
+	 Encoded bound values : [9047357934512004096, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 0]
+13:12:06.502 [achilles-default-executor-17] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID a8ff2bb4-79c1-4b4c-a811-97dca4dbfa73 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 404                      | Native-Transport-Requests-2
+Adding to simple memtable                                                        | /127.0.0.1       | 710                      | MutationStage-3     
+****************************
+
+
+13:12:06.507 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:06.515 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:06.517 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:06.582 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 2bf6ae90-3c84-4e48-86c0-9f16dac70cef : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1895218860517269504, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 1]
+	 Encoded bound values : [1895218860517269504, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value, 1]
+13:12:06.587 [achilles-default-executor-18] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 2bf6ae90-3c84-4e48-86c0-9f16dac70cef at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 381                      | Native-Transport-Requests-3
+Adding to simple memtable                                                        | /127.0.0.1       | 580                      | MutationStage-2     
+****************************
+
+
+13:12:07.591 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:07.601 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:07.603 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:07.669 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:07.679 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:07.681 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:07.744 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS achilles_embedded.simple_insert_with_schema_name( id bigint, date timestamp, consistencylist list<text>, simplemap map<int, text>, simpleset set<double>, value text, PRIMARY KEY(id, date)) WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.014 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID ca762731-ecf5-4a7a-bca4-f640feea1570 : [INSERT INTO achilles_embedded.simple_insert_with_schema_name (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6874550447014888448, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value_tenant3, 0]
+	 Encoded bound values : [6874550447014888448, Wed Sep 30 19:00:00 CDT 2015, null, null, null, value_tenant3, 0]
+13:12:08.026 [achilles-default-executor-19] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID ca762731-ecf5-4a7a-bca4-f640feea1570 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 346                      | Native-Transport-Requests-1
+Adding to simple_insert_with_schema_name memtable                                | /127.0.0.1       | 851                      | MutationStage-2     
+****************************
+
+
+13:12:08.028 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:08.034 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.036 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.118 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(774725383591057408, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:08.122 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 01c6895d-06fe-4847-9bc1-69d2cf70db50 : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [774725383591057408, Wed Sep 30 19:00:00 CDT 2015, null, null, null, null, 0]
+	 Encoded bound values : [774725383591057408, Wed Sep 30 19:00:00 CDT 2015, null, null, null, null, 0]
+13:12:08.135 [Native-Transport-Requests-2] ERROR o.a.c.t.messages.ErrorMessage - Unexpected exception during request
+java.nio.BufferUnderflowException: null
+	at java.nio.Buffer.nextGetIndex(Buffer.java:510)
+	at java.nio.HeapByteBuffer.getInt(HeapByteBuffer.java:375)
+	at org.apache.cassandra.serializers.CollectionSerializer.readCollectionSize(CollectionSerializer.java:79)
+	at org.apache.cassandra.cql3.CQL3Type$Collection.toCQLLiteral(CQL3Type.java:194)
+	at org.apache.cassandra.transport.messages.ExecuteMessage.execute(ExecuteMessage.java:129)
+	at org.apache.cassandra.transport.Message$Dispatcher.processRequest(Message.java:685)
+	at org.apache.cassandra.transport.Message$Dispatcher.lambda$channelRead0$0(Message.java:591)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at org.apache.cassandra.concurrent.AbstractLocalAwareExecutorService$FutureTask.run(AbstractLocalAwareExecutorService.java:162)
+	at org.apache.cassandra.concurrent.SEPWorker.run(SEPWorker.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+13:12:08.137 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - localhost/127.0.0.1:9042 replied with server error (java.nio.BufferUnderflowException), defuncting connection.
+com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9042 (com.datastax.driver.core.exceptions.ServerError: An unexpected error occurred server side on localhost/127.0.0.1:9042: java.nio.BufferUnderflowException))
+	at com.datastax.driver.core.exceptions.NoHostAvailableException.copy(NoHostAvailableException.java:83)
+	at com.datastax.driver.core.exceptions.NoHostAvailableException.copy(NoHostAvailableException.java:37)
+	at info.archinnov.achilles.internals.dsl.AsyncAware.extractCauseFromExecutionException(AsyncAware.java:34)
+	at info.archinnov.achilles.internals.dsl.action.MutationAction.execute(MutationAction.java:37)
+	at info.archinnov.achilles.it.TestCRUDSimpleEntity.should_insert_with_insert_strategy_non_null_fields(TestCRUDSimpleEntity.java:267)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+Caused by: com.datastax.driver.core.exceptions.NoHostAvailableException: All host(s) tried for query failed (tried: localhost/127.0.0.1:9042 (com.datastax.driver.core.exceptions.ServerError: An unexpected error occurred server side on localhost/127.0.0.1:9042: java.nio.BufferUnderflowException))
+	at com.datastax.driver.core.RequestHandler.reportNoMoreHosts(RequestHandler.java:283)
+	at com.datastax.driver.core.RequestHandler.access$1200(RequestHandler.java:61)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.findNextHostAndQuery(RequestHandler.java:375)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.retry(RequestHandler.java:563)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.processRetryDecision(RequestHandler.java:545)
+	at com.datastax.driver.core.RequestHandler$SpeculativeExecution.onSet(RequestHandler.java:816)
+	at com.datastax.driver.core.Connection$Dispatcher.channelRead0(Connection.java:1290)
+	at com.datastax.driver.core.Connection$Dispatcher.channelRead0(Connection.java:1208)
+	at com.datastax.shaded.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:312)
+	at com.datastax.shaded.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:286)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at com.datastax.driver.core.InboundTrafficMeter.channelRead(InboundTrafficMeter.java:38)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:335)
+	at com.datastax.shaded.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1304)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:356)
+	at com.datastax.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:342)
+	at com.datastax.shaded.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:921)
+	at com.datastax.shaded.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:135)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:646)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:581)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498)
+	at com.datastax.shaded.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:460)
+	at com.datastax.shaded.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+	at com.datastax.shaded.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+13:12:08.146 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:08.158 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.160 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.242 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:12:08.244 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:12:08.246 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:12:08.251 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:12:08.252 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:12:08.254 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:12:08.256 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:12:08.257 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:12:08.259 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1583505427896400896, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+
+13:12:08.270 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b : [SELECT consistencylist,simpleset,simplemap,value,simplemap FROM achilles_embedded.simple WHERE id=:id AND date>=:date_Lt AND date<:date_Lt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1583505427896400896, Wed Sep 30 19:00:00 CDT 2015, Thu Oct 08 19:00:00 CDT 2015]
+	 Encoded bound values : [1583505427896400896, Wed Sep 30 19:00:00 CDT 2015, Thu Oct 08 19:00:00 CDT 2015]
+13:12:08.279 [achilles-default-executor-21] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Read-repair DC_LOCAL                                                             | /127.0.0.1       | 903                      | Native-Transport-Requests-1
+Executing single-partition query on simple                                       | /127.0.0.1       | 1974                     | ReadStage-2         
+Acquiring sstable references                                                     | /127.0.0.1       | 2041                     | ReadStage-2         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 2135                     | ReadStage-2         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 2386                     | ReadStage-2         
+Read 8 live rows and 0 tombstone cells                                           | /127.0.0.1       | 2550                     | ReadStage-2         
+****************************
+
+
+13:12:08.279 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [ONE], simpleset: [1.0], simplemap: {1=one}, value: id - date1, simplemap: {1=one}
+
+13:12:08.280 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [TWO], simpleset: [2.0], simplemap: {2=two}, value: id - date2, simplemap: {2=two}
+
+13:12:08.280 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [THREE], simpleset: [3.0], simplemap: {3=three}, value: id - date3, simplemap: {3=three}
+
+13:12:08.280 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [QUORUM], simpleset: [4.0], simplemap: {4=four}, value: id - date4, simplemap: {4=four}
+
+13:12:08.281 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [ALL], simpleset: [5.0], simplemap: {5=five}, value: id - date5, simplemap: {5=five}
+
+13:12:08.281 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [LOCAL_ONE], simpleset: [6.0], simplemap: {6=six}, value: id - date6, simplemap: {6=six}
+
+13:12:08.282 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [LOCAL_QUORUM], simpleset: [7.0], simplemap: {7=seven}, value: id - date7, simplemap: {7=seven}
+
+13:12:08.282 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 57d738f5-e3c2-4ddf-8525-510f5b88954b row : 
+	consistencylist: [EACH_QUORUM], simpleset: [8.0], simplemap: {8=eight}, value: id - date8, simplemap: {8=eight}
+
+13:12:08.282 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.345 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:08.355 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.358 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.423 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:12:08.425 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:12:08.427 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:12:08.429 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:12:08.432 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:12:08.433 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:12:08.435 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:12:08.437 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:12:08.438 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1797880380174501888, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+
+13:12:08.440 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 3549a61d-a75c-4107-92c5-93fb127debe8 : [SELECT consistencylist,simpleset,simplemap,value,simplemap FROM achilles_embedded.simple WHERE id=:id AND date>=:date_Lt AND date<:date_Lt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1797880380174501888, Wed Sep 30 19:00:00 CDT 2015, Thu Oct 08 19:00:00 CDT 2015]
+	 Encoded bound values : [1797880380174501888, Wed Sep 30 19:00:00 CDT 2015, Thu Oct 08 19:00:00 CDT 2015]
+13:12:08.446 [achilles-default-executor-22] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[consistencylist(list<varchar>), simpleset(set<double>), simplemap(map<int, varchar>), value(varchar), simplemap(map<int, varchar>)]]
+13:12:08.447 [achilles-default-executor-22] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 3549a61d-a75c-4107-92c5-93fb127debe8 results : 
+	consistencylist: [ONE], simpleset: [1.0], simplemap: {1=one}, value: id - date1, simplemap: {1=one}
+	consistencylist: [TWO], simpleset: [2.0], simplemap: {2=two}, value: id - date2, simplemap: {2=two}
+	consistencylist: [THREE], simpleset: [3.0], simplemap: {3=three}, value: id - date3, simplemap: {3=three}
+	consistencylist: [QUORUM], simpleset: [4.0], simplemap: {4=four}, value: id - date4, simplemap: {4=four}
+	consistencylist: [ALL], simpleset: [5.0], simplemap: {5=five}, value: id - date5, simplemap: {5=five}
+	consistencylist: [LOCAL_ONE], simpleset: [6.0], simplemap: {6=six}, value: id - date6, simplemap: {6=six}
+	consistencylist: [LOCAL_QUORUM], simpleset: [7.0], simplemap: {7=seven}, value: id - date7, simplemap: {7=seven}
+	consistencylist: [EACH_QUORUM], simpleset: [8.0], simplemap: {8=eight}, value: id - date8, simplemap: {8=eight}
+
+13:12:08.450 [achilles-default-executor-22] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 3549a61d-a75c-4107-92c5-93fb127debe8 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Executing single-partition query on simple                                       | /127.0.0.1       | 434                      | ReadStage-3         
+Acquiring sstable references                                                     | /127.0.0.1       | 510                      | ReadStage-3         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 592                      | ReadStage-3         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 837                      | ReadStage-3         
+Read 8 live rows and 0 tombstone cells                                           | /127.0.0.1       | 905                      | ReadStage-3         
+****************************
+
+
+13:12:08.454 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.519 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:08.528 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.530 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.600 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(154761969712311296, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:08.610 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID acc66f73-de20-47cd-bc26-65c20bbdd40e : [UPDATE achilles_embedded.simple USING TTL :ttl SET value=:value WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [154761969712311296, Wed Sep 30 19:00:00 CDT 2015, null, null, null, preUpdate_value, 0]
+	 Encoded bound values : [154761969712311296, Wed Sep 30 19:00:00 CDT 2015, null, null, null, preUpdate_value, 0]
+13:12:08.614 [achilles-default-executor-23] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID acc66f73-de20-47cd-bc26-65c20bbdd40e at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 314                      | Native-Transport-Requests-3
+Adding to simple memtable                                                        | /127.0.0.1       | 503                      | MutationStage-1     
+****************************
+
+
+13:12:08.616 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.680 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:08.687 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.689 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.767 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(1503540608166874112, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:08.769 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID b467ea8a-907c-4ca1-a66b-c510cbf5c08c : [SELECT id,date,consistencylist,simplemap,simpleset,value FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1503540608166874112, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [1503540608166874112, Wed Sep 30 19:00:00 CDT 2015]
+13:12:08.772 [achilles-default-executor-24] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:12:08.773 [achilles-default-executor-24] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b467ea8a-907c-4ca1-a66b-c510cbf5c08c results : 
+	id: 1503540608166874112, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:12:08.776 [achilles-default-executor-24] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID b467ea8a-907c-4ca1-a66b-c510cbf5c08c at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Executing single-partition query on simple                                       | /127.0.0.1       | 354                      | ReadStage-1         
+Acquiring sstable references                                                     | /127.0.0.1       | 435                      | ReadStage-1         
+Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones        | /127.0.0.1       | 516                      | ReadStage-1         
+Merged data from memtables and 0 sstables                                        | /127.0.0.1       | 766                      | ReadStage-1         
+Read 1 live rows and 0 tombstone cells                                           | /127.0.0.1       | 850                      | ReadStage-1         
+****************************
+
+
+13:12:08.777 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.848 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:08.857 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:08.859 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:08.923 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID fef465bc-46dd-4041-8a9f-a6515ec0479e : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [5533415567633601536, Sun Oct 10 13:12:08 CDT 2021, null, null, null, preInsert_value, 0]
+	 Encoded bound values : [5533415567633601536, Sun Oct 10 13:12:08 CDT 2021, null, null, null, preInsert_value, 0]
+13:12:08.929 [achilles-default-executor-25] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID fef465bc-46dd-4041-8a9f-a6515ec0479e at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 344                      | Native-Transport-Requests-1
+Adding to simple memtable                                                        | /127.0.0.1       | 563                      | MutationStage-2     
+****************************
+
+
+13:12:08.931 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:09.010 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:09.017 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:09.019 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:09.090 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6084023107715611648, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:12:09.093 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 57873dab-a77c-45fd-99f0-b34a63f8a1f4 : [DELETE FROM achilles_embedded.simple WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6084023107715611648, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [6084023107715611648, Wed Sep 30 19:00:00 CDT 2015]
+13:12:09.100 [achilles-default-executor-26] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 57873dab-a77c-45fd-99f0-b34a63f8a1f4 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 260                      | Native-Transport-Requests-3
+Adding to simple memtable                                                        | /127.0.0.1       | 462                      | MutationStage-2     
+****************************
+
+
+13:12:09.101 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:09.164 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:09.172 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_static_counter(
+		id bigint,
+		uuid uuid,
+		static_count counter static,
+		count counter,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:12:09.447 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:09.715 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : UPDATE achilles_embedded.entity_static_counter SET count = count + 7323515160208659456, static_count = static_count + 7472481282225018880 WHERE id = 7095719870595589120 AND uuid = 95b69520-29f5-11ec-94e7-89865fab4afa;
+
+13:12:09.728 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 85f7e120-fc2a-47e9-a789-53e36e437542 : [SELECT id,static_count,uuid,count FROM achilles_embedded.entity_static_counter WHERE id=:id AND uuid=:uuid;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [7095719870595589120, 95b69520-29f5-11ec-94e7-89865fab4afa]
+	 Encoded bound values : [7095719870595589120, 95b69520-29f5-11ec-94e7-89865fab4afa]
+13:12:09.735 [achilles-default-executor-27] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), static_count(counter), uuid(uuid), count(counter)]]
+13:12:09.735 [achilles-default-executor-27] DEBUG ACHILLES_DML_STATEMENT - Query ID 85f7e120-fc2a-47e9-a789-53e36e437542 results : 
+	id: 7095719870595589120, static_count: 7472481282225018880, uuid: 95b69520-29f5-11ec-94e7-89865fab4afa, count: 7323515160208659456
+
+13:12:09.736 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:09.801 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:09.808 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_static_counter(
+		id bigint,
+		uuid uuid,
+		static_count counter static,
+		count counter,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:12:09.810 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:09.874 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : UPDATE achilles_embedded.entity_static_counter SET count = count + 4137614348571821056, static_count = static_count + 8082370907133959168 WHERE id = 2511892742159063040 AND uuid = 95ced810-29f5-11ec-94e7-89865fab4afa;
+
+13:12:09.882 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 3678c4bb-50ac-4539-820a-b5e092f6468c : [DELETE static_count FROM achilles_embedded.entity_static_counter WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [2511892742159063040]
+	 Encoded bound values : [2511892742159063040]
+13:12:09.889 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:09.970 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:09.978 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_static_counter(
+		id bigint,
+		uuid uuid,
+		static_count counter static,
+		count counter,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:12:09.980 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:10.051 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : UPDATE achilles_embedded.entity_static_counter SET count = count + 2838200650004112384, static_count = static_count + 4946567192220783616 WHERE id = 5891142796083159040 AND uuid = 95ea0130-29f5-11ec-94e7-89865fab4afa;
+
+13:12:10.054 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID c32b0895-688f-439a-9db1-d32c8d6dbe91 : [DELETE FROM achilles_embedded.entity_static_counter WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [5891142796083159040]
+	 Encoded bound values : [5891142796083159040]
+13:12:10.062 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:10.125 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:10.132 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_static_counter(
+		id bigint,
+		uuid uuid,
+		static_count counter static,
+		count counter,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:12:10.134 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:10.210 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 66f88e1a-7204-4a11-bbdc-fcf736ca4334 : [DELETE FROM achilles_embedded.entity_static_counter WHERE id=:id AND uuid=:uuid;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [7677601285119853568, 96024420-29f5-11ec-94e7-89865fab4afa]
+	 Encoded bound values : [7677601285119853568, 96024420-29f5-11ec-94e7-89865fab4afa]
+13:12:10.214 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:10.283 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:10.292 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_static_counter(
+		id bigint,
+		uuid uuid,
+		static_count counter static,
+		count counter,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:12:10.294 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:10.361 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 8108ffe6-88ab-41a0-a9dd-1404044532cd : [UPDATE achilles_embedded.entity_static_counter SET static_count=static_count+:static_count WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [8914272309510245376, 4379483903434196992]
+	 Encoded bound values : [8914272309510245376, 4379483903434196992]
+13:12:10.370 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_static_counter
+13:12:10.446 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.complex_tuple
+13:12:10.519 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.complex_tuple(id, tuple) VALUES(1711980254545402880, (10, {20: ['10', '20']}));
+
+13:12:10.524 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 439c7f84-56a8-4728-ac8d-8c6433299e4f : [SELECT id,tuple FROM achilles_embedded.complex_tuple WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1711980254545402880]
+	 Encoded bound values : [1711980254545402880]
+13:12:10.526 [achilles-default-executor-32] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), tuple(frozen<tuple<int, map<int, list<varchar>>>>)]]
+13:12:10.528 [achilles-default-executor-32] DEBUG ACHILLES_DML_STATEMENT - Query ID 439c7f84-56a8-4728-ac8d-8c6433299e4f results : 
+	id: 1711980254545402880, tuple: (10,{20:['10','20']})
+
+13:12:10.532 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 6643ff4f-55c3-4be8-9f88-2ede93d6d497 : [INSERT INTO achilles_embedded.complex_tuple (id,tuple) VALUES (:id,:tuple) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4685285500888632320, Tuple2{_1=10, _2={20=[10, 20]}}, 0]
+	 Encoded bound values : [4685285500888632320, (10,{20:['10','20']}), 0]
+13:12:10.538 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.complex_tuple
+13:12:10.602 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:10.614 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:10.620 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:12:10.901 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:10.983 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:11.049 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:12:11.056 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:12:11.057 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:12:11.059 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:12:11.124 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:12:11.126 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:12:11.128 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:12:11.129 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:12:11.131 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:12:11.132 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:12:11.134 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:12:11.135 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:12:11.136 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(830832733707512832, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+

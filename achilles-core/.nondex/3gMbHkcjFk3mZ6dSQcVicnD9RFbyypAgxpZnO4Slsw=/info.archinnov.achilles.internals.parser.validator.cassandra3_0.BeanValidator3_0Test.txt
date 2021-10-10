@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.internals.parser.validator.cassandra3_0.BeanValidator3_0Test
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 sec

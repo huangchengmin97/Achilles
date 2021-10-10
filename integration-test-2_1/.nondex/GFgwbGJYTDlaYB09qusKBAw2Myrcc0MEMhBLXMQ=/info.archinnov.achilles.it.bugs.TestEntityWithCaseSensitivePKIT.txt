@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.511 sec <<< FAILURE! - in info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT
+should_insert_and_find(info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT)  Time elapsed: 0.179 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <"2">
+whereas expected element was:
+ <"1">
+
+	at info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT.should_insert_and_find(TestEntityWithCaseSensitivePKIT.java:77)
+
+should_dsl_select(info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT)  Time elapsed: 0.169 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <"2">
+whereas expected element was:
+ <"1">
+
+	at info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT.should_dsl_select(TestEntityWithCaseSensitivePKIT.java:123)
+
+should_dsl_update(info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT)  Time elapsed: 0.187 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <"2">
+whereas expected element was:
+ <"1">
+
+	at info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT.should_dsl_update(TestEntityWithCaseSensitivePKIT.java:212)
+

@@ -1,0 +1,370 @@
+13:36:16,563 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:36:16,563 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:36:16,563 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_2/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_2/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_6/target/classes/logback.xml]
+13:36:16,564 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_0/target/classes/logback.xml]
+13:36:16,616 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:36:16,625 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-3_7/target/classes/logback.xml] 
+13:36:16,625 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:36:16,626 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:36:16,629 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:36:16,638 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:36:16,679 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:36:16,679 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:36:16,679 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to DEBUG
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:36:16,680 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:36:16,680 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:36:16,681 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:36:16,681 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:36:16,681 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:36:16,681 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:36:16,681 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@197d671 - Registering current configuration as safe fallback point
+
+13:36:17.735 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:36:17.737 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:36:17.737 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:36:17.737 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:36:17.737 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:36:17.737 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:36:17.750 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:36:17.750 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7048
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7612
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:36:17.798 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:36:18.074 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.199GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:36:18.226 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:36:18.227 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:36:18.227 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:36:18.228 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:36:18.254 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:36:21.695 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created bc47c084-b6fb-4f4b-b7c4-02141ef8e975 (Note: This should happen exactly once per node).
+13:36:24.497 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:24.777 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_for_group_by(
+		id bigint,
+		"uuID" uuid,
+		clust1 int,
+		"clusteRing2" int,
+		clust3 int,
+		val int,
+		PRIMARY KEY((id, "uuID"), clust1, "clusteRing2", clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, "clusteRing2" ASC, clust3 ASC);
+
+13:36:25.311 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:25.446 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0001-0000-000000000000, 1, 1, 1, 1);
+
+13:36:25.459 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0001-0000-000000000000, 1, 1, 2, 1);
+
+13:36:25.462 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0001-0000-000000000000, 1, 1, 3, 1);
+
+13:36:25.467 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0001-0000-000000000000, 2, 1, 1, 1);
+
+13:36:25.469 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0001-0000-000000000000, 2, 2, 1, 1);
+
+13:36:25.471 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0001-0000-000000000000, 3, 2, 1, 1);
+
+13:36:25.472 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0002-0000-000000000000, 1, 1, 1, 1);
+
+13:36:25.474 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0002-0000-000000000000, 1, 1, 2, 1);
+
+13:36:25.476 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0002-0000-000000000000, 2, 2, 1, 1);
+
+13:36:25.477 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0002-0000-000000000000, 2, 2, 2, 1);
+
+13:36:25.479 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(735637770213894144, 00000000-0000-0002-0000-000000000000, 3, 2, 1, 1);
+
+13:36:25.547 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 1d037d38-85d2-4f08-aebc-e241d7f5ce26 : [SELECT id,token(id,"uuID") AS tokens FROM it_3_10.entity_for_group_by LIMIT :lim;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1]
+	 Encoded bound values : [1]
+13:36:25.572 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), tokens(bigint)]]
+13:36:25.575 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - Query ID 1d037d38-85d2-4f08-aebc-e241d7f5ce26 results : 
+	id: 735637770213894144, tokens: -4607167211461937992
+
+13:36:25.580 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:25.648 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:25.658 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_for_group_by(
+		id bigint,
+		"uuID" uuid,
+		clust1 int,
+		"clusteRing2" int,
+		clust3 int,
+		val int,
+		PRIMARY KEY((id, "uuID"), clust1, "clusteRing2", clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, "clusteRing2" ASC, clust3 ASC);
+
+13:36:25.661 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:25.730 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT :  BEGIN UNLOGGED BATCH INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 1, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 2, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 2, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 2, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 3, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 3, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 1, 3, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 2, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 2, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 2, 1, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 2, 2, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 2, 2, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 2, 2, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 3, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 3, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(8319455399345086464, 00000000-0000-0001-0000-000000000000, 3, 1, 3, 1); APPLY BATCH;
+
+13:36:25.756 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID c4c1519a-bb56-4a77-a514-931f3847afd1 : [SELECT clust1,"clusteRing2",sum(val) AS sum_val FROM it_3_10.entity_for_group_by WHERE id=:id AND "uuID"=:"uuID" GROUP BY clust1,"clusteRing2" ORDER BY clust1 ASC;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [8319455399345086464, 00000000-0000-0001-0000-000000000000]
+	 Encoded bound values : [8319455399345086464, 00000000-0000-0001-0000-000000000000]
+13:36:25.777 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[clust1(int), clusteRing2(int), sum_val(int)]]
+13:36:25.778 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - Query ID c4c1519a-bb56-4a77-a514-931f3847afd1 results : 
+	clust1: 1, clusteRing2: 1, sum_val: 3
+	clust1: 1, clusteRing2: 2, sum_val: 3
+	clust1: 1, clusteRing2: 3, sum_val: 3
+	clust1: 2, clusteRing2: 1, sum_val: 3
+	clust1: 2, clusteRing2: 2, sum_val: 3
+	clust1: 3, clusteRing2: 1, sum_val: 3
+
+13:36:25.786 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:25.865 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:25.874 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_for_group_by(
+		id bigint,
+		"uuID" uuid,
+		clust1 int,
+		"clusteRing2" int,
+		clust3 int,
+		val int,
+		PRIMARY KEY((id, "uuID"), clust1, "clusteRing2", clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, "clusteRing2" ASC, clust3 ASC);
+
+13:36:25.878 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:25.943 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT :  BEGIN UNLOGGED BATCH INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 1, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 2, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 2, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 2, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 3, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 3, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 1, 3, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 2, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 2, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 2, 1, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 2, 2, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 2, 2, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 2, 2, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 3, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 3, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(7869221665339197440, 00000000-0000-0001-0000-000000000000, 3, 1, 3, 1); APPLY BATCH;
+
+13:36:25.954 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f2cce4bd-3ce2-42bc-a6f0-5a0ff30dfcfd : [SELECT clust1,sum(val) AS sum_val FROM it_3_10.entity_for_group_by WHERE id=:id AND "uuID"=:"uuID" GROUP BY clust1 ORDER BY clust1 ASC;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [7869221665339197440, 00000000-0000-0001-0000-000000000000]
+	 Encoded bound values : [7869221665339197440, 00000000-0000-0001-0000-000000000000]
+13:36:25.958 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[clust1(int), sum_val(int)]]
+13:36:25.959 [achilles-default-executor-3] DEBUG ACHILLES_DML_STATEMENT - Query ID f2cce4bd-3ce2-42bc-a6f0-5a0ff30dfcfd results : 
+	clust1: 1, sum_val: 9
+	clust1: 2, sum_val: 6
+	clust1: 3, sum_val: 3
+
+13:36:25.959 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.026 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:26.035 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_for_group_by(
+		id bigint,
+		"uuID" uuid,
+		clust1 int,
+		"clusteRing2" int,
+		clust3 int,
+		val int,
+		PRIMARY KEY((id, "uuID"), clust1, "clusteRing2", clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, "clusteRing2" ASC, clust3 ASC);
+
+13:36:26.038 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.111 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0001-0000-000000000000, 1, 1, 1, 1);
+
+13:36:26.114 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0001-0000-000000000000, 1, 1, 2, 1);
+
+13:36:26.115 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0001-0000-000000000000, 1, 1, 3, 1);
+
+13:36:26.116 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0001-0000-000000000000, 2, 1, 1, 1);
+
+13:36:26.118 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0001-0000-000000000000, 2, 2, 1, 1);
+
+13:36:26.120 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0001-0000-000000000000, 3, 2, 1, 1);
+
+13:36:26.121 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0002-0000-000000000000, 1, 1, 1, 1);
+
+13:36:26.122 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0002-0000-000000000000, 1, 1, 2, 1);
+
+13:36:26.124 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0002-0000-000000000000, 2, 2, 1, 1);
+
+13:36:26.125 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0002-0000-000000000000, 2, 2, 2, 1);
+
+13:36:26.126 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(6167826209617842176, 00000000-0000-0002-0000-000000000000, 3, 2, 1, 1);
+
+13:36:26.132 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 77bca55f-6da1-4ab9-91ff-6c0f18b8e356 : [SELECT id,"uuID",clust1,sum(val) AS sum_val FROM it_3_10.entity_for_group_by GROUP BY id,"uuID",clust1;] with CONSISTENCY LEVEL [LOCAL_ONE]
+13:36:26.136 [Native-Transport-Requests-1] WARN  o.a.c.c.statements.SelectStatement - Aggregation query used without partition key
+13:36:26.140 [Achilles Embedded Cassandra Cluster-nio-worker-0] WARN  c.d.driver.core.RequestHandler - Query '[0 bound values] SELECT id,"uuID",clust1,sum(val) AS sum_val FROM it_3_10.entity_for_group_by GROUP BY id,"uuID",clust1;' generated server side warning(s): Aggregation query used without partition key
+13:36:26.145 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), uuID(uuid), clust1(int), sum_val(int)]]
+13:36:26.145 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - Query ID 77bca55f-6da1-4ab9-91ff-6c0f18b8e356 results : 
+	id: 6167826209617842176, uuID: 00000000-0000-0002-0000-000000000000, clust1: 1, sum_val: 2
+	id: 6167826209617842176, uuID: 00000000-0000-0002-0000-000000000000, clust1: 2, sum_val: 2
+	id: 6167826209617842176, uuID: 00000000-0000-0002-0000-000000000000, clust1: 3, sum_val: 1
+	id: 6167826209617842176, uuID: 00000000-0000-0001-0000-000000000000, clust1: 1, sum_val: 3
+	id: 6167826209617842176, uuID: 00000000-0000-0001-0000-000000000000, clust1: 2, sum_val: 2
+	id: 6167826209617842176, uuID: 00000000-0000-0001-0000-000000000000, clust1: 3, sum_val: 1
+
+13:36:26.145 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.226 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:26.234 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_for_group_by(
+		id bigint,
+		"uuID" uuid,
+		clust1 int,
+		"clusteRing2" int,
+		clust3 int,
+		val int,
+		PRIMARY KEY((id, "uuID"), clust1, "clusteRing2", clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, "clusteRing2" ASC, clust3 ASC);
+
+13:36:26.237 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.303 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0001-0000-000000000000, 1, 1, 1, 1);
+
+13:36:26.305 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0001-0000-000000000000, 1, 1, 2, 1);
+
+13:36:26.307 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0001-0000-000000000000, 1, 1, 3, 1);
+
+13:36:26.308 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0001-0000-000000000000, 2, 1, 1, 1);
+
+13:36:26.310 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0001-0000-000000000000, 2, 2, 1, 1);
+
+13:36:26.312 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0001-0000-000000000000, 3, 2, 1, 1);
+
+13:36:26.313 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0002-0000-000000000000, 1, 1, 1, 1);
+
+13:36:26.315 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0002-0000-000000000000, 1, 1, 2, 1);
+
+13:36:26.316 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0002-0000-000000000000, 2, 2, 1, 1);
+
+13:36:26.318 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0002-0000-000000000000, 2, 2, 2, 1);
+
+13:36:26.319 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(1663104533887883264, 00000000-0000-0002-0000-000000000000, 3, 2, 1, 1);
+
+13:36:26.323 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 2b358a13-9e21-45c9-8841-9717dda9bc29 : [SELECT id,"uuID",sum(val) AS sum_val FROM it_3_10.entity_for_group_by GROUP BY id,"uuID";] with CONSISTENCY LEVEL [LOCAL_ONE]
+13:36:26.324 [Native-Transport-Requests-2] WARN  o.a.c.c.statements.SelectStatement - Aggregation query used without partition key
+13:36:26.327 [Achilles Embedded Cassandra Cluster-nio-worker-2] WARN  c.d.driver.core.RequestHandler - Query '[0 bound values] SELECT id,"uuID",sum(val) AS sum_val FROM it_3_10.entity_for_group_by GROUP BY id,"uuID";' generated server side warning(s): Aggregation query used without partition key
+13:36:26.329 [achilles-default-executor-5] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), uuID(uuid), sum_val(int)]]
+13:36:26.330 [achilles-default-executor-5] DEBUG ACHILLES_DML_STATEMENT - Query ID 2b358a13-9e21-45c9-8841-9717dda9bc29 results : 
+	id: 1663104533887883264, uuID: 00000000-0000-0002-0000-000000000000, sum_val: 5
+	id: 1663104533887883264, uuID: 00000000-0000-0001-0000-000000000000, sum_val: 6
+
+13:36:26.330 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.398 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:26.407 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_for_group_by(
+		id bigint,
+		"uuID" uuid,
+		clust1 int,
+		"clusteRing2" int,
+		clust3 int,
+		val int,
+		PRIMARY KEY((id, "uuID"), clust1, "clusteRing2", clust3))
+	WITH CLUSTERING ORDER BY(clust1 ASC, "clusteRing2" ASC, clust3 ASC);
+
+13:36:26.410 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.483 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT :  BEGIN UNLOGGED BATCH INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 1, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 2, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 2, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 2, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 3, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 3, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 1, 3, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 2, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 2, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 2, 1, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 2, 2, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 2, 2, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 2, 2, 3, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 3, 1, 1, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 3, 1, 2, 1); INSERT INTO it_3_10.entity_for_group_by(id, "uuID", clust1, "clusteRing2", clust3, val) VALUES(4859873395325422592, 00000000-0000-0001-0000-000000000000, 3, 1, 3, 1); APPLY BATCH;
+
+13:36:26.495 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a810690e-e90d-426e-8682-fff8b05a3382 : [SELECT clust1,"clusteRing2",sum(val) AS sum_val FROM it_3_10.entity_for_group_by WHERE id=:id AND "uuID"=:"uuID" AND clust1=:clust1 GROUP BY "clusteRing2";] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4859873395325422592, 00000000-0000-0001-0000-000000000000, 2]
+	 Encoded bound values : [4859873395325422592, 00000000-0000-0001-0000-000000000000, 2]
+13:36:26.497 [achilles-default-executor-6] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[clust1(int), clusteRing2(int), sum_val(int)]]
+13:36:26.498 [achilles-default-executor-6] DEBUG ACHILLES_DML_STATEMENT - Query ID a810690e-e90d-426e-8682-fff8b05a3382 results : 
+	clust1: 2, clusteRing2: 1, sum_val: 3
+	clust1: 2, clusteRing2: 2, sum_val: 3
+
+13:36:26.498 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_for_group_by
+13:36:26.564 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:26.573 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_with_duration_type(
+		id bigint,
+		duration duration,
+		PRIMARY KEY(id));
+
+13:36:26.862 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_with_duration_type
+13:36:26.934 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_with_duration_type(id, duration) VALUES(3171940632226165760, 10h30m10s);
+
+13:36:26.940 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 6ce51101-f978-4a67-baba-7bc81302a02e : [SELECT id,duration FROM it_3_10.entity_with_duration_type WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [3171940632226165760]
+	 Encoded bound values : [3171940632226165760]
+13:36:26.943 [achilles-default-executor-7] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), duration(duration)]]
+13:36:26.973 [achilles-default-executor-7] DEBUG ACHILLES_DML_STATEMENT - Query ID 6ce51101-f978-4a67-baba-7bc81302a02e results : 
+	id: 3171940632226165760, duration: 10h30m10s
+
+13:36:26.981 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_with_duration_type
+13:36:27.045 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:27.053 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_with_duration_type(
+		id bigint,
+		duration duration,
+		PRIMARY KEY(id));
+
+13:36:27.056 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_with_duration_type
+13:36:27.133 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7962dfd2-01fa-4365-bfa5-14546d357e71 : [INSERT INTO it_3_10.entity_with_duration_type (id,duration) VALUES (:id,:duration) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [2300268494936888320, 10h30m10s, 0]
+	 Encoded bound values : [2300268494936888320, 10h30m10s, 0]
+13:36:27.147 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_with_duration_type
+13:36:27.217 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:27.225 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_10.entity_with_duration_type(
+		id bigint,
+		duration duration,
+		PRIMARY KEY(id));
+
+13:36:27.227 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_with_duration_type
+13:36:27.300 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_10.entity_with_duration_type(id, duration) VALUES(1402144856962054144, 10h30m10s);
+
+13:36:27.308 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 9b244333-e7da-4a46-9a2b-fdc9aa0e31c7 : [SELECT duration FROM it_3_10.entity_with_duration_type WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1402144856962054144]
+	 Encoded bound values : [1402144856962054144]
+13:36:27.311 [achilles-default-executor-9] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[duration(duration)]]
+13:36:27.311 [achilles-default-executor-9] DEBUG ACHILLES_DML_STATEMENT - Query ID 9b244333-e7da-4a46-9a2b-fdc9aa0e31c7 results : 
+	duration: 10h30m10s
+
+13:36:27.312 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_10.entity_with_duration_type
+13:36:27.377 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_10 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:36:27.380 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE "MyKeyspace" with replication = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
+
+13:36:27.480 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE "MyKeyspace"."CaseSensitiveUDT" ( "Quantity" int, value text, );
+
+13:36:27.660 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE "MyKeyspace".entity_with_case_sensitive_udt ( id text, details frozen<"CaseSensitiveUDT">, PRIMARY KEY (id) );
+
+13:36:27.930 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE "MyKeyspace".entity_with_case_sensitive_udt
+13:36:28.007 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE "MyKeyspace".entity_with_case_sensitive_udt
+13:36:28.196 [Thread-1] INFO  i.a.achilles.embedded.ServerStarter - Calling stop on Embedded Cassandra server
+13:36:28.211 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+13:36:29.212 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds

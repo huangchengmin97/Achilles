@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.internals.parser.AnnotationTreeTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.29 sec

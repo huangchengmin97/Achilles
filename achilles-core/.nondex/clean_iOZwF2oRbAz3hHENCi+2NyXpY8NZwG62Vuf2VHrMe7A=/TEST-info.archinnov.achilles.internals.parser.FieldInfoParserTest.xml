@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="42" failures="0" name="info.archinnov.achilles.internals.parser.FieldInfoParserTest" time="1.143" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ch61/Achilles"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ch61/Achilles"/>
+    <property name="java.runtime.version" value="1.8.0_292-8u292-b10-0ubuntu1~18.04-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-156-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/ch61"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ch61"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher nondex:nondex"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_both_clustering_and_static_column" time="0.019"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_clustering_column_info" time="0.042"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_clustering_column_type" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_udt_index_info" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_primitiveBoolean" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_map" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_counter_column_type" time="0.025"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_partition_key_order_zero" time="0.023"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_list_index_info" time="0.043"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_UpperCase" time="0.027"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_consistencyLevel" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_map_entry_index_info" time="0.027"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_both_partition_and_static_column" time="0.018"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_compilation_when_no_getter" time="0.023"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_both_partition_and_clustering_column" time="0.018"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_clustering_column_order_zero" time="0.024"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_compilation_when_no_setter" time="0.022"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_both_partition_and_computed_column" time="0.031"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_static_column_info" time="0.025"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_static_column_type" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_compilation_when_no_suitable_setter" time="0.025"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_column_with_no_setter" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_list_not_index_info" time="0.026"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_not_indexed_map_index_info" time="0.025"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_both_static_and_computed_column" time="0.019"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_map_key_index_info" time="0.045"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_not_indexed_column_index_info" time="0.028"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_list_nested_index_info" time="0.028"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_public_final_columns" time="0.028"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_generate_field_info_for_objectBoolean" time="0.027"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_map_value_index_info" time="0.027"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_static_counter_column_type" time="0.028"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_normal_column_info" time="0.027"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_normal_column_type" time="0.043"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_frozen_list_index_info" time="0.029"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_partition_column_info" time="0.033"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_partition_column_type" time="0.029"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_building_map_with_multiple_indices" time="0.018"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_frozen_column_info" time="0.029"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_fail_if_both_clustering_and_computed_column" time="0.02"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_computed_column_info" time="0.028"/>
+  <testcase classname="info.archinnov.achilles.internals.parser.FieldInfoParserTest" name="should_build_computed_column_type" time="0.032"/>
+</testsuite>

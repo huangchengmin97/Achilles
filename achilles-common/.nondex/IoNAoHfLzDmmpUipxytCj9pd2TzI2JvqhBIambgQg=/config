@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/Achilles/achilles-common/.nondex
+nondexJarDir=/home/ch61/Achilles/achilles-common/.nondex
+nondexExecid=IoNAoHfLzDmmpUipxytCj9pd2TzI2JvqhBIambgQg=
+nondexLogging=CONFIG
+test=

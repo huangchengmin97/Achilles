@@ -1,0 +1,1174 @@
+13:02:37,260 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:02:37,260 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:02:37,260 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:02:37,261 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:02:37,261 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:02:37,261 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:02:37,313 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:02:37,322 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml] 
+13:02:37,322 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:02:37,323 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:02:37,325 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:02:37,332 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:02:37,366 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:02:37,366 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:02:37,366 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:02:37,367 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:02:37,367 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:02:37,367 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.cache.StatementsCache] to WARN
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.cache.StatementsCache] to false
+13:02:37,367 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.cache.StatementsCache]
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to TRACE
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to false
+13:02:37,367 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.SimpleEntity]
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:02:37,367 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:02:37,367 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:02:37,368 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:02:37,368 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:02:37,368 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:02:37,368 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:02:37,368 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:02:37,369 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7ff2a664 - Registering current configuration as safe fallback point
+
+13:02:37.419 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:02:37.421 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:02:37.421 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:02:37.421 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:02:37.421 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:02:37.429 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:02:37.451 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:02:37.452 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7013
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7628
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:02:37.506 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:02:37.507 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:02:37.799 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.224GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:02:37.982 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:02:37.985 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:02:37.986 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:02:37.986 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:02:38.020 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:02:40.885 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created 1ccaf745-d156-4e9c-b1e4-0702c24c9b37 (Note: This should happen exactly once per node).
+13:02:43.474 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:44.037 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.complex_tuple(
+		id bigint,
+		tuple frozen<tuple<int, map<int, list<text>>>>,
+		PRIMARY KEY(id));
+
+13:02:44.611 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:44.632 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:02:44.821 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:02:44.839 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer2(
+		layer text,
+		layer3 frozen<achilles_embedded.layer3>);
+
+13:02:45.000 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.layer(
+		layer text,
+		layer2 frozen<achilles_embedded.layer2>,
+		PRIMARY KEY(layer));
+
+13:02:45.239 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:02:45.371 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID b52187dd-5a58-4b9d-a8e7-9720bb78050a : [INSERT INTO achilles_embedded.layer (layer,layer2) VALUES (:layer,:layer2) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1, info.archinnov.achilles.internals.entities.Layer2@bb5aa401, 0]
+	 Encoded bound values : [layer1, {layer:'layer2',layer3:{layer:'layer3'}}, 0]
+13:02:45.388 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 1f2f8ee3-5adb-4458-90c6-cf041b675aaf : [SELECT layer,layer2 FROM achilles_embedded.layer WHERE layer=:layer;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1]
+	 Encoded bound values : [layer1]
+13:02:45.397 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[layer(varchar), layer2(achilles_embedded.layer2)]]
+13:02:45.400 [achilles-default-executor-2] DEBUG ACHILLES_DML_STATEMENT - Query ID 1f2f8ee3-5adb-4458-90c6-cf041b675aaf results : 
+	layer: layer1, layer2: {layer:'layer2',layer3:{layer:'layer3'}}
+
+13:02:45.450 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:02:45.519 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:45.540 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:02:45.542 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:02:45.543 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer2(
+		layer text,
+		layer3 frozen<achilles_embedded.layer3>);
+
+13:02:45.544 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.layer(
+		layer text,
+		layer2 frozen<achilles_embedded.layer2>,
+		PRIMARY KEY(layer));
+
+13:02:45.546 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:02:45.610 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID d6db7557-fb4a-47da-9bb0-e214a9d3b71e : [INSERT INTO achilles_embedded.layer (layer,layer2) VALUES (:layer,:layer2) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1_nested, info.archinnov.achilles.internals.entities.Layer2@bb5aa401, 0]
+	 Encoded bound values : [layer1_nested, {layer:'layer2',layer3:{layer:'layer3'}}, 0]
+13:02:45.638 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a95cda22-b28d-4406-8a10-604c8995edb0 : [SELECT layer,layer2.layer,layer2.layer3 FROM achilles_embedded.layer WHERE layer=:layer;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1_nested]
+	 Encoded bound values : [layer1_nested]
+13:02:45.644 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[layer(varchar), layer2.layer(varchar), layer2.layer3(achilles_embedded.layer3)]]
+13:02:45.645 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - Query ID a95cda22-b28d-4406-8a10-604c8995edb0 results : 
+	layer: layer1_nested, layer2.layer: layer2, layer2.layer3: {layer:'layer3'}
+
+13:02:45.647 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:02:45.730 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:45.739 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:02:45.857 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:46.118 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS my_static_keyspace.entity_static_annotations(
+		partition_key bigint,
+		"overRiden" text,
+		value text,
+		PRIMARY KEY(partition_key))
+	WITH default_time_to_live = 1;
+
+13:02:46.352 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_child(
+		id bigint,
+		child_value text,
+		value text,
+		PRIMARY KEY(id));
+
+13:02:46.630 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:46.705 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:46.774 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:46.870 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 73727ea1-0415-4250-adae-ad979af17b7f : [INSERT INTO achilles_embedded.simple (id,date,consistencylist,simplemap,simpleset,value) VALUES (:id,:date,:consistencylist,:simplemap,:simpleset,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [7576747194294461440, Sun Oct 10 13:02:46 CDT 2021, null, null, null, value, 0]
+	 Encoded bound values : [7576747194294461440, Sun Oct 10 13:02:46 CDT 2021, null, null, null, value, 0]
+13:02:46.895 [achilles-default-executor-5] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 73727ea1-0415-4250-adae-ad979af17b7f at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 2509                     | Native-Transport-Requests-1
+Adding to simple memtable                                                        | /127.0.0.1       | 3308                     | MutationStage-2     
+****************************
+
+
+13:02:46.911 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:46.974 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:47.043 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:47.109 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:47.114 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:02:47.131 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:47.135 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS my_static_keyspace.entity_static_annotations(
+		partition_key bigint,
+		"overRiden" text,
+		value text,
+		PRIMARY KEY(partition_key))
+	WITH default_time_to_live = 1;
+
+13:02:47.136 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_child(
+		id bigint,
+		child_value text,
+		value text,
+		PRIMARY KEY(id));
+
+13:02:47.138 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:47.205 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:47.272 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:47.359 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a8a6fa4c-511b-4ff2-ac4b-5f131c4b90f6 : [INSERT INTO my_static_keyspace.entity_static_annotations (partition_key,"overRiden",value) VALUES (:partition_key,:"overRiden",:value) USING TTL :ttl;] with CONSISTENCY LEVEL [EACH_QUORUM]
+	 Java bound values : [4194723371803726848, overriden_val, new_val, 1]
+	 Encoded bound values : [4194723371803726848, overriden_val, new_val, 1]
+13:02:47.362 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:47.431 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:47.499 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:47.567 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:47.569 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:02:47.577 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:47.580 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS my_static_keyspace.entity_static_annotations(
+		partition_key bigint,
+		"overRiden" text,
+		value text,
+		PRIMARY KEY(partition_key))
+	WITH default_time_to_live = 1;
+
+13:02:47.581 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_child(
+		id bigint,
+		child_value text,
+		value text,
+		PRIMARY KEY(id));
+
+13:02:47.583 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:47.659 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:47.728 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:47.804 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a096e352-e8d8-4751-9e6e-0edb15fadecb : [INSERT INTO my_static_keyspace.entity_static_annotations (partition_key,"overRiden",value) VALUES (:partition_key,:"overRiden",:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [2422539735400388608, overriden_val, new_val, 1]
+	 Encoded bound values : [2422539735400388608, overriden_val, new_val, 1]
+13:02:47.808 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:47.888 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:47.955 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:48.032 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:48.035 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:02:48.043 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:48.045 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS my_static_keyspace.entity_static_annotations(
+		partition_key bigint,
+		"overRiden" text,
+		value text,
+		PRIMARY KEY(partition_key))
+	WITH default_time_to_live = 1;
+
+13:02:48.046 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_child(
+		id bigint,
+		child_value text,
+		value text,
+		PRIMARY KEY(id));
+
+13:02:48.048 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:48.123 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:48.212 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:48.289 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7870cf8b-fff9-4684-9f26-d83def0bfe26 : [INSERT INTO achilles_embedded.entity_child (id,child_value,value) VALUES (:id,:child_value,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_QUORUM]
+	 Java bound values : [4794921987576944640, another_val, val, 0]
+	 Encoded bound values : [4794921987576944640, another_val, val, 0]
+13:02:48.291 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:48.359 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_child
+13:02:48.427 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE my_static_keyspace.entity_static_annotations
+13:02:48.502 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:48.504 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:02:48.514 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:48.516 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:48.592 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3045306974294989824, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:02:48.609 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 5cf9ef03-6dd9-4cc0-9470-7335dcf70f28 : [UPDATE achilles_embedded.simple USING TTL :ttl SET value=:value,consistencylist=:consistencylist WHERE id=:id AND date=:date;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [1, new value, [ALL], 3045306974294989824, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [1, new value, [ALL], 3045306974294989824, Wed Sep 30 19:00:00 CDT 2015]
+13:02:48.615 [achilles-default-executor-9] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 5cf9ef03-6dd9-4cc0-9470-7335dcf70f28 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+Determining replicas for mutation                                                | /127.0.0.1       | 444                      | Native-Transport-Requests-1
+Adding to simple memtable                                                        | /127.0.0.1       | 613                      | MutationStage-3     
+****************************
+
+
+13:02:50.624 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:50.693 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:50.702 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:50.906 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:50.912 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:50.913 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:02:51.087 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.089 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:02:51.354 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:02:51.437 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 79fe30a8-1f0f-467d-abfc-b4260c5605dc : [UPDATE achilles_embedded.table_with_nested_udt SET udt=:udt WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@448509c1, 8488266706391480320]
+	 Encoded bound values : [{id:8488266706391480320,"VALUE":'new_udt_value'}, 8488266706391480320]
+13:02:51.440 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f08eb2cd-0f58-45b5-beb5-5521a53400f2 : [SELECT id,complexudt,optionaludt,udt FROM achilles_embedded.table_with_nested_udt WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [8488266706391480320]
+	 Encoded bound values : [8488266706391480320]
+13:02:51.446 [achilles-default-executor-11] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), complexudt(achilles_embedded.having_nested_type), optionaludt(achilles_embedded.no_ks), udt(achilles_embedded.no_ks)]]
+13:02:51.446 [achilles-default-executor-11] DEBUG ACHILLES_DML_STATEMENT - Query ID f08eb2cd-0f58-45b5-beb5-5521a53400f2 results : 
+	id: 8488266706391480320, complexudt: null, optionaludt: null, udt: {id:8488266706391480320,"VALUE":'new_udt_value'}
+
+13:02:51.447 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:02:51.509 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:51.517 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.518 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.519 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.520 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:02:51.522 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.524 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:02:51.526 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:02:51.590 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 1ed6b05c-01e7-4ad6-a0d8-f10e8e9c74e1 : [INSERT INTO achilles_embedded.table_with_nested_udt (id,complexudt,optionaludt,udt) VALUES (:id,:complexudt,:optionaludt,:udt) USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [2190129687061563392, info.archinnov.achilles.internals.entities.UDTWithNestedUDT@9b51643e, Optional[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@4ccf196f], info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@4ccf196f, 0]
+	 Encoded bound values : [2190129687061563392, {value:'value',udtlist:[{id:2190129687061563392,"VALUE":'udt_with_no_keyspace'}],nestedudt:{id:2190129687061563392,"VALUE":'udt_with_no_keyspace'},tuplewithudt:(1,{id:2190129687061563392,"VALUE":'udt_with_no_keyspace'})}, {id:2190129687061563392,"VALUE":'udt_with_no_keyspace'}, {id:2190129687061563392,"VALUE":'udt_with_no_keyspace'}, 0]
+13:02:51.592 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 345204ce-0327-42d1-860b-805e931f68c2 : [SELECT id,complexudt,optionaludt,udt FROM achilles_embedded.table_with_nested_udt WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [2190129687061563392]
+	 Encoded bound values : [2190129687061563392]
+13:02:51.594 [achilles-default-executor-13] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), complexudt(achilles_embedded.having_nested_type), optionaludt(achilles_embedded.no_ks), udt(achilles_embedded.no_ks)]]
+13:02:51.595 [achilles-default-executor-13] DEBUG ACHILLES_DML_STATEMENT - Query ID 345204ce-0327-42d1-860b-805e931f68c2 results : 
+	id: 2190129687061563392, complexudt: {value:'value',udtlist:[{id:2190129687061563392,"VALUE":'udt_with_no_keyspace'}],nestedudt:{id:2190129687061563392,"VALUE":'udt_with_no_keyspace'},tuplewithudt:(1,{id:2190129687061563392,"VALUE":'udt_with_no_keyspace'})}, optionaludt: {id:2190129687061563392,"VALUE":'udt_with_no_keyspace'}, udt: {id:2190129687061563392,"VALUE":'udt_with_no_keyspace'}
+
+13:02:51.608 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:02:51.693 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:51.701 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.703 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.704 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.705 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:02:51.707 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:02:51.709 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:02:51.714 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:02:51.786 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f72880ee-0edd-410b-8e99-5618a955f60a : [INSERT INTO achilles_embedded.table_with_nested_udt (id,complexudt,optionaludt,udt) VALUES (:id,:complexudt,:optionaludt,:udt) USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [841497015624498176, info.archinnov.achilles.internals.entities.UDTWithNestedUDT@759d0543, null, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@cfbc5b14, 0]
+	 Encoded bound values : [841497015624498176, {value:'value',udtlist:[{id:841497015624498176,"VALUE":'udt_with_no_keyspace'}],nestedudt:{id:841497015624498176,"VALUE":'udt_with_no_keyspace'},tuplewithudt:(1,{id:841497015624498176,"VALUE":'udt_with_no_keyspace'})}, null, {id:841497015624498176,"VALUE":'udt_with_no_keyspace'}, 0]
+13:02:51.794 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 24e745c7-44c8-49da-94c7-93e02b965809 : [SELECT complexudt.value,complexudt.nestedudt."VALUE",udt."VALUE" FROM achilles_embedded.table_with_nested_udt WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [841497015624498176]
+	 Encoded bound values : [841497015624498176]
+13:02:51.802 [achilles-default-executor-15] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[complexudt.value(varchar), complexudt.nestedudt.VALUE(varchar), udt.VALUE(varchar)]]
+13:02:51.802 [achilles-default-executor-15] DEBUG ACHILLES_DML_STATEMENT - Query ID 24e745c7-44c8-49da-94c7-93e02b965809 results : 
+	complexudt.value: value, complexudt.nestedudt.VALUE: udt_with_no_keyspace, udt.VALUE: udt_with_no_keyspace
+
+13:02:51.802 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:02:51.865 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:51.873 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:52.145 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.381 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithstaticcolumn(id, uuid, static_col, value) VALUES(8423734038189597696, 498429c0-29f4-11ec-9aa3-e5c1245d6bcc, 'static_val', 'val');
+
+13:02:52.403 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 3240b24a-ac9d-4e31-8f12-466d2e69e68c : [UPDATE achilles_embedded.entitywithstaticcolumn SET static_col=:static_col WHERE id=:id IF static_col=:static_col;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [updated_static, 8423734038189597696, static_val]
+	 Encoded bound values : [updated_static, 8423734038189597696, static_val]
+13:02:52.427 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.491 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:52.499 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:52.501 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.570 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 0ca0f23a-853a-4db7-9968-2cd419638169 : [INSERT INTO achilles_embedded.entitywithstaticcolumn (id,another_static_col,static_col) VALUES (:id,:another_static_col,:static_col) IF NOT EXISTS USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [7650972183653790720, null, static_val, 0]
+	 Encoded bound values : [7650972183653790720, null, static_val, 0]
+13:02:52.584 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID b1fb4cf8-f0d8-4c40-bf91-f60c19922a5a : [INSERT INTO achilles_embedded.entitywithstaticcolumn (id,another_static_col,static_col) VALUES (:id,:another_static_col,:static_col) IF NOT EXISTS USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [7650972183653790720, null, static_val, 0]
+	 Encoded bound values : [7650972183653790720, null, static_val, 0]
+13:02:52.675 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.756 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:52.764 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:52.766 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.828 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithstaticcolumn(id, uuid, static_col, value) VALUES(8596482583072799744, 49c85eb0-29f4-11ec-9aa3-e5c1245d6bcc, 'static_val', 'val');
+
+13:02:52.835 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 36875047-cb62-4b98-8858-cc4b79910d16 : [SELECT value,static_col FROM achilles_embedded.entitywithstaticcolumn WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [8596482583072799744]
+	 Encoded bound values : [8596482583072799744]
+13:02:52.837 [achilles-default-executor-19] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[value(varchar), static_col(varchar)]]
+13:02:52.837 [achilles-default-executor-19] DEBUG ACHILLES_DML_STATEMENT - Query ID 36875047-cb62-4b98-8858-cc4b79910d16 results : 
+	value: val, static_col: static_val
+
+13:02:52.839 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.903 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:52.912 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:52.914 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:52.989 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 8c2aa322-2bb3-4a37-bf0b-431bfa524d4a : [INSERT INTO achilles_embedded.entitywithstaticcolumn (id,another_static_col,static_col) VALUES (:id,:another_static_col,:static_col) USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [2893605566122093568, null, static_val, 0]
+	 Encoded bound values : [2893605566122093568, null, static_val, 0]
+13:02:52.993 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.061 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:53.069 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:53.070 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.133 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 11206d64-266b-4e5d-964a-f255bc38defd : [INSERT INTO achilles_embedded.entitywithstaticcolumn (id,another_static_col,static_col,uuid,value) VALUES (:id,:another_static_col,:static_col,:uuid,:value) USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [8414800527268848640, null, static_val, 49f70fd0-29f4-11ec-9aa3-e5c1245d6bcc, val, 0]
+	 Encoded bound values : [8414800527268848640, null, static_val, 49f70fd0-29f4-11ec-9aa3-e5c1245d6bcc, val, 0]
+13:02:53.138 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.219 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:53.227 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:53.229 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.300 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithstaticcolumn(id, uuid, static_col, value) VALUES(7499859059491354624, 4a106430-29f4-11ec-9aa3-e5c1245d6bcc, 'static_val', 'val');
+
+13:02:53.302 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 2a8f0c97-4a17-4d8a-be92-6d8a634a46e4 : [SELECT id,another_static_col,static_col,uuid,value FROM achilles_embedded.entitywithstaticcolumn WHERE id=:id AND uuid=:uuid;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [7499859059491354624, 4a106430-29f4-11ec-9aa3-e5c1245d6bcc]
+	 Encoded bound values : [7499859059491354624, 4a106430-29f4-11ec-9aa3-e5c1245d6bcc]
+13:02:53.309 [achilles-default-executor-22] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), another_static_col(varchar), static_col(varchar), uuid(uuid), value(varchar)]]
+13:02:53.310 [achilles-default-executor-22] DEBUG ACHILLES_DML_STATEMENT - Query ID 2a8f0c97-4a17-4d8a-be92-6d8a634a46e4 results : 
+	id: 7499859059491354624, another_static_col: null, static_col: static_val, uuid: 4a106430-29f4-11ec-9aa3-e5c1245d6bcc, value: val
+
+13:02:53.310 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.373 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:53.379 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:53.381 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.458 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithstaticcolumn(id, uuid, static_col, value) VALUES(2196661769172445184, 4a28a720-29f4-11ec-9aa3-e5c1245d6bcc, 'static_val', 'val');
+
+13:02:53.469 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 3736cb38-f432-4afc-9fb2-f788b53abbb5 : [DELETE static_col FROM achilles_embedded.entitywithstaticcolumn WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [2196661769172445184]
+	 Encoded bound values : [2196661769172445184]
+13:02:53.476 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.557 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:53.565 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:53.569 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.638 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithstaticcolumn(id, uuid, static_col, value) VALUES(4859752606708447232, 4a43f750-29f4-11ec-9aa3-e5c1245d6bcc, 'static_val', 'val');
+
+13:02:53.646 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f071f35a-b81d-4b62-a976-06dec2a30b9b : [UPDATE achilles_embedded.entitywithstaticcolumn USING TTL :ttl SET static_col=:static_col,value=:value WHERE id=:id AND uuid=:uuid;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [4859752606708447232, null, new_static, 4a43f750-29f4-11ec-9aa3-e5c1245d6bcc, new_val, 0]
+	 Encoded bound values : [4859752606708447232, null, new_static, 4a43f750-29f4-11ec-9aa3-e5c1245d6bcc, new_val, 0]
+13:02:53.651 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.723 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:53.731 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:53.741 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.812 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entitywithstaticcolumn(id, uuid, static_col, value) VALUES(3299559620933846016, 4a5e8430-29f4-11ec-9aa3-e5c1245d6bcc, 'static_val', 'val');
+
+13:02:53.816 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 1da6e1dd-0b7f-42ad-a4fe-14f35ab6dc41 : [UPDATE achilles_embedded.entitywithstaticcolumn USING TTL :ttl SET static_col=:static_col WHERE id=:id;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [3299559620933846016, null, new_static, 0]
+	 Encoded bound values : [3299559620933846016, null, new_static, 0]
+13:02:53.819 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.884 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:53.891 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entitywithstaticcolumn(
+		id bigint,
+		uuid uuid,
+		another_static_col text static,
+		static_col text static,
+		value text,
+		PRIMARY KEY(id, uuid))
+	WITH CLUSTERING ORDER BY(uuid ASC);
+
+13:02:53.893 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:53.972 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID c9e9b578-cc8e-4e0c-b348-e53f5f736dfc : [INSERT INTO achilles_embedded.entitywithstaticcolumn (id,another_static_col,static_col) VALUES (:id,:another_static_col,:static_col) USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [5466483322104853504, another_static_val1, static_val1, 0]
+	 Encoded bound values : [5466483322104853504, another_static_val1, static_val1, 0]
+13:02:53.974 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 84fe91d7-c246-4850-b96c-ae845dfc7821 : [INSERT INTO achilles_embedded.entitywithstaticcolumn (id,another_static_col,static_col) VALUES (:id,:another_static_col,:static_col) USING TTL :ttl;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [5466483322104853504, another_static_val2, null, 0]
+	 Encoded bound values : [5466483322104853504, another_static_val2, null, 0]
+13:02:53.979 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entitywithstaticcolumn
+13:02:54.055 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:54.063 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:54.303 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.368 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(960473102222525440, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:54.371 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(960473102222525440, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:54.373 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(960473102222525440, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:54.375 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(960473102222525440, 00000000-0000-0000-0000-000000000001, '2015-10-04 00:00:00+0000', 'val4');
+
+13:02:54.377 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(960473102222525440, 00000000-0000-0000-0000-000000000001, '2015-10-05 00:00:00+0000', 'val5');
+
+13:02:54.391 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 54dbf6c8-921d-4bb2-baac-7edf479a6e77 : [SELECT uuid,date,value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND uuid IN :uuid AND date>=:date_Lte AND date<=:date_Lte;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [960473102222525440, [00000000-0000-0000-0000-000000000000, 00000000-0000-0000-0000-000000000001], Fri Oct 02 19:00:00 CDT 2015, Sun Oct 04 19:00:00 CDT 2015]
+	 Encoded bound values : [960473102222525440, [00000000-0000-0000-0000-000000000000, 00000000-0000-0000-0000-000000000001], Fri Oct 02 19:00:00 CDT 2015, Sun Oct 04 19:00:00 CDT 2015]
+13:02:54.394 [achilles-default-executor-28] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[uuid(uuid), date(timestamp), value(varchar)]]
+13:02:54.395 [achilles-default-executor-28] DEBUG ACHILLES_DML_STATEMENT - Query ID 54dbf6c8-921d-4bb2-baac-7edf479a6e77 results : 
+	uuid: 00000000-0000-0000-0000-000000000000, date: Fri Oct 02 19:00:00 CDT 2015, value: val3
+	uuid: 00000000-0000-0000-0000-000000000001, date: Sun Oct 04 19:00:00 CDT 2015, value: val5
+	uuid: 00000000-0000-0000-0000-000000000001, date: Sat Oct 03 19:00:00 CDT 2015, value: val4
+
+13:02:54.398 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.468 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:54.478 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:54.480 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.550 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(5115553074383006720, 4acf2050-29f4-11ec-9aa3-e5c1245d6bcc, '2015-10-01 00:00:00+0000', 'val');
+
+13:02:54.555 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 45f1090c-ae02-4214-a4fe-aa75f216d76d : [SELECT value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND uuid=:uuid AND date=:date;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [5115553074383006720, 4acf2050-29f4-11ec-9aa3-e5c1245d6bcc, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [5115553074383006720, 4acf2050-29f4-11ec-9aa3-e5c1245d6bcc, Wed Sep 30 19:00:00 CDT 2015]
+13:02:54.564 [achilles-default-executor-29] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[value(varchar)]]
+13:02:54.564 [achilles-default-executor-29] DEBUG ACHILLES_DML_STATEMENT - Query ID 45f1090c-ae02-4214-a4fe-aa75f216d76d results : 
+	value: val
+
+13:02:54.564 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.627 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:54.633 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:54.635 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.714 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6237981415347796992, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:54.715 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6237981415347796992, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:54.717 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6237981415347796992, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:54.718 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(4282147077649634304, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val4');
+
+13:02:54.720 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(4282147077649634304, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val5');
+
+13:02:54.727 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7fdffb36-555f-4983-94b7-b77a108af3b9 : [UPDATE achilles_embedded.entity_with_clusterings SET value=:value WHERE id IN :id AND uuid=:uuid AND date=:date;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [new_value, [6237981415347796992, 4282147077649634304], 00000000-0000-0000-0000-000000000000, Wed Sep 30 19:00:00 CDT 2015]
+	 Encoded bound values : [new_value, [6237981415347796992, 4282147077649634304], 00000000-0000-0000-0000-000000000000, Wed Sep 30 19:00:00 CDT 2015]
+13:02:54.736 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.801 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:54.808 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:54.810 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.872 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6225227406087581696, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:54.874 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6225227406087581696, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:54.875 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6225227406087581696, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:54.878 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6225227406087581696, 00000000-0000-0000-0000-000000000001, '2015-10-04 00:00:00+0000', 'val4');
+
+13:02:54.882 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6225227406087581696, 00000000-0000-0000-0000-000000000001, '2015-10-05 00:00:00+0000', 'val5');
+
+13:02:54.893 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 9c3c0220-ffc3-4a39-b775-f6409f33eea3 : [SELECT uuid,date,value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND (uuid,date)>=(:uuid,:date) AND (uuid,date)<(:uuid,:date);] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [6225227406087581696, 00000000-0000-0000-0000-000000000000, Thu Oct 01 19:00:00 CDT 2015, 00000000-0000-0000-0000-000000000001, Sat Oct 03 19:00:00 CDT 2015]
+	 Encoded bound values : [6225227406087581696, 00000000-0000-0000-0000-000000000000, Thu Oct 01 19:00:00 CDT 2015, 00000000-0000-0000-0000-000000000001, Sat Oct 03 19:00:00 CDT 2015]
+13:02:54.896 [achilles-default-executor-31] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[uuid(uuid), date(timestamp), value(varchar)]]
+13:02:54.896 [achilles-default-executor-31] DEBUG ACHILLES_DML_STATEMENT - Query ID 9c3c0220-ffc3-4a39-b775-f6409f33eea3 results : 
+	uuid: 00000000-0000-0000-0000-000000000000, date: Fri Oct 02 19:00:00 CDT 2015, value: val3
+	uuid: 00000000-0000-0000-0000-000000000000, date: Thu Oct 01 19:00:00 CDT 2015, value: val2
+
+13:02:54.904 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a08df894-dcca-4900-b115-b9ec970bd41b : [SELECT value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND (uuid,date)>=(:uuid,:date);] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [6225227406087581696, 00000000-0000-0000-0000-000000000001, Sat Oct 03 19:00:00 CDT 2015]
+	 Encoded bound values : [6225227406087581696, 00000000-0000-0000-0000-000000000001, Sat Oct 03 19:00:00 CDT 2015]
+13:02:54.906 [achilles-default-executor-32] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[value(varchar)]]
+13:02:54.906 [achilles-default-executor-32] DEBUG ACHILLES_DML_STATEMENT - Query ID a08df894-dcca-4900-b115-b9ec970bd41b results : 
+	value: val5
+	value: val4
+
+13:02:54.906 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:54.977 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:54.984 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:54.986 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.058 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6826995665668004864, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:55.059 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6826995665668004864, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:55.061 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6826995665668004864, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:55.062 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6826995665668004864, 00000000-0000-0000-0000-000000000001, '2015-10-04 00:00:00+0000', 'val4');
+
+13:02:55.063 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6826995665668004864, 00000000-0000-0000-0000-000000000001, '2015-10-05 00:00:00+0000', 'val5');
+
+13:02:55.068 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID e75d6145-094d-48c8-80f4-a3a1d44afbcc : [SELECT uuid,date,value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND (uuid,date)>(:uuid,:date) AND (uuid)<(:uuid);] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [6826995665668004864, 00000000-0000-0000-0000-000000000000, Thu Oct 01 19:00:00 CDT 2015, 00000000-0000-0000-0000-000000000001]
+	 Encoded bound values : [6826995665668004864, 00000000-0000-0000-0000-000000000000, Thu Oct 01 19:00:00 CDT 2015, 00000000-0000-0000-0000-000000000001]
+13:02:55.069 [achilles-default-executor-33] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[uuid(uuid), date(timestamp), value(varchar)]]
+13:02:55.069 [achilles-default-executor-33] DEBUG ACHILLES_DML_STATEMENT - Query ID e75d6145-094d-48c8-80f4-a3a1d44afbcc results : 
+	uuid: 00000000-0000-0000-0000-000000000000, date: Fri Oct 02 19:00:00 CDT 2015, value: val3
+
+13:02:55.070 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.132 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:55.142 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:55.144 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.220 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(295772347136894976, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:55.222 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(295772347136894976, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:55.224 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(295772347136894976, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:55.225 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(295772347136894976, 00000000-0000-0000-0000-000000000001, '2015-10-04 00:00:00+0000', 'val4');
+
+13:02:55.226 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(295772347136894976, 00000000-0000-0000-0000-000000000001, '2015-10-05 00:00:00+0000', 'val5');
+
+13:02:55.230 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 9a3894cd-fad3-4a29-bef0-df4cf10b79bc : [SELECT uuid,date,value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND uuid IN :uuid AND date IN :date;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [295772347136894976, [00000000-0000-0000-0000-000000000000, 00000000-0000-0000-0000-000000000001], [Fri Oct 02 19:00:00 CDT 2015, Sun Oct 04 19:00:00 CDT 2015]]
+	 Encoded bound values : [295772347136894976, [00000000-0000-0000-0000-000000000000, 00000000-0000-0000-0000-000000000001], [Fri Oct 02 19:00:00 CDT 2015, Sun Oct 04 19:00:00 CDT 2015]]
+13:02:55.233 [achilles-default-executor-34] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[uuid(uuid), date(timestamp), value(varchar)]]
+13:02:55.233 [achilles-default-executor-34] DEBUG ACHILLES_DML_STATEMENT - Query ID 9a3894cd-fad3-4a29-bef0-df4cf10b79bc results : 
+	uuid: 00000000-0000-0000-0000-000000000000, date: Fri Oct 02 19:00:00 CDT 2015, value: val3
+	uuid: 00000000-0000-0000-0000-000000000001, date: Sun Oct 04 19:00:00 CDT 2015, value: val5
+
+13:02:55.233 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.310 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:55.316 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:55.318 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.384 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(648682183379343360, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:55.386 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(648682183379343360, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:55.388 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(648682183379343360, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:55.389 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(7076277109692310528, 00000000-0000-0000-0000-000000000000, '2015-10-04 00:00:00+0000', 'val4');
+
+13:02:55.391 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(7076277109692310528, 00000000-0000-0000-0000-000000000000, '2015-10-05 00:00:00+0000', 'val5');
+
+13:02:55.395 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 5812d996-ab30-4a1f-913f-805efdd875bc : [SELECT uuid,date,value FROM achilles_embedded.entity_with_clusterings WHERE id IN :id AND uuid=:uuid AND date IN :date;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [[648682183379343360, 7076277109692310528], 00000000-0000-0000-0000-000000000000, [Fri Oct 02 19:00:00 CDT 2015, Sun Oct 04 19:00:00 CDT 2015]]
+	 Encoded bound values : [[648682183379343360, 7076277109692310528], 00000000-0000-0000-0000-000000000000, [Fri Oct 02 19:00:00 CDT 2015, Sun Oct 04 19:00:00 CDT 2015]]
+13:02:55.397 [achilles-default-executor-35] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[uuid(uuid), date(timestamp), value(varchar)]]
+13:02:55.397 [achilles-default-executor-35] DEBUG ACHILLES_DML_STATEMENT - Query ID 5812d996-ab30-4a1f-913f-805efdd875bc results : 
+	uuid: 00000000-0000-0000-0000-000000000000, date: Fri Oct 02 19:00:00 CDT 2015, value: val3
+	uuid: 00000000-0000-0000-0000-000000000000, date: Sun Oct 04 19:00:00 CDT 2015, value: val5
+
+13:02:55.398 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.469 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:55.475 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:55.477 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.549 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(881197286463225856, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:55.551 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(881197286463225856, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:55.555 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(881197286463225856, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:55.556 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(2567821657325045760, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val4');
+
+13:02:55.558 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(2567821657325045760, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val5');
+
+13:02:55.569 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.631 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:55.638 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_with_clusterings(
+		id bigint,
+		uuid uuid,
+		date timestamp,
+		value text,
+		PRIMARY KEY(id, uuid, date))
+	WITH CLUSTERING ORDER BY(uuid ASC, date DESC);
+
+13:02:55.641 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.716 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6069411386232679424, 00000000-0000-0000-0000-000000000000, '2015-10-01 00:00:00+0000', 'val1');
+
+13:02:55.717 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6069411386232679424, 00000000-0000-0000-0000-000000000000, '2015-10-02 00:00:00+0000', 'val2');
+
+13:02:55.720 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6069411386232679424, 00000000-0000-0000-0000-000000000000, '2015-10-03 00:00:00+0000', 'val3');
+
+13:02:55.721 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6069411386232679424, 00000000-0000-0000-0000-000000000000, '2015-10-04 00:00:00+0000', 'val4');
+
+13:02:55.722 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_with_clusterings(id, uuid, date, value) VALUES(6069411386232679424, 00000000-0000-0000-0000-000000000000, '2015-10-05 00:00:00+0000', 'val5');
+
+13:02:55.728 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 41c0504e-e462-4213-8980-5312ec5cc7be : [DELETE value FROM achilles_embedded.entity_with_clusterings WHERE id=:id AND uuid=:uuid AND date=:date;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [6069411386232679424, 00000000-0000-0000-0000-000000000000, Thu Oct 01 19:00:00 CDT 2015]
+	 Encoded bound values : [6069411386232679424, 00000000-0000-0000-0000-000000000000, Thu Oct 01 19:00:00 CDT 2015]
+13:02:55.730 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_with_clusterings
+13:02:55.805 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:55.807 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:02:55.813 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.entity_primitive_clustering(
+		partition bigint,
+		clustering boolean,
+		value text,
+		PRIMARY KEY(partition, clustering))
+	WITH CLUSTERING ORDER BY(clustering ASC);
+
+13:02:56.065 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_primitive_clustering
+13:02:56.137 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_primitive_clustering(partition, clustering, value) VALUES(6477169222344972288, true, 'true');
+
+13:02:56.139 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.entity_primitive_clustering(partition, clustering, value) VALUES(6477169222344972288, false, 'false');
+
+13:02:56.147 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 2eb28843-6687-4ef5-ade3-1588c0562f04 : [SELECT * FROM achilles_embedded.entity_primitive_clustering WHERE partition=:partition AND clustering IN :clustering;] with CONSISTENCY LEVEL [ALL]
+	 Java bound values : [6477169222344972288, [[Z@5c09d180]]
+	 Encoded bound values : [6477169222344972288, [true, false]]
+13:02:56.150 [achilles-default-executor-38] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[partition(bigint), clustering(boolean), value(varchar)]]
+13:02:56.150 [achilles-default-executor-38] DEBUG ACHILLES_DML_STATEMENT - Query ID 2eb28843-6687-4ef5-ade3-1588c0562f04 results : 
+	partition: 6477169222344972288, clustering: false, value: false
+	partition: 6477169222344972288, clustering: true, value: true
+
+13:02:56.151 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.entity_primitive_clustering
+13:02:56.236 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:56.242 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:56.245 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.313 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7212637024658470912, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:02:56.320 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID d980a8a8-cde9-4dab-bf62-f400699202c6 : [SELECT * FROM simple WHERE id = :id] with CONSISTENCY LEVEL [null]
+13:02:56.323 [achilles-default-executor-39] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:02:56.324 [achilles-default-executor-39] DEBUG i.a.a.i.entities.SimpleEntity - Query ID d980a8a8-cde9-4dab-bf62-f400699202c6 results : 
+	id: 7212637024658470912, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:02:56.326 [achilles-default-executor-39] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID d980a8a8-cde9-4dab-bf62-f400699202c6 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+****************************
+
+
+13:02:56.326 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.390 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:56.396 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:56.398 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.476 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6384887320552484864, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:02:56.478 [Achilles Embedded Cassandra Cluster-worker-1] WARN  com.datastax.driver.core.Cluster - Re-preparing already prepared query is generally an anti-pattern and will likely affect performance. Consider preparing the statement only once. Query='SELECT * FROM simple WHERE id = :id'
+13:02:56.478 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID 69e44a10-0ede-4302-9556-83c1331e91a6 : [SELECT * FROM simple WHERE id = :id] with CONSISTENCY LEVEL [null]
+13:02:56.482 [achilles-default-executor-40] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:02:56.483 [achilles-default-executor-40] DEBUG i.a.a.i.entities.SimpleEntity - Query ID 69e44a10-0ede-4302-9556-83c1331e91a6 results : 
+	id: 6384887320552484864, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:02:56.483 [achilles-default-executor-40] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID 69e44a10-0ede-4302-9556-83c1331e91a6 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+****************************
+
+
+13:02:56.484 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.556 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:56.562 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:56.564 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.628 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:02:56.630 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:02:56.633 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:02:56.634 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:02:56.636 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:02:56.638 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:02:56.639 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:02:56.641 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:02:56.642 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(6675730050713807872, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+
+13:02:56.645 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID dec113be-3902-4014-9c94-42604c878a46 : [SELECT * FROM simple WHERE id = :id LIMIT 100] with CONSISTENCY LEVEL [null]
+13:02:56.654 [main] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID dec113be-3902-4014-9c94-42604c878a46 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+****************************
+
+
+13:02:56.655 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [ONE], simplemap: {1=one}, simpleset: [1.0], value: id - date1
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Thu Oct 01 19:00:00 CDT 2015, consistencylist: [TWO], simplemap: {2=two}, simpleset: [2.0], value: id - date2
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Fri Oct 02 19:00:00 CDT 2015, consistencylist: [THREE], simplemap: {3=three}, simpleset: [3.0], value: id - date3
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Sat Oct 03 19:00:00 CDT 2015, consistencylist: [QUORUM], simplemap: {4=four}, simpleset: [4.0], value: id - date4
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Sun Oct 04 19:00:00 CDT 2015, consistencylist: [ALL], simplemap: {5=five}, simpleset: [5.0], value: id - date5
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Mon Oct 05 19:00:00 CDT 2015, consistencylist: [LOCAL_ONE], simplemap: {6=six}, simpleset: [6.0], value: id - date6
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Tue Oct 06 19:00:00 CDT 2015, consistencylist: [LOCAL_QUORUM], simplemap: {7=seven}, simpleset: [7.0], value: id - date7
+
+13:02:56.656 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Wed Oct 07 19:00:00 CDT 2015, consistencylist: [EACH_QUORUM], simplemap: {8=eight}, simpleset: [8.0], value: id - date8
+
+13:02:56.657 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID dec113be-3902-4014-9c94-42604c878a46 row : 
+	id: 6675730050713807872, date: Thu Oct 08 19:00:00 CDT 2015, consistencylist: [SERIAL], simplemap: {9=nine}, simpleset: [9.0], value: id - date9
+
+13:02:56.657 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.722 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:56.728 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:56.729 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.816 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 12e93b37-12f0-4d5e-9980-916bd1963771 : [INSERT INTO simple(id, date, value) VALUES(:id, :date, :value)] with CONSISTENCY LEVEL [null]
+13:02:56.818 [achilles-default-executor-42] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: true, Columns[]]
+13:02:56.818 [achilles-default-executor-42] DEBUG ACHILLES_DML_STATEMENT - Query ID 12e93b37-12f0-4d5e-9980-916bd1963771 results : 
+
+13:02:56.820 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.884 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:02:56.890 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:02:56.892 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:02:56.971 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:02:56.973 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:02:56.974 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:02:56.975 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:02:56.976 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:02:56.977 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:02:56.978 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:02:56.979 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:02:56.981 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7307615893982977024, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+

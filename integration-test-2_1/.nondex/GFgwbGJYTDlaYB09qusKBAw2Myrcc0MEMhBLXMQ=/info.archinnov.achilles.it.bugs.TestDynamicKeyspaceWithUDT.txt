@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.it.bugs.TestDynamicKeyspaceWithUDT
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.119 sec - in info.archinnov.achilles.it.bugs.TestDynamicKeyspaceWithUDT

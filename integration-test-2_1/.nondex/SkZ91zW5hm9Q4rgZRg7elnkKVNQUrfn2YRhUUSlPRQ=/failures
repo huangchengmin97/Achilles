@@ -1,0 +1,5 @@
+info.archinnov.achilles.it.TestCRUDSimpleEntity#should_find_with_schema_name_provider
+info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_with_token_value
+info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_one
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_dsl_select_with_token_value
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_dsl_select_with_tuple_relations

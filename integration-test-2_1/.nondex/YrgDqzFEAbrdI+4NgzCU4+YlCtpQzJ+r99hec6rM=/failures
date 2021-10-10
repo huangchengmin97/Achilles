@@ -1,0 +1,4 @@
+info.archinnov.achilles.it.TestCRUDSimpleEntity#should_find_by_id
+info.archinnov.achilles.it.TestCRUDSimpleEntity#should_find_with_schema_name_provider
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_dsl_select_with_token_value
+info.archinnov.achilles.it.bugs.TestEntityWithCaseSensitivePKIT#should_insert_and_find

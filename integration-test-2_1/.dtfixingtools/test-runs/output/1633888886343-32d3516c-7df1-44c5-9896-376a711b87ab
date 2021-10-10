@@ -1,0 +1,273 @@
+13:01:26,987 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:01:26,988 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:01:26,988 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:01:26,988 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:01:26,988 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:01:26,988 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:01:27,043 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:01:27,051 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml] 
+13:01:27,051 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:01:27,053 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:01:27,055 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:01:27,062 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:01:27,110 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:01:27,110 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:01:27,110 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:01:27,111 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:01:27,111 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:01:27,111 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:01:27,111 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:01:27,111 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:01:27,111 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:01:27,111 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:01:27,111 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:01:27,111 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:01:27,113 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.cache.StatementsCache] to WARN
+13:01:27,113 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.cache.StatementsCache] to false
+13:01:27,113 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.cache.StatementsCache]
+13:01:27,113 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to TRACE
+13:01:27,113 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to false
+13:01:27,113 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.SimpleEntity]
+13:01:27,113 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:01:27,113 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:01:27,113 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:01:27,114 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:01:27,114 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:01:27,114 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:01:27,114 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:01:27,114 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:01:27,115 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@797badd3 - Registering current configuration as safe fallback point
+
+13:01:27.256 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:01:27.258 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:01:27.258 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:01:27.258 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:01:27.258 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:01:27.266 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:01:27.288 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:01:27.289 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7172
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7528
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:01:27.376 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:01:27.757 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.224GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:01:27.906 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:01:27.906 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:01:27.906 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:01:27.906 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:01:27.932 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:01:30.933 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created 7533f3ef-85d3-41f2-ada3-d055af644b0a (Note: This should happen exactly once per node).
+13:01:33.506 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:34.015 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.complex_tuple(
+		id bigint,
+		tuple frozen<tuple<int, map<int, list<text>>>>,
+		PRIMARY KEY(id));
+
+13:01:34.563 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:34.578 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:01:34.830 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:34.963 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:01:34.976 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:01:34.982 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:01:34.985 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:01:34.987 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:01:34.990 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:01:34.992 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:01:34.994 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:01:34.996 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3953138986184610816, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+
+13:01:35.012 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee : [SELECT * FROM simple WHERE id = :id LIMIT 100] with CONSISTENCY LEVEL [null]
+13:01:35.024 [main] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+****************************
+
+
+13:01:35.032 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [ONE], simplemap: {1=one}, simpleset: [1.0], value: id - date1
+
+13:01:35.084 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Thu Oct 01 19:00:00 CDT 2015, consistencylist: [TWO], simplemap: {2=two}, simpleset: [2.0], value: id - date2
+
+13:01:35.084 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Fri Oct 02 19:00:00 CDT 2015, consistencylist: [THREE], simplemap: {3=three}, simpleset: [3.0], value: id - date3
+
+13:01:35.085 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Sat Oct 03 19:00:00 CDT 2015, consistencylist: [QUORUM], simplemap: {4=four}, simpleset: [4.0], value: id - date4
+
+13:01:35.086 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Sun Oct 04 19:00:00 CDT 2015, consistencylist: [ALL], simplemap: {5=five}, simpleset: [5.0], value: id - date5
+
+13:01:35.088 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Mon Oct 05 19:00:00 CDT 2015, consistencylist: [LOCAL_ONE], simplemap: {6=six}, simpleset: [6.0], value: id - date6
+
+13:01:35.089 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Tue Oct 06 19:00:00 CDT 2015, consistencylist: [LOCAL_QUORUM], simplemap: {7=seven}, simpleset: [7.0], value: id - date7
+
+13:01:35.089 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Wed Oct 07 19:00:00 CDT 2015, consistencylist: [EACH_QUORUM], simplemap: {8=eight}, simpleset: [8.0], value: id - date8
+
+13:01:35.092 [main] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b93b91e4-b21a-48a8-b01c-afbd6d2bc5ee row : 
+	id: 3953138986184610816, date: Thu Oct 08 19:00:00 CDT 2015, consistencylist: [SERIAL], simplemap: {9=nine}, simpleset: [9.0], value: id - date9
+
+13:01:35.093 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.160 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:35.172 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:01:35.175 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.245 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(7062253332248272896, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:01:35.251 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID f20523df-88c1-499d-a9f5-34d29dca9edc : [SELECT * FROM simple WHERE id = :id] with CONSISTENCY LEVEL [null]
+13:01:35.264 [achilles-default-executor-2] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:01:35.266 [achilles-default-executor-2] DEBUG i.a.a.i.entities.SimpleEntity - Query ID f20523df-88c1-499d-a9f5-34d29dca9edc results : 
+	id: 7062253332248272896, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:01:35.266 [achilles-default-executor-2] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID f20523df-88c1-499d-a9f5-34d29dca9edc at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+****************************
+
+
+13:01:35.267 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.337 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:35.347 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:01:35.351 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.430 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(2340438964328862720, '2015-10-01 00:00:00+0000', ['QUORUM', 'LOCAL_ONE'], {1.0, 2.0}, {10: 'ten', 20: 'twenty'}, '0 AM');
+
+13:01:35.436 [main] DEBUG i.a.a.i.entities.SimpleEntity - 
+Query ID b4c65542-c7b8-4bb2-9715-3726e40db9b1 : [SELECT * FROM simple WHERE id = 2340438964328862720] with CONSISTENCY LEVEL [null]
+13:01:35.441 [achilles-default-executor-3] DEBUG i.a.a.i.entities.SimpleEntity - ResultSet[ exhausted: false, Columns[id(bigint), date(timestamp), consistencylist(list<varchar>), simplemap(map<int, varchar>), simpleset(set<double>), value(varchar)]]
+13:01:35.442 [achilles-default-executor-3] DEBUG i.a.a.i.entities.SimpleEntity - Query ID b4c65542-c7b8-4bb2-9715-3726e40db9b1 results : 
+	id: 2340438964328862720, date: Wed Sep 30 19:00:00 CDT 2015, consistencylist: [QUORUM, LOCAL_ONE], simplemap: {10=ten, 20=twenty}, simpleset: [1.0, 2.0], value: 0 AM
+
+13:01:35.442 [achilles-default-executor-3] TRACE i.a.a.i.entities.SimpleEntity - 
+
+Tracing for Query ID b4c65542-c7b8-4bb2-9715-3726e40db9b1 at host localhost/127.0.0.1:9042 with achieved consistency level null 
+****************************
+Description                                                                      | Source           | Source elapsed in micros | Thread name         
+****************************
+
+
+13:01:35.443 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.507 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:35.518 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:01:35.520 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.599 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 5dacffef-afcf-4aab-95c2-4a8b3393e825 : [INSERT INTO simple(id, date, value) VALUES(:id, :date, :value)] with CONSISTENCY LEVEL [null]
+13:01:35.607 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: true, Columns[]]
+13:01:35.607 [achilles-default-executor-4] DEBUG ACHILLES_DML_STATEMENT - Query ID 5dacffef-afcf-4aab-95c2-4a8b3393e825 results : 
+
+13:01:35.613 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.688 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:01:35.698 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:01:35.701 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple
+13:01:35.767 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-01 00:00:00+0000', ['ONE'], {1.0}, {1: 'one'}, 'id - date1');
+
+13:01:35.770 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-02 00:00:00+0000', ['TWO'], {2.0}, {2: 'two'}, 'id - date2');
+
+13:01:35.773 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-03 00:00:00+0000', ['THREE'], {3.0}, {3: 'three'}, 'id - date3');
+
+13:01:35.775 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-04 00:00:00+0000', ['QUORUM'], {4.0}, {4: 'four'}, 'id - date4');
+
+13:01:35.777 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-05 00:00:00+0000', ['ALL'], {5.0}, {5: 'five'}, 'id - date5');
+
+13:01:35.779 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-06 00:00:00+0000', ['LOCAL_ONE'], {6.0}, {6: 'six'}, 'id - date6');
+
+13:01:35.781 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-07 00:00:00+0000', ['LOCAL_QUORUM'], {7.0}, {7: 'seven'}, 'id - date7');
+
+13:01:35.783 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-08 00:00:00+0000', ['EACH_QUORUM'], {8.0}, {8: 'eight'}, 'id - date8');
+
+13:01:35.788 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO achilles_embedded.simple(id, date, consistencylist, simpleset, simplemap, value) VALUES(3559956622135299072, '2015-10-09 00:00:00+0000', ['SERIAL'], {9.0}, {9: 'nine'}, 'id - date9');
+

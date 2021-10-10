@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.internals.codegen.meta.EntityMetaCodeGenTest
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.034 sec

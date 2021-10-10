@@ -1,0 +1,166 @@
+13:25:56,963 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:25:56,963 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:25:56,963 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-3_6/target/classes/logback.xml]
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_2/target/classes/logback.xml]
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_2/target/classes/logback.xml]
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_6/target/classes/logback.xml]
+13:25:56,964 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-3_0/target/classes/logback.xml]
+13:25:57,013 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:25:57,020 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-3_6/target/classes/logback.xml] 
+13:25:57,020 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:25:57,021 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:25:57,024 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:25:57,033 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:25:57,068 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:25:57,068 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:25:57,068 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:25:57,068 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:25:57,068 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:25:57,068 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:25:57,068 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to DEBUG
+13:25:57,068 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.EntityWithNonFrozenUDT]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:25:57,069 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:25:57,069 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:25:57,070 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1e730495 - Registering current configuration as safe fallback point
+
+13:25:57.128 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:25:57.130 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:25:57.130 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:25:57.130 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:25:57.130 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:25:57.138 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:25:57.152 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:25:57.152 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:25:57.206 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:25:57.206 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7095
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7508
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:25:57.207 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:25:57.508 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.209GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:25:57.702 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:25:57.702 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:25:57.702 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:25:57.703 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:25:57.731 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:26:01.049 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created f3606cad-a1a8-43be-b602-718e2d10fb35 (Note: This should happen exactly once per node).
+13:26:03.819 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_6 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:26:04.158 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_6.entity_with_clustering(
+		id bigint,
+		clust bigint,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:26:04.669 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_6.entity_with_clustering
+13:26:04.803 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(39168659505325056, 1);
+
+13:26:04.815 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(39168659505325056, 2);
+
+13:26:04.817 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(39168659505325056, 3);
+
+13:26:04.821 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(4560534568361882624, 1);
+
+13:26:04.823 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(4560534568361882624, 2);
+
+13:26:04.825 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(4560534568361882624, 3);
+
+13:26:04.826 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(818147639848744960, 1);
+
+13:26:04.828 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(818147639848744960, 2);
+
+13:26:04.829 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.entity_with_clustering(id, clust) VALUES(818147639848744960, 3);
+
+13:26:04.854 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 872bc62f-ad23-4713-a003-f205c2a25288 : [SELECT * FROM it_3_6.entity_with_clustering PER PARTITION LIMIT :perPartitionLimit;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [2]
+	 Encoded bound values : [2]
+13:26:04.880 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(bigint)]]
+13:26:04.883 [achilles-default-executor-1] DEBUG ACHILLES_DML_STATEMENT - Query ID 872bc62f-ad23-4713-a003-f205c2a25288 results : 
+	id: 4560534568361882624, clust: 1
+	id: 4560534568361882624, clust: 2
+	id: 818147639848744960, clust: 1
+	id: 818147639848744960, clust: 2
+	id: 39168659505325056, clust: 1
+	id: 39168659505325056, clust: 2
+
+13:26:04.957 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_6.entity_with_clustering
+13:26:05.027 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS it_3_6 WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:26:05.044 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS it_3_6.adress_udt(
+		street text,
+		number int);
+
+13:26:05.215 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS it_3_6.non_frozen_udt(
+		val text,
+		li frozen<list<text>>,
+		se frozen<set<text>>,
+		ma frozen<map<int, text>>,
+		address frozen<it_3_6.adress_udt>);
+
+13:26:05.393 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS it_3_6.adress_udt(
+		street text,
+		number int);
+
+13:26:05.395 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS it_3_6.non_frozen_udt(
+		id bigint,
+		nonfrozen it_3_6.non_frozen_udt,
+		value text,
+		PRIMARY KEY(id));
+
+13:26:05.641 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_6.non_frozen_udt
+13:26:05.708 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO it_3_6.non_frozen_udt(id, value, nonfrozen) VALUES(2492606862773048320, 'val', {val: 'value', li: ['1', '2'], se: {'1', '2'}, ma: {1: '1', 2: '2'}});
+
+13:26:05.738 [main] DEBUG i.a.a.i.e.EntityWithNonFrozenUDT - 
+Query ID 70a077f2-3baf-4890-8536-314d8e6f8488 : [UPDATE it_3_6.non_frozen_udt SET nonfrozen.val=:"nonfrozen.val",nonfrozen.li=:"nonfrozen.li",nonfrozen.se=fromJson(:"nonfrozen.se"),nonfrozen.ma=:"nonfrozen.ma",nonfrozen.address=fromJson(:"nonfrozen.address") WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [new_value, [3], ["3"], {3=3}, {"street": "new_street", "number": 100}, 2492606862773048320]
+	 Encoded bound values : [new_value, [3], ["3"], {3=3}, {"street": "new_street", "number": 100}, 2492606862773048320]
+13:26:05.821 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE it_3_6.non_frozen_udt
+13:26:05.988 [Thread-1] INFO  i.a.achilles.embedded.ServerStarter - Calling stop on Embedded Cassandra server
+13:26:05.998 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 1000 milliseconds
+13:26:06.999 [Achilles Embedded Cassandra Cluster-reconnection-0] ERROR c.d.driver.core.ControlConnection - [Control connection] Cannot connect to any host, scheduling retry in 2000 milliseconds

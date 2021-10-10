@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/Achilles/achilles-core/.nondex
+nondexJarDir=/home/ch61/Achilles/achilles-core/.nondex
+nondexExecid=M13bIfDiDUIWB7Q5qSDZDQq6oGrHHOY0r2BjvxTx0=
+nondexLogging=CONFIG
+test=

@@ -1,0 +1,1223 @@
+13:00:15,943 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+13:00:15,943 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+13:00:15,943 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:00:15,944 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+13:00:15,944 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml]
+13:00:15,944 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/home/ch61/Achilles/achilles-schema-generator/target/classes/logback.xml]
+13:00:16,001 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+13:00:16,010 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/home/ch61/Achilles/integration-test-2_1/target/classes/logback.xml] 
+13:00:16,010 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+13:00:16,011 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+13:00:16,014 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+13:00:16,023 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+13:00:16,063 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DDL_SCRIPT] to DEBUG
+13:00:16,063 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DDL_SCRIPT] to false
+13:00:16,063 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DDL_SCRIPT]
+13:00:16,063 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [ACHILLES_DML_STATEMENT] to DEBUG
+13:00:16,063 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [ACHILLES_DML_STATEMENT] to false
+13:00:16,063 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ACHILLES_DML_STATEMENT]
+13:00:16,063 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.embedded] to INFO
+13:00:16,063 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.embedded] to false
+13:00:16,063 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.embedded]
+13:00:16,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles] to WARN
+13:00:16,064 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles] to false
+13:00:16,064 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles]
+13:00:16,065 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.cache.StatementsCache] to WARN
+13:00:16,065 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.cache.StatementsCache] to false
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.cache.StatementsCache]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to TRACE
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [info.archinnov.achilles.internals.entities.SimpleEntity] to false
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[info.archinnov.achilles.internals.entities.SimpleEntity]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.cql3.QueryProcessor] to OFF
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.cql3.QueryProcessor] to false
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.cql3.QueryProcessor]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.db.Memtable] to OFF
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.db.Memtable] to false
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.db.Memtable]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.CLibrary] to OFF
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.CLibrary] to false
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.CLibrary]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.cassandra.utils.SigarLibrary] to OFF
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.cassandra.utils.SigarLibrary] to false
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.apache.cassandra.utils.SigarLibrary]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to WARN
+13:00:16,066 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+13:00:16,066 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+13:00:16,067 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@77e4c80f - Registering current configuration as safe fallback point
+
+13:00:16.123 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/data
+13:00:16.125 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/commitlog
+13:00:16.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/saved_caches
+13:00:16.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/hints
+13:00:16.126 [main] INFO  i.a.achilles.embedded.ServerStarter - Using existing data folder for unit tests : /home/ch61/Achilles/target/cassandra_embedded/cdc_raw
+13:00:16.134 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/data'
+13:00:16.165 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/commitlog'
+13:00:16.165 [main] INFO  i.a.achilles.embedded.ServerStarter - Cleaning up embedded Cassandra data directory '/home/ch61/Achilles/target/cassandra_embedded/saved_caches'
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra listen address = localhost
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC address = localhost
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra broadcast address = 
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Cassandra RPC broadcast address = 
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra RPC port/Thrift port = 9160
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Native port/CQL port = 9042
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage port = 7364
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Storage SSL port = 7637
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Random embedded Cassandra Remote JMX port = null
+13:00:16.230 [main] INFO  i.a.achilles.embedded.ServerStarter -  Embedded Cassandra triggers directory = /home/ch61/Achilles/target/cassandra_embedded/cassandra_triggers
+13:00:16.231 [main] INFO  i.a.achilles.embedded.ServerStarter - Starting Cassandra...
+13:00:16.539 [pool-2-thread-1] WARN  o.a.c.config.DatabaseDescriptor - Only 40.225GiB free across all data volumes. Consider adding more capacity to your cluster or removing obsolete snapshots
+13:00:16.772 [pool-2-thread-1] WARN  o.a.cassandra.utils.NativeLibrary - Unable to lock JVM memory (ENOMEM). This can result in part of the JVM being swapped out, especially with mmapped I/O enabled. Increase RLIMIT_MEMLOCK or run Cassandra as root.
+13:00:16.772 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - jemalloc shared library could not be preloaded to speed up memory allocations
+13:00:16.772 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - JMX is not enabled to receive remote connections. Please see cassandra-env.sh for more info.
+13:00:16.780 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - The JVM is not configured to stop on OutOfMemoryError which can cause data corruption. Use one of the following JVM options to configure the behavior on OutOfMemoryError:  -XX:+ExitOnOutOfMemoryError, -XX:+CrashOnOutOfMemoryError, or -XX:OnOutOfMemoryError="<cmd args>;<cmd args>"
+no libsigar-amd64-linux.so in java.library.path
+org.hyperic.sigar.SigarException: no libsigar-amd64-linux.so in java.library.path
+	at org.hyperic.sigar.Sigar.loadLibrary(Sigar.java:172)
+	at org.hyperic.sigar.Sigar.<clinit>(Sigar.java:100)
+	at org.apache.cassandra.utils.SigarLibrary.<init>(SigarLibrary.java:47)
+	at org.apache.cassandra.utils.SigarLibrary.<clinit>(SigarLibrary.java:28)
+	at org.apache.cassandra.service.StartupChecks$7.execute(StartupChecks.java:266)
+	at org.apache.cassandra.service.StartupChecks.verify(StartupChecks.java:125)
+	at org.apache.cassandra.service.CassandraDaemon.setup(CassandraDaemon.java:216)
+	at org.apache.cassandra.service.CassandraDaemon.activate(CassandraDaemon.java:633)
+	at info.archinnov.achilles.embedded.ServerStarter.lambda$start$0(ServerStarter.java:163)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:00:16.806 [pool-2-thread-1] WARN  o.a.cassandra.service.StartupChecks - Maximum number of memory map areas per process (vm.max_map_count) 65530 is too low, recommended value: 1048575, you can change it with sysctl.
+13:00:19.758 [pool-2-thread-1] WARN  o.apache.cassandra.db.SystemKeyspace - No host ID found, created d8015dec-eb95-4cae-9533-d29bdb52c337 (Note: This should happen exactly once per node).
+13:00:22.381 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:22.924 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.complex_tuple(
+		id bigint,
+		tuple frozen<tuple<int, map<int, list<text>>>>,
+		PRIMARY KEY(id));
+
+13:00:23.513 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:23.549 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:23.556 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:23.668 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:23.792 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:23.961 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:24.207 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:24.371 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:24.628 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:24.736 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(4498660369161001984,{id: 4498660369161001984, "VALUE": 'value'},{id: 4498660369161001984, "VALUE": 'value'});
+
+13:00:24.763 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 15fd9815-2390-48c7-81e1-6d3ef8fbfcb0 : [DELETE FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4498660369161001984, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@eee41e0d]
+	 Encoded bound values : [4498660369161001984, {id:4498660369161001984,"VALUE":'value'}]
+13:00:24.840 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:24.909 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:24.911 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:24.916 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:24.918 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:24.919 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:24.935 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:24.940 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:24.943 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.006 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(7651618931127169024,{id: 7651618931127169024, "VALUE": 'value'},{id: 7651618931127169024, "VALUE": 'value'});
+
+13:00:25.020 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 59cdd6c6-862c-4a42-843e-05e100cf8b0c : [UPDATE dynamic_ks.dynamic_table SET udt=:udt WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@2a6612f3, 7651618931127169024, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@4005be52]
+	 Encoded bound values : [{id:7651618931127169024,"VALUE":'new_value'}, 7651618931127169024, {id:7651618931127169024,"VALUE":'value'}]
+13:00:25.028 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.095 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:25.097 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:25.099 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:25.100 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:25.101 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:25.110 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:25.112 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:25.115 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.188 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtList) VALUES(6310987029321414656,{id: 6310987029321414656, "VALUE": 'value'},[{id: 6310987029321414656, "VALUE": 'value1'}, {id: 6310987029321414656, "VALUE": 'value2'}]);
+
+13:00:25.199 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a6db7a03-f4fd-4ebf-98af-ea98be940196 : [UPDATE dynamic_ks.dynamic_table SET udtlist=:udtlist+udtlist WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@64ee390f], 6310987029321414656, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@7a8de46e]
+	 Encoded bound values : [[{id:6310987029321414656,"VALUE":'new_value'}], 6310987029321414656, {id:6310987029321414656,"VALUE":'value'}]
+13:00:25.207 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.272 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:25.277 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:25.280 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:25.281 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:25.282 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:25.296 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:25.300 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:25.304 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.390 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(4297000547013853184,{id: 4297000547013853184, "VALUE": 'value'},{id: 4297000547013853184, "VALUE": 'value'});
+
+13:00:25.407 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 09c31a95-19df-4067-811e-63c17dc64b3c : [UPDATE dynamic_ks.dynamic_table SET udt=:udt WHERE id=:id AND clust=:clust IF udt<:udt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@ca73cdf8, 4297000547013853184, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@e0137957, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@e0137958]
+	 Encoded bound values : [{id:4297000547013853184,"VALUE":'new_value'}, 4297000547013853184, {id:4297000547013853184,"VALUE":'value'}, {id:4297000547013853184,"VALUE":'valuf'}]
+13:00:25.435 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.499 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:25.501 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:25.503 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:25.504 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:25.505 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:25.515 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:25.517 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:25.519 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.585 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtmapkey) VALUES(2380584392315585536,{id: 2380584392315585536, "VALUE": 'value'},{{id: 2380584392315585536, "VALUE": 'value1'}: '1', {id: 2380584392315585536, "VALUE": 'value2'}: '2'});
+
+13:00:25.597 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 63e87c0d-0cb5-4d05-a9cd-8e07ba3ce437 : [UPDATE dynamic_ks.dynamic_table SET udtmapkey[:udtMapKey_key]=:udtMapKey_value WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@f2f8703d, null, 2380584392315585536, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@2abf64ce]
+	 Encoded bound values : [{id:2380584392315585536,"VALUE":'value1'}, null, 2380584392315585536, {id:2380584392315585536,"VALUE":'value'}]
+13:00:25.602 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.672 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:25.674 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:25.676 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:25.677 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:25.678 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:25.688 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:25.690 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:25.693 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.792 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 3f82efd3-d9b2-4bb3-a6e4-3d61b30dc66e : [INSERT INTO dynamic_ks.dynamic_table (id,clust,udt,udtlist,udtmapkey,udtmapvalue,udtset) VALUES (:id,:clust,:udt,:udtlist,:udtmapkey,:udtmapvalue,:udtset) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [5178532821769253888, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@3eeb23f8, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@3eeb23f8, null, null, null, null, 0]
+	 Encoded bound values : [5178532821769253888, {id:5178532821769253888,"VALUE":'val'}, {id:5178532821769253888,"VALUE":'val'}, null, null, null, null, 0]
+13:00:25.798 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.860 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:25.863 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:25.865 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:25.866 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:25.867 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:25.876 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:25.878 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:25.880 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:25.957 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(6422667629182572544,{id: 6422667629182572544, "VALUE": 'value'},{id: 6422667629182572544, "VALUE": 'value'});
+
+13:00:25.966 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 00bd0d04-2ed3-4011-abbd-aa5a2bb31aa5 : [DELETE udt FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6422667629182572544, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@1a021cc4]
+	 Encoded bound values : [6422667629182572544, {id:6422667629182572544,"VALUE":'value'}]
+13:00:25.971 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.046 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:26.047 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:26.049 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:26.050 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:26.051 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:26.059 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:26.060 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:26.062 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.125 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(6467950141360603136,{id: 6467950141360603136, "VALUE": 'value'},{id: 6467950141360603136, "VALUE": 'value'});
+
+13:00:26.130 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID f9de74e0-37a0-49a5-a991-b74c29207458 : [DELETE FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6467950141360603136, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@64f71b10]
+	 Encoded bound values : [6467950141360603136, {id:6467950141360603136,"VALUE":'value'}]
+13:00:26.135 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.211 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:26.213 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:26.214 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:26.215 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:26.216 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:26.226 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:26.228 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:26.230 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.303 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtmapkey) VALUES(1367317333418086400,{id: 1367317333418086400, "VALUE": 'value'},{{id: 1367317333418086400, "VALUE": 'value1'}: '1', {id: 1367317333418086400, "VALUE": 'value2'}: '2'});
+
+13:00:26.306 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID d25f2643-d185-400e-82c3-076803215d0e : [UPDATE dynamic_ks.dynamic_table SET udtmapkey[:udtMapKey_key]=:udtMapKey_value WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@9a8da5b5, new_value, 1367317333418086400, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@b02d5114]
+	 Encoded bound values : [{id:1367317333418086400,"VALUE":'new_value'}, new_value, 1367317333418086400, {id:1367317333418086400,"VALUE":'value'}]
+13:00:26.309 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.391 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:26.393 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:26.395 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:26.396 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:26.397 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:26.405 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:26.407 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:26.409 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.474 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(247723406994345984,{id: 247723406994345984, "VALUE": 'value'},{id: 247723406994345984, "VALUE": 'value'});
+
+13:00:26.479 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 3e3734c0-dc23-48c8-bc6e-c1acc66fda26 : [DELETE FROM dynamic_ks.dynamic_table WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [247723406994345984]
+	 Encoded bound values : [247723406994345984]
+13:00:26.482 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.557 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:26.559 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:26.561 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:26.563 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:26.564 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:26.573 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:26.575 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:26.577 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.641 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtmapkey) VALUES(1587308644465524736,{id: 1587308644465524736, "VALUE": 'value'},{{id: 1587308644465524736, "VALUE": 'value1'}: '1', {id: 1587308644465524736, "VALUE": 'value2'}: '2'});
+
+13:00:26.648 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a94306ea-8d83-496e-a8b0-65bc1846be20 : [UPDATE dynamic_ks.dynamic_table SET udtmapkey=:udtmapkey WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [{info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@b0ec02a6=new_value}, 1587308644465524736, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@c68bae05]
+	 Encoded bound values : [{{id:1587308644465524736,"VALUE":'new_value'}=new_value}, 1587308644465524736, {id:1587308644465524736,"VALUE":'value'}]
+13:00:26.652 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.729 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:26.730 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:26.732 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:26.733 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:26.733 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:26.751 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:26.752 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:26.754 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.832 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(785866616092672,{id: 785866616092672, "VALUE": 'value'},{id: 785866616092672, "VALUE": 'value'});
+
+13:00:26.837 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID ccd2cd4e-6c4a-43b0-9e69-b30987b659ce : [DELETE udt FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust IF udt=:udt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [785866616092672, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@c1cdfa15, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@c1cdfa15]
+	 Encoded bound values : [785866616092672, {id:785866616092672,"VALUE":'value'}, {id:785866616092672,"VALUE":'value'}]
+13:00:26.844 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:26.907 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:26.909 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:26.911 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:26.911 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:26.912 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:26.925 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:26.926 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:26.928 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.006 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtList) VALUES(2353044398182758400,{id: 2353044398182758400, "VALUE": 'value'},[{id: 2353044398182758400, "VALUE": 'value1'}, {id: 2353044398182758400, "VALUE": 'value2'}]);
+
+13:00:27.012 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 70491293-0ceb-466a-8c77-0db27e11143d : [UPDATE dynamic_ks.dynamic_table SET udtlist=udtlist+:udtlist WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@e255cd8a], 2353044398182758400, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@f7f578e9]
+	 Encoded bound values : [[{id:2353044398182758400,"VALUE":'new_value'}], 2353044398182758400, {id:2353044398182758400,"VALUE":'value'}]
+13:00:27.015 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.086 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:27.088 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:27.090 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:27.091 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:27.091 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:27.099 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:27.100 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:27.102 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.168 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtList) VALUES(6209981242285569024,{id: 6209981242285569024, "VALUE": 'value'},[{id: 6209981242285569024, "VALUE": 'value1'}, {id: 6209981242285569024, "VALUE": 'value2'}]);
+
+13:00:27.172 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 40a7df51-fce4-434f-98a1-fd85736da2de : [UPDATE dynamic_ks.dynamic_table SET udtlist=:udtlist WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@d0110dea], 6209981242285569024, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@e5b0b949]
+	 Encoded bound values : [[{id:6209981242285569024,"VALUE":'new_value'}], 6209981242285569024, {id:6209981242285569024,"VALUE":'value'}]
+13:00:27.178 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.251 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:27.253 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:27.255 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:27.255 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:27.256 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:27.264 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:27.266 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:27.268 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.341 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(4494525354445646848,{id: 4494525354445646848, "VALUE": 'value'},{id: 4494525354445646848, "VALUE": 'value'});
+
+13:00:27.347 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID e93a5046-e705-43cc-b345-039f85fcf88f : [SELECT id,clust,udt,udtlist,udtmapkey,udtmapvalue,udtset FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [4494525354445646848, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@f3c28613]
+	 Encoded bound values : [4494525354445646848, {id:4494525354445646848,"VALUE":'value'}]
+13:00:27.350 [achilles-default-executor-15] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(dynamic_ks.no_ks), udt(dynamic_ks.no_ks), udtlist(list<dynamic_ks.no_ks>), udtmapkey(map<dynamic_ks.no_ks, varchar>), udtmapvalue(map<int, dynamic_ks.no_ks>), udtset(set<dynamic_ks.no_ks>)]]
+13:00:27.353 [achilles-default-executor-15] DEBUG ACHILLES_DML_STATEMENT - Query ID e93a5046-e705-43cc-b345-039f85fcf88f results : 
+	id: 4494525354445646848, clust: {id:4494525354445646848,"VALUE":'value'}, udt: {id:4494525354445646848,"VALUE":'value'}, udtlist: [], udtmapkey: {}, udtmapvalue: {}, udtset: []
+
+13:00:27.356 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.419 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:27.421 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:27.423 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:27.423 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:27.424 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:27.434 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:27.436 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:27.438 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.508 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtset) VALUES(7984531625651593216,{id: 7984531625651593216, "VALUE": 'value'},{{id: 7984531625651593216, "VALUE": 'value1'}, {id: 7984531625651593216, "VALUE": 'value2'}});
+
+13:00:27.514 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a6b750b1-5651-4d42-8fa0-8ed379dacb8d : [UPDATE dynamic_ks.dynamic_table SET udtset=udtset+:udtset WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@7255ef3e], 7984531625651593216, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@87f59a9d]
+	 Encoded bound values : [[{id:7984531625651593216,"VALUE":'new_value'}], 7984531625651593216, {id:7984531625651593216,"VALUE":'value'}]
+13:00:27.523 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.597 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:27.599 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:27.601 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:27.601 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:27.602 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:27.609 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:27.611 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:27.613 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.678 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtmapvalue) VALUES(2043753375847699456,{id: 2043753375847699456, "VALUE": 'value'},{1: {id: 2043753375847699456, "VALUE": 'value1'}, 2: {id: 2043753375847699456, "VALUE": 'value2'}});
+
+13:00:27.683 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a51c66fb-822d-44f9-9f98-ab4d36375d5e : [UPDATE dynamic_ks.dynamic_table SET udtmapvalue[:udtMapValue_key]=:udtMapValue_value WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [3, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@7be9ba96, 2043753375847699456, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@918965f5]
+	 Encoded bound values : [3, {id:2043753375847699456,"VALUE":'new_value'}, 2043753375847699456, {id:2043753375847699456,"VALUE":'value'}]
+13:00:27.690 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.764 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:27.767 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:27.768 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:27.769 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:27.770 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:27.778 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:27.780 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:27.782 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.855 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtmapvalue) VALUES(39697405594241024,{id: 39697405594241024, "VALUE": 'value'},{1: {id: 39697405594241024, "VALUE": 'value1'}, 2: {id: 39697405594241024, "VALUE": 'value2'}});
+
+13:00:27.861 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 24b6a3bd-f7e6-4404-ad14-a69f239b7d2e : [UPDATE dynamic_ks.dynamic_table SET udtmapvalue[:udtMapValue_key]=:udtMapValue_value WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [1, null, 39697405594241024, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@57eea71e]
+	 Encoded bound values : [1, null, 39697405594241024, {id:39697405594241024,"VALUE":'value'}]
+13:00:27.867 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:27.930 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:27.932 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:27.933 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:27.934 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:27.935 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:27.942 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:27.944 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:27.946 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.025 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(6714670041050078208,{id: 6714670041050078208, "VALUE": 'value'},{id: 6714670041050078208, "VALUE": 'value'});
+
+13:00:28.029 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 9b55a129-d8f9-4ff9-88a4-2fdcf6c07c9d : [DELETE udt FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust IF udt>=:udt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6714670041050078208, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@6f1e9ebf, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@6f1e9ebe]
+	 Encoded bound values : [6714670041050078208, {id:6714670041050078208,"VALUE":'value'}, {id:6714670041050078208,"VALUE":'valud'}]
+13:00:28.038 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.104 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:28.106 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:28.107 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:28.108 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:28.109 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:28.116 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:28.118 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:28.120 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.184 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(3609335860598720512,{id: 3609335860598720512, "VALUE": 'value'},{id: 3609335860598720512, "VALUE": 'value'});
+
+13:00:28.196 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 36d9c832-2f1e-4fc6-b5db-646b6e004e93 : [SELECT * FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [3609335860598720512, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@e36b683b]
+	 Encoded bound values : [3609335860598720512, {id:3609335860598720512,"VALUE":'value'}]
+13:00:28.200 [achilles-default-executor-20] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), clust(dynamic_ks.no_ks), udt(dynamic_ks.no_ks), udtlist(list<dynamic_ks.no_ks>), udtmapkey(map<dynamic_ks.no_ks, varchar>), udtmapvalue(map<int, dynamic_ks.no_ks>), udtset(set<dynamic_ks.no_ks>)]]
+13:00:28.200 [achilles-default-executor-20] DEBUG ACHILLES_DML_STATEMENT - Query ID 36d9c832-2f1e-4fc6-b5db-646b6e004e93 results : 
+	id: 3609335860598720512, clust: {id:3609335860598720512,"VALUE":'value'}, udt: {id:3609335860598720512,"VALUE":'value'}, udtlist: [], udtmapkey: {}, udtmapvalue: {}, udtset: []
+
+13:00:28.204 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.280 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:28.282 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:28.283 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:28.284 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:28.285 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:28.292 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:28.294 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:28.296 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.371 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(5181074824460213248,{id: 5181074824460213248, "VALUE": 'value'},{id: 5181074824460213248, "VALUE": 'value'});
+
+13:00:28.375 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 69c7423e-fac8-44c2-b5d2-b42e9c43f9bc : [DELETE udt FROM dynamic_ks.dynamic_table WHERE id=:id AND clust=:clust IF udt<:udt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [5181074824460213248, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@3b0e9c58, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@3b0e9c59]
+	 Encoded bound values : [5181074824460213248, {id:5181074824460213248,"VALUE":'value'}, {id:5181074824460213248,"VALUE":'valuf'}]
+13:00:28.381 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.444 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:28.446 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:28.447 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:28.448 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:28.449 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:28.456 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:28.458 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:28.460 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.531 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtmapvalue) VALUES(2048040521828205568,{id: 2048040521828205568, "VALUE": 'value'},{1: {id: 2048040521828205568, "VALUE": 'value1'}, 2: {id: 2048040521828205568, "VALUE": 'value2'}});
+
+13:00:28.535 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID bcb7e455-fc1e-4067-9abf-c23b4d24ef1f : [UPDATE dynamic_ks.dynamic_table SET udtmapvalue=:udtmapvalue WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [{3=info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@27ef8bd3}, 2048040521828205568, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@3d8f3732]
+	 Encoded bound values : [{3={id:2048040521828205568,"VALUE":'new_value'}}, 2048040521828205568, {id:2048040521828205568,"VALUE":'value'}]
+13:00:28.542 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.611 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:28.613 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:28.614 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:28.615 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:28.616 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:28.623 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:28.624 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:28.626 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.690 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udtset) VALUES(1787224841191725056,{id: 1787224841191725056, "VALUE": 'value'},{{id: 1787224841191725056, "VALUE": 'value1'}, {id: 1787224841191725056, "VALUE": 'value2'}});
+
+13:00:28.696 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID c4421909-f8b4-4e5c-86a6-6f0b7b760eed : [UPDATE dynamic_ks.dynamic_table SET udtset=udtset-:udtset WHERE id=:id AND clust=:clust;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@9cf0a9db], 1787224841191725056, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@d4b79e6c]
+	 Encoded bound values : [[{id:1787224841191725056,"VALUE":'value1'}], 1787224841191725056, {id:1787224841191725056,"VALUE":'value'}]
+13:00:28.705 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.776 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:28.777 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:28.779 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:28.780 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:28.781 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:28.789 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:28.793 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:28.801 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.875 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(967866302835603456,{id: 967866302835603456, "VALUE": 'value'},{id: 967866302835603456, "VALUE": 'value'});
+
+13:00:28.879 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID eebe23fe-2026-4d30-b83d-deb5790b94b5 : [UPDATE dynamic_ks.dynamic_table SET udt=:udt WHERE id=:id AND clust=:clust IF udt=:udt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@a02add4d, 967866302835603456, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@b5ca88ac, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@b5ca88ac]
+	 Encoded bound values : [{id:967866302835603456,"VALUE":'new_value'}, 967866302835603456, {id:967866302835603456,"VALUE":'value'}, {id:967866302835603456,"VALUE":'value'}]
+13:00:28.885 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:28.947 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:28.949 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS my_static_keyspace WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND DURABLE_WRITES=false;
+
+13:00:28.950 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE KEYSPACE IF NOT EXISTS dynamic_ks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1} AND DURABLE_WRITES = false;
+
+13:00:28.952 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TYPE IF NOT EXISTS dynamic_ks.no_ks (id bigint, "VALUE" text);
+
+13:00:28.952 [main] DEBUG ACHILLES_DDL_SCRIPT - 	SCRIPT : CREATE TABLE IF NOT EXISTS dynamic_ks.dynamic_table( id bigint, clust frozen<no_ks>, udt frozen<no_ks>, udtlist list<frozen<no_ks>>, udtset set<frozen<no_ks>>, udtmapkey map<frozen<no_ks>, text>, udtmapvalue map<int, frozen<no_ks>>, PRIMARY KEY((id), clust) );
+
+13:00:28.963 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:28.964 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_with_dynamic_keyspace(
+		id bigint,
+		clust frozen<achilles_embedded.no_ks>,
+		udt frozen<achilles_embedded.no_ks>,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		udtmapkey map<frozen<achilles_embedded.no_ks>, text>,
+		udtmapvalue map<int, frozen<achilles_embedded.no_ks>>,
+		udtset set<frozen<achilles_embedded.no_ks>>,
+		PRIMARY KEY(id, clust))
+	WITH CLUSTERING ORDER BY(clust ASC);
+
+13:00:28.966 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:29.037 [main] DEBUG ACHILLES_DML_STATEMENT - 	SCRIPT : INSERT INTO dynamic_ks.dynamic_table(id, clust, udt) VALUES(9155547661894107136,{id: 9155547661894107136, "VALUE": 'value'},{id: 9155547661894107136, "VALUE": 'value'});
+
+13:00:29.045 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 12acf8d1-ac00-4fed-9b76-b7c90077e3c4 : [UPDATE dynamic_ks.dynamic_table SET udt=:udt WHERE id=:id AND clust=:clust IF udt>=:udt;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@9b41e29c, 9155547661894107136, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@b0e18dfb, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@b0e18dfa]
+	 Encoded bound values : [{id:9155547661894107136,"VALUE":'new_value'}, 9155547661894107136, {id:9155547661894107136,"VALUE":'value'}, {id:9155547661894107136,"VALUE":'valud'}]
+13:00:29.053 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_with_dynamic_keyspace
+13:00:29.127 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:29.137 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.138 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.139 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.140 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:00:29.310 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.313 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:00:29.562 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:00:29.636 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 7b3bc998-cd8c-4b91-bb17-85742fc145b9 : [INSERT INTO achilles_embedded.table_with_nested_udt (id,complexudt,optionaludt,udt) VALUES (:id,:complexudt,:optionaludt,:udt) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [677593016560171008, info.archinnov.achilles.internals.entities.UDTWithNestedUDT@bbd8ad4, Optional[info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@ce1512c5], info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@ce1512c5, 0]
+	 Encoded bound values : [677593016560171008, {value:'value',udtlist:[{id:677593016560171008,"VALUE":'udt_with_no_keyspace'}],nestedudt:{id:677593016560171008,"VALUE":'udt_with_no_keyspace'},tuplewithudt:(1,{id:677593016560171008,"VALUE":'udt_with_no_keyspace'})}, {id:677593016560171008,"VALUE":'udt_with_no_keyspace'}, {id:677593016560171008,"VALUE":'udt_with_no_keyspace'}, 0]
+13:00:29.642 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID cef4bb72-9541-4351-ae69-9813753e3cce : [SELECT id,complexudt,optionaludt,udt FROM achilles_embedded.table_with_nested_udt WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [677593016560171008]
+	 Encoded bound values : [677593016560171008]
+13:00:29.648 [achilles-default-executor-27] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), complexudt(achilles_embedded.having_nested_type), optionaludt(achilles_embedded.no_ks), udt(achilles_embedded.no_ks)]]
+13:00:29.650 [achilles-default-executor-27] DEBUG ACHILLES_DML_STATEMENT - Query ID cef4bb72-9541-4351-ae69-9813753e3cce results : 
+	id: 677593016560171008, complexudt: {value:'value',udtlist:[{id:677593016560171008,"VALUE":'udt_with_no_keyspace'}],nestedudt:{id:677593016560171008,"VALUE":'udt_with_no_keyspace'},tuplewithudt:(1,{id:677593016560171008,"VALUE":'udt_with_no_keyspace'})}, optionaludt: {id:677593016560171008,"VALUE":'udt_with_no_keyspace'}, udt: {id:677593016560171008,"VALUE":'udt_with_no_keyspace'}
+
+13:00:29.757 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:00:29.833 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:29.842 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.843 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.844 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.845 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:00:29.846 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:29.847 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:00:29.848 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:00:29.915 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID d9f658dc-1f8e-4167-99f8-936e2bc4d8e0 : [UPDATE achilles_embedded.table_with_nested_udt SET udt=:udt WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@e687ec3b, 6977263153000155136]
+	 Encoded bound values : [{id:6977263153000155136,"VALUE":'new_udt_value'}, 6977263153000155136]
+13:00:29.917 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID b37063a7-54e8-42b7-b44d-005b3e1ac3f5 : [SELECT id,complexudt,optionaludt,udt FROM achilles_embedded.table_with_nested_udt WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [6977263153000155136]
+	 Encoded bound values : [6977263153000155136]
+13:00:29.930 [achilles-default-executor-29] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[id(bigint), complexudt(achilles_embedded.having_nested_type), optionaludt(achilles_embedded.no_ks), udt(achilles_embedded.no_ks)]]
+13:00:29.931 [achilles-default-executor-29] DEBUG ACHILLES_DML_STATEMENT - Query ID b37063a7-54e8-42b7-b44d-005b3e1ac3f5 results : 
+	id: 6977263153000155136, complexudt: null, optionaludt: null, udt: {id:6977263153000155136,"VALUE":'new_udt_value'}
+
+13:00:29.931 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:00:29.996 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:30.003 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.004 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.005 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.006 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:00:30.007 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.008 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:00:30.009 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:00:30.091 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID d19e3402-7e5c-462e-840f-81fd6c8b470f : [INSERT INTO achilles_embedded.table_with_nested_udt (id,complexudt,optionaludt,udt) VALUES (:id,:complexudt,:optionaludt,:udt) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [8908794334154013696, info.archinnov.achilles.internals.entities.UDTWithNestedUDT@77c23c17, null, info.archinnov.achilles.internals.entities.UDTWithNoKeyspace@dde6c68, 0]
+	 Encoded bound values : [8908794334154013696, {value:'value',udtlist:[{id:8908794334154013696,"VALUE":'udt_with_no_keyspace'}],nestedudt:{id:8908794334154013696,"VALUE":'udt_with_no_keyspace'},tuplewithudt:(1,{id:8908794334154013696,"VALUE":'udt_with_no_keyspace'})}, null, {id:8908794334154013696,"VALUE":'udt_with_no_keyspace'}, 0]
+13:00:30.102 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 5d043513-a862-4c33-a7a1-a147e3c6d775 : [SELECT complexudt.value,complexudt.nestedudt."VALUE",udt."VALUE" FROM achilles_embedded.table_with_nested_udt WHERE id=:id;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [8908794334154013696]
+	 Encoded bound values : [8908794334154013696]
+13:00:30.112 [achilles-default-executor-31] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[complexudt.value(varchar), complexudt.nestedudt.VALUE(varchar), udt.VALUE(varchar)]]
+13:00:30.112 [achilles-default-executor-31] DEBUG ACHILLES_DML_STATEMENT - Query ID 5d043513-a862-4c33-a7a1-a147e3c6d775 results : 
+	complexudt.value: value, complexudt.nestedudt.VALUE: udt_with_no_keyspace, udt.VALUE: udt_with_no_keyspace
+
+13:00:30.112 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.table_with_nested_udt
+13:00:30.180 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:30.186 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.187 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.188 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.188 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.having_nested_type(
+		value text,
+		udtlist list<frozen<achilles_embedded.no_ks>>,
+		nestedudt frozen<achilles_embedded.no_ks>,
+		tuplewithudt frozen<tuple<int, no_ks>>);
+
+13:00:30.189 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.no_ks(
+		id bigint,
+		"VALUE" text);
+
+13:00:30.190 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.table_with_nested_udt(
+		id bigint,
+		complexudt frozen<achilles_embedded.having_nested_type>,
+		optionaludt achilles_embedded.no_ks,
+		udt frozen<achilles_embedded.no_ks>,
+		PRIMARY KEY(id));
+
+13:00:30.192 [Achilles Embedded Cassandra Cluster-worker-1] WARN  com.datastax.driver.core.Cluster - Re-preparing already prepared query is generally an anti-pattern and will likely affect performance. Consider preparing the statement only once. Query='INSERT INTO achilles_embedded.table_with_nested_udt (id,complexudt,optionaludt,udt) VALUES (:id,:complexudt,:optionaludt,:udt) USING TTL :ttl;'
+13:00:30.193 [Achilles Embedded Cassandra Cluster-worker-0] WARN  com.datastax.driver.core.Cluster - Re-preparing already prepared query is generally an anti-pattern and will likely affect performance. Consider preparing the statement only once. Query='INSERT INTO achilles_embedded.table_with_nested_udt (id,complexudt,optionaludt,udt) VALUES (:id,:complexudt,:optionaludt,:udt) IF NOT EXISTS USING TTL :ttl;'
+13:00:30.194 [Achilles Embedded Cassandra Cluster-worker-1] WARN  com.datastax.driver.core.Cluster - Re-preparing already prepared query is generally an anti-pattern and will likely affect performance. Consider preparing the statement only once. Query='DELETE FROM achilles_embedded.table_with_nested_udt WHERE id=:id;'
+13:00:30.195 [Achilles Embedded Cassandra Cluster-worker-0] WARN  com.datastax.driver.core.Cluster - Re-preparing already prepared query is generally an anti-pattern and will likely affect performance. Consider preparing the statement only once. Query='DELETE FROM achilles_embedded.table_with_nested_udt WHERE id=:id IF EXISTS;'
+13:00:30.195 [Achilles Embedded Cassandra Cluster-worker-1] WARN  com.datastax.driver.core.Cluster - Re-preparing already prepared query is generally an anti-pattern and will likely affect performance. Consider preparing the statement only once. Query='SELECT id,complexudt,optionaludt,udt FROM achilles_embedded.table_with_nested_udt WHERE id=:id;'
+13:00:30.196 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:30.204 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:00:30.347 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:00:30.348 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer2(
+		layer text,
+		layer3 frozen<achilles_embedded.layer3>);
+
+13:00:30.505 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.layer(
+		layer text,
+		layer2 frozen<achilles_embedded.layer2>,
+		PRIMARY KEY(layer));
+
+13:00:30.763 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:00:30.833 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID 6b288a7b-4b43-464e-90e4-d8a3c5681e9d : [INSERT INTO achilles_embedded.layer (layer,layer2) VALUES (:layer,:layer2) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1, info.archinnov.achilles.internals.entities.Layer2@bb5aa401, 0]
+	 Encoded bound values : [layer1, {layer:'layer2',layer3:{layer:'layer3'}}, 0]
+13:00:30.836 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID a7ad02ca-41e9-43d8-91dc-9e3f423aec79 : [SELECT layer,layer2 FROM achilles_embedded.layer WHERE layer=:layer;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1]
+	 Encoded bound values : [layer1]
+13:00:30.844 [achilles-default-executor-33] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[layer(varchar), layer2(achilles_embedded.layer2)]]
+13:00:30.844 [achilles-default-executor-33] DEBUG ACHILLES_DML_STATEMENT - Query ID a7ad02ca-41e9-43d8-91dc-9e3f423aec79 results : 
+	layer: layer1, layer2: {layer:'layer2',layer3:{layer:'layer3'}}
+
+13:00:30.845 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:00:30.922 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:30.934 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:00:30.935 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer3(
+		layer text);
+
+13:00:30.936 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TYPE IF NOT EXISTS achilles_embedded.layer2(
+		layer text,
+		layer3 frozen<achilles_embedded.layer3>);
+
+13:00:30.937 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.layer(
+		layer text,
+		layer2 frozen<achilles_embedded.layer2>,
+		PRIMARY KEY(layer));
+
+13:00:30.938 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:00:31.011 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID d268c558-367c-4e49-a4d8-a9db005f439b : [INSERT INTO achilles_embedded.layer (layer,layer2) VALUES (:layer,:layer2) USING TTL :ttl;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1_nested, info.archinnov.achilles.internals.entities.Layer2@bb5aa401, 0]
+	 Encoded bound values : [layer1_nested, {layer:'layer2',layer3:{layer:'layer3'}}, 0]
+13:00:31.030 [main] DEBUG ACHILLES_DML_STATEMENT - 
+Query ID ef083c12-2333-40a5-8c60-dad77b9d5c1f : [SELECT layer,layer2.layer,layer2.layer3 FROM achilles_embedded.layer WHERE layer=:layer;] with CONSISTENCY LEVEL [LOCAL_ONE]
+	 Java bound values : [layer1_nested]
+	 Encoded bound values : [layer1_nested]
+13:00:31.032 [achilles-default-executor-35] DEBUG ACHILLES_DML_STATEMENT - ResultSet[ exhausted: false, Columns[layer(varchar), layer2.layer(varchar), layer2.layer3(achilles_embedded.layer3)]]
+13:00:31.033 [achilles-default-executor-35] DEBUG ACHILLES_DML_STATEMENT - Query ID ef083c12-2333-40a5-8c60-dad77b9d5c1f results : 
+	layer: layer1_nested, layer2.layer: layer2, layer2.layer3: {layer:'layer3'}
+
+13:00:31.033 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.layer
+13:00:31.097 [main] INFO  i.a.a.embedded.AchillesInitializer - Creating keyspace : CREATE keyspace IF NOT EXISTS achilles_embedded WITH REPLICATION = {'class':'SimpleStrategy', 'replication_factor':1} AND DURABLE_WRITES=false
+13:00:31.109 [main] DEBUG ACHILLES_DDL_SCRIPT - 
+CREATE TABLE IF NOT EXISTS achilles_embedded.simple(
+		id bigint,
+		date timestamp,
+		consistencylist list<text>,
+		simplemap map<int, text>,
+		simpleset set<double>,
+		value text,
+		PRIMARY KEY(id, date))
+	WITH CLUSTERING ORDER BY(date ASC);
+
+13:00:31.395 [main] DEBUG ACHILLES_DML_STATEMENT - TRUNCATE achilles_embedded.simple

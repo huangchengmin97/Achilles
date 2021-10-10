@@ -1,0 +1,2 @@
+info.archinnov.achilles.it.TestEntityWithNonFrozenUDTIT.should_update_udt_fields
+info.archinnov.achilles.it.TestEntityWithClusteringIT.should_select_with_allow_per_partition_limit

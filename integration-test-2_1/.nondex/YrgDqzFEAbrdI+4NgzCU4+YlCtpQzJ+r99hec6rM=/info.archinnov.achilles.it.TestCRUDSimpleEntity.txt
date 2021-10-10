@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: info.archinnov.achilles.it.TestCRUDSimpleEntity
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.729 sec <<< FAILURE! - in info.archinnov.achilles.it.TestCRUDSimpleEntity
+should_find_by_id(info.archinnov.achilles.it.TestCRUDSimpleEntity)  Time elapsed: 0.078 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <2.0>
+whereas expected element was:
+ <1.0>
+
+	at info.archinnov.achilles.it.TestCRUDSimpleEntity.should_find_by_id(TestCRUDSimpleEntity.java:318)
+
+should_find_with_schema_name_provider(info.archinnov.achilles.it.TestCRUDSimpleEntity)  Time elapsed: 0.325 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+ <2.0>
+whereas expected element was:
+ <1.0>
+
+	at info.archinnov.achilles.it.TestCRUDSimpleEntity.should_find_with_schema_name_provider(TestCRUDSimpleEntity.java:395)
+
